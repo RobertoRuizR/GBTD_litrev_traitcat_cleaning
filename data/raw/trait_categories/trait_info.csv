@@ -1,0 +1,745 @@
+trait,broaderTerm,narrowerTerm,relatedTerm,valueType,expectedUnit,factorLevels,maxAllowedValue,minAllowedValue,traitDescription,comments,source,fa_y
+Body mass,NA,NA,NA,numeric,g,.na,NA,NA,Based on weight,"SI, FM",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Total length,NA,NA,NA,numeric,mm,.na,NA,NA,"Measurement from the tail (if any) to the head (tail + body + head). If 
+there is no tail, the measurement encompasses the lower end of the body to 
+the head",FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Forearm length,NA,NA,NA,numeric,mm,.na,NA,NA,"Measurement from the base of the elbow (tip of the olecranon process) to 
+the distal region of the forearm where it joins the carpus","SI, FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the third digit,NA,NA,NA,numeric,mm,.na,NA,NA,"In biological collections the trait is the result of the sum of the 
+metacarpus and its three phalanges. The metacarpus is measured from the 
+joint with the phalanx to the junction with the carpus. The phalanx is 
+measured as the maximum distance between the joints. In the field, the 
+trait is measured from the junction of the metacarpus with the carpus to 
+the tip of the third phalanx","FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the fifth digit,NA,NA,NA,numeric,mm,.na,NA,NA,"In biological collections the trait is the result of the sum of the 
+metacarpus and its two phalanges. The metacarpus is measured from the joint 
+with the phalanx to the junction with the carpus. The phalanx is measured 
+as the maximum distance between the joints. In the field, it is measured 
+from the junction of the metacarpus with the carps to the tip of the second 
+phalanx","FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Wing loading,NA,NA,NA,numeric,Newtons/m2,.na,NA,NA,"Wing loading (Wl) is body mass in kg times acceleration of gravity (Mg) 
+divided by its wing area in m2 (S); *gravity acceleration = 9.8 m/s2; Wl = 
+Mg/S (N/m2)","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Aspect ratio,NA,NA,NA,numeric,.na,.na,NA,NA,"Aspect ratio (A) is the result of the wing span squared (m2) (B) divided by 
+wing area (m2) (S); A = B2/S","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Tip shape index,NA,NA,NA,numeric,.na,.na,NA,NA,"Tip shape index (I) is the tip area ratio (Ts) divided by tip length ratio 
+(Tl) minus Ts; I = Ts/(Tl-Ts)","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Wing span,NA,NA,NA,numeric,mm,.na,NA,NA,"Measurement taken from tip to tip of the extended wings held along to the 
+long axis of the body","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the pollex without claw,NA,NA,NA,numeric,mm,.na,NA,NA,"Measurement from the beginning of the phalanx of finger to the beginning of 
+the claw","FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the pollex with claw,NA,NA,NA,numeric,mm,.na,NA,NA,"Measurement from the beginning of the phalanx of the thumb to the tip of 
+the claw","FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the foot without claw,NA,NA,NA,numeric,mm,.na,NA,NA,Measurement from the joint with the tibia to the beginning of the claws,"FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+length of the foot with claw,NA,NA,NA,numeric,mm,.na,NA,NA,Measurement from the tibia joint to the tip of the claw,"FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the tibia,NA,NA,NA,numeric,mm,.na,NA,NA,Measurement from the joint with the femur to the joint with the foot,"FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of calcaneus,NA,NA,NA,numeric,mm,.na,NA,NA,Measure from the base of the calcaneus to the tip of it,"FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of the ear,NA,NA,NA,numeric,mm,.na,NA,NA,Measure from the base of the ear to its most apical region,FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of tragus,NA,NA,NA,numeric,mm,.na,NA,NA,Measure from the base to the tip of the structure,FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Length of nose leaf,NA,NA,NA,numeric,mm,.na,NA,NA,Measurement from the base of the nasal horseshoe to the tip of the lancet,"FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Inner nostril width ratio,NA,NA,NA,numeric,.na,.na,NA,NA,Ratio of the cranial width to the inner nostril width,"FM, BC",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Tail length,NA,NA,NA,numeric,Value of the trait in millimeters (mm),.na,NA,NA,Measurement from the insertion of the tail in the body to its distal end,FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Uropatagium area,NA,NA,NA,numeric,Value of the trait in area (m2),.na,NA,NA,Measurement of the surface area of the intrafemoral membrane,FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Litters per year,NA,NA,NA,numeric,Mean number of litters during a year,.na,NA,NA,Number of litters produced per year,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Litter size,NA,NA,NA,numeric,Mean number of pups per litter,.na,NA,NA,Number of pups produced per litter,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Gestation duration,NA,NA,NA,numeric,Mean days in pregnancy,.na,NA,NA,Length of the pregnancy expressed in days,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Lactation duration,NA,NA,NA,numeric,Mean days in lactation,.na,NA,NA,Length of the lactation expressed in days,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Reproductive status,NA,NA,NA,categorical,.na,"For females the frequencies or population averages of each stage: 
+Proestrus. Estrus. Metestrus. Anestrus. For males the frequencies or 
+population averages of: Scrotted males Non-scrotted males",.na,.na,"Reproductive stage that involves hormonal concentration (progesterone and 
+estradiol peaks) and physiological changes in females (corpus luteum and 
+ovarian follicle). Vaginal smears can reveal superficial nucleated cells 
+(proestrus), superficial non-nucleated cells parabasal (estrus), 
+intermediate cells (metestrus) and parabasal cells (anestrus) in bat 
+females. Females can be considered reproductive when they presented a 
+dominance in proestrus, estrus, and metestrus. By contrast, 
+non-reproductive females are when the dominant stage is anestrus. This can 
+be measured individually and can also be expressed in frequencies or 
+population averages of each stage. For males, reproductive status can be 
+determined by examining testes (scrotted or not), thus obtaining 
+frequencies or population averages of each condition.",FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Sexual maturity age,NA,NA,NA,numeric,Mean number of years,.na,NA,NA,Age at first reproductive event (adult),"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Mating systems,NA,NA,NA,categorical,.na,Monogamic; Polygyny; Polyandry; Promiscuty,.na,.na,"All the potential combinations between bats to find mate and copulate 
+during reproductive season","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Digestive capactiy,NA,NA,NA,numeric,Food intake response,.na,NA,NA,"Bat capacity to obtain nutrients when consumption item differ in nutrient 
+quality. Food intake response is defined as the relationship (following 
+power function) between volumetric food intake and nutrient concentration",LE,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Gut size,NA,NA,NA,numeric,cm2,.na,NA,NA,Gut area of the total gut. Mean surface area.,BC,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Gut retention time of seeds,NA,NA,NA,numeric,minutes,.na,NA,NA,"Time that the seeds are retained inside the gut of the bat until is 
+expelled by feces. Mean number of time.",LE,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Type of lingual papillae,NA,NA,NA,character,.na,"Gustative, including vallate and fungiform, or mechanical comprising basal, 
+postero-median, scalelike, filiform, foliate, conical, and horny",.na,.na,Shape of the papillae in tongue,BC,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Metabolic rate,NA,NA,NA,numeric,kcal/day,.na,NA,NA,"Energy unit per time required by an individual to maintain its basal 
+physiological functions. Mean energetic expenditure","FM, LE",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Body temperature,NA,NA,NA,numeric,ºC,.na,NA,NA,"Individual capacity to survive at a specific temperature, either hot or 
+cold temperatures","FM, LE",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Migration,NA,NA,NA,categorical,.na,Resident; Migratory,.na,.na,Species movement according its life history,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Sociality,NA,NA,NA,categorical,.na,Solitary; Society; Group; Colony; Aggregation,.na,.na,Clustering of individuals,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Foraging strategy,NA,NA,NA,categorical,.na,Gleaning foragers; Aerial foragers; Trawling foragers,.na,.na,Behavioral strategy that is used to obtain food,SI,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Activity pattern,NA,NA,NA,numerical,Number of recording events per time hour,.na,NA,NA,"Activity period of bat species within nocturnal time. Commonly spanned from 
+18:00h to 6:00h. Number of recording events per time hour",FM,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Feeding guild,NA,NA,NA,categorical,.na,"Necterivore; Frugivore; Carnívore; Omnívore; Sanguinivore; Insectívore; 
+Piscívore",.na,.na,Based on the food item that is consumed mainly for a large part of bat life,SI,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Diet specialization,NA,NA,NA,numeric,.na,.na,NA,NA,"Based on the percentage of the contribution of each food item to the total 
+diet the species. Levin index as well as Morisita index can estimate 
+dietary specialization","FM, Value of the niche breadth index selected (*e.g.,* Levin, Morisita, etc.) 
+ranging from low values (specialist) to high values (generalist)",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Bite force,NA,NA,NA,numeric,Newtons,.na,NA,NA,"Is the result of the interplay between the teeth, the masticatory muscles, 
+the mandible, the maxillae, and temporomandibular joints. Bite force can be 
+measured *in vivo* with an isometric Kistler force transducer or can be 
+estimated with assessments of muscular and bony morphology from skulls 
+using algorithms","FM, BC, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Foraging hábitat,NA,NA,NA,categorical,.na,Background space; Uncluttered space; Highly cluttered space,.na,.na,"It is the space where the bat is found most of the time, especially when 
+searching for food. Resource availability and conditions limit foraging 
+habitat",SI,https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Vertical stratification,NA,NA,NA,numeric,"individuals per mist-net hour
+Canopy",.na,NA,NA,"Based on the proportion of bat capture rate in ground (shrubs) and canopy 
+nets (treetops). Bats can also use both strata (no preference)","FM, Capture rate (individuals per mist-net hour) in each strata: Understory; 
+Canopy",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Home range,NA,NA,NA,numeric,km2,.na,NA,NA,"Area of available habitat over which an individual does its daily 
+activities. There are several ways to estimate home range such as minimum 
+convex polygon, minimum area probabilities, areas of kernel, etc.","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Type of roost,NA,NA,NA,character,.na,"Animal burrow or hole; Termite ant/nest; Cavity in fallen tree; Cavity in 
+standing tree; Exposed on standing tree; Foliage, leaf tent; Foliage, 
+unmodified foliage; Rocks, crevices, or caves; Under fallen tree; Undercut 
+earth bank",.na,.na,Diurnal roosts used by bats,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Duration,NA,NA,NA,numeric,ms,.na,NA,NA,Time span of the call emitted by the bat,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Interval,NA,NA,NA,numeric,ms,.na,NA,NA,Time between one call to another emitted by the bat,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Frequency,NA,NA,NA,numeric,Khz,.na,NA,NA,"Number of pressure waves of the call emitted by the bat that pass by a 
+reference point per unit time. This can include the start of the call 
+(initial frequency), the end of the call (final frequency) and the maximum 
+amplitude of the call (maximum frequency)","FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Intensity,NA,NA,NA,numeric,db,.na,NA,NA,Height of the sound pressure wave emitted by the bat,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+Harmonics,NA,NA,NA,numeric,.na,.na,NA,NA,Wave that is a multiple of the fundamental frequency emitted by the bat,"FM, SI",https://doi.org/10.11606/1807-0205/2021.61.24,Castillo-Figueroa_2021
+adult_mass_g,NA,NA,NA,numeric,g,.na,NA,NA,Body mass of an adult individual in grams,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+brain_mass_g,NA,NA,NA,numeric,g,.na,NA,NA,Weight of the brain of an adult individual in grams,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+adult_body_length_mm,NA,NA,NA,numeric,mm,.na,NA,NA,Total length from tip of the nose to anus or base of the tail of an adult individual in millimeters,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+adult_forearm_length_mm,NA,NA,NA,numeric,mm,.na,NA,NA,"Total length from elbow to wrist of an adult individual in millimeters, specific to order Chiroptera",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+max_longevity_d,NA,NA,NA,numeric,days,.na,NA,NA,Maximum reported age at death for the species in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+maturity_d,NA,NA,NA,numeric,days,.na,NA,NA,The amount of time needed to reach sexual maturity in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+female_maturity_d,NA,NA,NA,numeric,days,.na,NA,NA,The amount of time needed for a female to reach sexual maturity in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+male_maturity_d,NA,NA,NA,numeric,days,.na,NA,NA,The amount of time needed for a male to reach sexual maturity in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+age_first_reproduction_d,NA,NA,NA,numeric,days,.na,NA,NA,Age at which females give birth to their first litter or their young attach to teats in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+gestation_length_d,NA,NA,NA,numeric,days,.na,NA,NA,Length of time of fetal growth in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+teat_number_n,NA,NA,NA,numeric,.na,.na,NA,NA,Total number of teats present in an individual of the species,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+litter_size_n,NA,NA,NA,numeric,.na,.na,NA,NA,Number of offspring born per litter per female,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+litters_per_year_n,NA,NA,NA,numeric,litters/year,.na,NA,NA,Number of litters per female per year,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+interbirth_interval_d,NA,NA,NA,numeric,days,.na,NA,NA,Time between reproduction events in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+neonate_mass_g,NA,NA,NA,numeric,g,.na,NA,NA,Weight of an individual at birth in grams,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+weaning_age_d,NA,NA,NA,numeric,days,.na,NA,NA,Age at which primary nutritional dependency on the mother ends and independent foraging begins in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+weaning_mass_g,NA,NA,NA,numeric,g,.na,NA,NA,Weight at weaning in grams,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+generation_length_d,NA,NA,NA,numeric,days,.na,NA,NA,Average age of parents of the current cohort in days,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+dispersal_km,NA,NA,NA,numeric,km,.na,NA,NA,The distance an animal travels between its place of birth to the place where it reproduces in kilometers,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+density_n_km2,NA,NA,NA,numeric,individuals/km2,.na,NA,NA,Number of individuals of the species per squared kilometer,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+hibernation_torpor,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,Individuals of the species go through hibernation or torpor,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+fossoriality,NA,NA,NA,categorical,.na,"1: fossorial and/or ground dwelling, 2: above ground dwelling",.na,.na,The species is above ground dwelling or ground/fossorial dwelling,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+home_range_km2,NA,NA,NA,numeric,km2,.na,NA,NA,Size of the area within which everyday activities of individuals or groups of individuals are typically restricted in km2,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+social_group_size_n,NA,NA,NA,numeric,individuals,.na,NA,NA,Number of individuals in a group that spends most of their daily time together,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+dphy_invertebrate,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of invertebrates,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+dphy_vertebrate,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of vertebrates,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+dphy_plant,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of plants and/or fungi,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_inv,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of invertebrates,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_vend,NA,NA,NA,numeric,%,.na,NA,NA,"Percentage of the diet composed of mammals, birds",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_vect,NA,NA,NA,numeric,%,.na,NA,NA,"Percentage of the diet composed of reptiles, snakes, amphibians, salamanders",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_vfish,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of fish,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_vunk,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of vertebrates – general or unknown,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_scav,NA,NA,NA,numeric,%,.na,NA,NA,"Percentage of the diet composed of scavenge, garbage, offal, carcasses, trawlers, carrion",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_fruit,NA,NA,NA,numeric,%,.na,NA,NA,"Percentage of the diet composed of fruit, drupes",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_nect,NA,NA,NA,numeric,%,.na,NA,NA,"Percentage of the diet composed of nectar, pollen, plant exudates, gums",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_seed,NA,NA,NA,numeric,%,.na,NA,NA,"Percentage of the diet composed of seed, maize, nuts, spores, wheat, grains",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_plantother,NA,NA,NA,numeric,%,.na,NA,NA,Percentage of the diet composed of other plant elements,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+det_diet_breadth_n,NA,NA,NA,categorical,.na,Values range from 1 dietary category to 5 dietary categories,.na,.na,Number of prevalent (≥ 20%) EltonTraits dietary categories consumed,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+trophic_level,NA,NA,NA,categorical,.na,1: herbivore 2: omnivore 3: carnivore,.na,.na,Trophic level of the species,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+foraging_stratum,NA,NA,NA,categorical,.na,"M: marine, G: ground level, including aquatic foraging, S: scansorial, Ar: arboreal, A: aerial",.na,.na,Assignment to one of five foraging stratum categories,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+activity_cycle,NA,NA,NA,categorical,.na,"1: nocturnal only, 2: nocturnal/crepuscular, cathemeral, crepuscular or diurnal/crepuscular, 3: diurnal only",.na,.na,Activity cycle of each species,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+freshwater,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,The species spends a significant amount of time in freshwater bodies,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+marine,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,The species spends a significant amount of time in oceans and/or seas,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+terrestrial_non-volant,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,The species spends a significant amount of time on land,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+terrestrial_volant,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,The species is capable of powered flight and spends a significant amount of time flying in the air,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+upper_elevation_m,NA,NA,NA,numeric,m,.na,NA,NA,Upper elevation limit at which the species can be found in meters,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+lower_elevation_m,NA,NA,NA,numeric,m,.na,NA,NA,Lower elevation limit at which the species can be found in meters,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+altitude_breadth_m,NA,NA,NA,numeric,m,.na,NA,NA,Difference between the upper and lower elevation limits of a species in meters,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+island_dwelling,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,20% or more of the breeding range occurs on an island,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+island_endemicity,NA,NA,NA,categorical,.na,"Exclusively marine, Occurs on mainland, Occurs on large land bridge islands: the species occurs on islands greater than 1,000 km2 that are separated from the mainland by water no more than 110 m deep. The islands would have been part of the mainland during the last glacial maximum., Occurs on small land bridge islands: the species occurs on islands smaller than 1,000 km2 that are separated from the mainland by water no more than 110 m deep. The islands would have been part of the mainland during the last glacial maximum., Occurs only on isolated islands: the species occurs on islands separated from the mainland by water deeper than 110 m.",.na,.na,Score of island endemicity obtained from species’ ranges and historical and fossil occurrence records,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+dissected_by_mountains,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,Range dissected by mountains (based on elevation gradients with slopes equal or higher than 5 degrees),NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+glaciation,NA,NA,NA,categorical,.na,"0 (no), 1 (yes)",.na,.na,"Historical exposure to glaciation, considered as more than 20% range overlap with areas glaciated in the last 21000 years Binary",NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+biogeographical_realm,NA,NA,NA,categorical,.na,"Afrotropical, Antarctic, Australasian, Indomalayan, Nearctic, Neotropical, Oceanian, Palearctic",.na,.na,Biogeographical realms in which the species can be encountered,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+habitat_breadth_n,NA,NA,NA,numeric,.na,.na,1,9,Number of distinct suitable level 1 IUCN habitats,NA,https://doi.org/10.1002/ecy.3344,Soria_2021
+Sexual dimorphism in size,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of sexual dimorphism in size,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Head body length (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,The length from tip of nose to anus,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Tail length (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,Length of the tail,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Forearm length (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,Length of the forearm,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Hind foot length (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,Length of the hindfoot,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Total length (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,Total length of the body,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Wing length (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,Length of the wing,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Wing area (F/M/U),NA,NA,NA,numeric,cm²,.na,NA,NA,Area of the two wings,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Wingspan (F/M/U),NA,NA,NA,numeric,mm,.na,NA,NA,Distance between the wingtips when wings are extended,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Wing aspect ratio (F/M/U),NA,NA,NA,numeric,.na,.na,NA,NA,The square of the wingspan divided by the wing area,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Wing loading (F/M/U),NA,NA,NA,numeric,N/m²,.na,NA,NA,The weight divided by the wing area,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Dental formula,NA,NA,NA,character,.na,In-nCn-nPn-nMn-n,.na,.na,Dental formula of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Number of teeth,NA,NA,NA,numeric,.na,.na,NA,NA,Number of teeth of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Body mass (F/M/U),NA,NA,NA,numeric,g,.na,NA,NA,The weight of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Neonatal body mass,NA,NA,NA,numeric,g,.na,NA,NA,The body mass of infants,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Neonate head-body length,NA,NA,NA,numeric,mm,.na,NA,NA,The head-body length of infants,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Weaning body mass,NA,NA,NA,numeric,g,.na,NA,NA,The weight of weanlings,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Weaning head-body length,NA,NA,NA,numeric,mm,.na,NA,NA,The head-body length of weanlings,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Polygamy,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Mating system of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Polyandry,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Mating system of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Polygyny,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Mating system of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Monogamy,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Mating system of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Sexual maturity age (F/M/U),NA,NA,NA,numeric,days,.na,NA,NA,The age of sexual maturity,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Age of first birth,NA,NA,NA,numeric,days,.na,NA,NA,Age of first litter of females,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Sperm retention,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of sperm retention,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Delayed implantation,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of any lag in the implantation,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Delayed embryonic development,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of any lag in the embryonic period,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Active gestation length,NA,NA,NA,numeric,days,.na,NA,NA,The length of active gestation,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Total gestation length,NA,NA,NA,numeric,days,.na,NA,NA,Total duration of pregnancy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Lactation length,NA,NA,NA,numeric,days,.na,NA,NA,The length of the lactation period,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Weaning length,NA,NA,NA,numeric,days,.na,NA,NA,The length of the weaning period,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Litter size,NA,NA,NA,numeric,.na,.na,NA,NA,Number of live offspring produced in one litter,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Number of litters per year,NA,NA,NA,numeric,.na,.na,NA,NA,Number of litters per female per year,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Interval between births,NA,NA,NA,numeric,days,.na,NA,NA,The interval between two consecutive pregnancy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Parental cares,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of parental cares,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Nursery roost,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of nursery roost,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Nursery roost size,NA,NA,NA,numeric,number of individuals,.na,NA,NA,Number of individuals in a nursery roost,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Life-span in the wild,NA,NA,NA,numeric,years,.na,NA,NA,The length of life in the wild,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Life-span in captivity,NA,NA,NA,numeric,years,.na,NA,NA,The length of life in captivity,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Home range (F/M/U),NA,NA,NA,numeric,Km²,.na,NA,NA,Size of the home range area,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Dispersal distance (F/M/U),NA,NA,NA,numeric,Km,.na,NA,NA,Dispersal distance,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Territoriality (F/M/U),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Territoriality of the species individuals,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Migratory,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of migratory behavior,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Colony size number,NA,NA,NA,numeric,number of individuals,.na,NA,NA,Number of individuals in a colony,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Colony size,NA,NA,NA,categorical,.na,"1 = small, 2= medium, 3 = large",.na,.na,Size of the colony,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Mixed colony,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of different species in the same colony,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Hibernation,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of hibernation period.,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Hibernation length,NA,NA,NA,numeric,days,.na,NA,NA,Length of the hibernation period,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Echolocation,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of echolocation,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Echolocation type,NA,NA,NA,categorical,.na,"1= CF (constant frequency), 2= FM (frequency modulated), 3= QCF (quasi- constant frequency)",.na,.na,The type of the echolocation call,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Frequency of maximum energy (FME),NA,NA,NA,numeric,kHz,.na,NA,NA,Frequence of maximum energy of the call,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+End frequency (EF),NA,NA,NA,numeric,kHz,.na,NA,NA,End frequency of the call,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Activity pattern/Dusk,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Activity pattern of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Activity pattern/Night,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Activity pattern of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Activity pattern/Dawn,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Activity pattern of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Activity pattern/Day,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Activity pattern of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Crevices in rocks (CRR),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Crevices in trees (CRT),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Caves and sinkhole (CA),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Foliage (FO),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Human buildings (HB),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Rocky outcrops (RO),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Roost type/Holes in the ground (HG),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Roost type of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Pest control,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of pest control ecosystem service,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Seed dispersal,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of seed dispersal ecosystem service,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Pollination,NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Presence of pollination ecosystem service,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Overharvesting for food (OH),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Deforestation (DE),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Persecution (P),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Habitat loss (HL),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Dead trees removal (DTR),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Roost disturbance (RD),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Collisions (COL),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Threats/Chemical pollution (CP),NA,NA,NA,categorical,.na,"1= yes, 2=no",.na,.na,Threats for the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Conservation status,NA,NA,NA,categorical,.na,"DD= Data Deficient, LC= Least Concern, NT= Near Threatened, VU= Vulnerable, EN= Endangered, CR= Critically Endangered, NE= Not Evaluated",.na,.na,Conservation status of the species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Insectivorous,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Insectivorous species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Frugivorous,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Frugivorous species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Nectarivorous,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Nectarivorous species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Carnivorous,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Carnivorous species,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Ground,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Ground foraging,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Aerial,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Aerial foraging,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Vegetation,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Vegetation foraging,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Aquatic,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Aquatic foraging,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Clutter,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Clutter foraging habitat,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Clutter_Edge,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Clutter-edge/ edge foraging habitat,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Open,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Open foraging habitat,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Hawking,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Hawking strategy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Gleaning,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Gleaning strategy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Flycatching,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Flycatching strategy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Trawling,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Trawling strategy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Hovering,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Hovering strategy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Perching,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Perching strategy,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Seeds,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of seeds in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Fruits,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of fruits in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Leaves,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of leaves in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Flowers,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of flowers in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Nectar,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of nectar in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Insects,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of insects in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Arachnids,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of arachnids in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Centipedes,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of chilopods in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Fishes,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of fishes in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Amphibians,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of amphibians in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Reptiles,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of reptiles in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Birds,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of birds in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+Mammals,NA,NA,NA,categorical,.na,"0 = never, 1 = occasional, 2 = typical",.na,.na,Presence of mammals in the diet,NA,https://doi.org/10.1038/s41597-023-02472-w,Cosentino_2023
+CallBandwidth,NA,NA,NA,numeric,kHz,.na,NA,NA,The range of frequencies through which an echolocation call sweeps,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallDuration,NA,NA,NA,numeric,ms,.na,NA,NA,Duration of a call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallEndFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Frequency value measured at the end of the call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+InterpulseInterval,NA,NA,NA,numeric,ms,.na,NA,NA,Time interval between two consecutive calls,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallMaxFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Maximum frequency value of the call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallMidFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Frequency of highest energy taken at half call duration,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallMinFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Minimum frequency value of the call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallPeakFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Frequency with the greatest amount of energy in a call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallSlope,NA,NA,NA,numeric,kHz/ms,.na,NA,NA,"Total slope of the call, calculated from the difference in frequency and time from the point of highest frequency to the point of the characteristic frequency",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallStartFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Frequency value measured at the beginning of the call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+rateBuzz,NA,NA,NA,numeric,Number_of_buzzes/hour,.na,NA,NA,Number of feeding buzzes per hour,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+buzzDuration,NA,NA,NA,numeric,ms,.na,NA,NA,Duration of a feeding buzz (including pre-buzz phase),NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+buzzPeakFrequency,NA,NA,NA,numeric,kHz,.na,NA,NA,Frequency with the greatest amount of energy in a feeding buzz call,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CallType,NA,NA,NA,categorical,.na,"FM (frequency modulated), FM/QCF (frequency modulated or quasi-constant frequency), CF+FM constant-frequency with modulated frequency components)",.na,.na,"Call type: FM (frequency modulated), FM/QCF (frequency modulated or quasi-constant frequency), CF+FM constant-frequency with modulated frequency components)",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+MaxLongevity,NA,NA,NA,numeric,years,.na,NA,NA,Maximum record of longevity in the wild,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FirstMainPreyItem,NA,NA,NA,categorical,.na,"Lepidoptera, Coleoptera, Diptera, Trichoptera, Hymenoptera, Orthoptera, Arachnida",.na,.na,"Order of the main prey item: Lepidoptera, Coleoptera, Diptera, Trichoptera, Hymenoptera, Orthoptera, Arachnida",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SecondMainPreyItem,NA,NA,NA,categorical,.na,"Lepidoptera, Coleoptera, Diptera, Trichoptera, Hymenoptera, Orthoptera, Arachnida",.na,.na,"Order of the second main prey item: Lepidoptera, Coleoptera, Diptera, Trichoptera, Hymenoptera, Orthoptera, Arachnida",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ThirdMainPreyItem,NA,NA,NA,categorical,.na,"Lepidoptera, Coleoptera, Diptera, Trichoptera, Hymenoptera, Orthoptera, Arachnida",.na,.na,"Order of the third main prey item: Lepidoptera, Coleoptera, Diptera, Trichoptera, Hymenoptera, Orthoptera, Arachnida",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DietaryNicheBreadth,NA,NA,NA,numeric,.na,.na,NA,NA,Dietary niche breadth calculated using Levin’s standardised index: higher values indicate large niche breadth,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DietaryDiversity,NA,NA,NA,numeric,.na,.na,NA,NA,Dietary diversity calculated using Shannon-Weaver diversity index: higher values indicate highly diverse diet,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DietType,NA,NA,NA,categorical,.na,"insectivorous, frugivorous",.na,.na,"Diet type: insectivorous, frugivorous",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+TrophicSpecialization,NA,NA,NA,numeric,index,.na,NA,NA,Trophic specialisation calculated using the coefficient of variation: higher values indicate high level of specialisation towards a given prey order,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SpeciesHabitatSpecializationIndex,NA,NA,NA,numeric,.na,.na,NA,NA,Species habitat specialisation index: degree of specialisation of a species in its use of a habitat for foraging/commuting calculated using the coefficient of variation: higher values indicate high level of specialisation towards a given habitat.,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DeciduousForestAffinitySmallScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to decideous forest at 50 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ConiferousForestAffinitySmallScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to coniferous forest at 50 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DenseUrbanAreaAffinitySmallScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to dense urban area at 50 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FreshwaterAffinitySmallScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to freshwater at 50 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CroplandAffinitySmallScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to cropland at 50 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GrasslandAffinitySmallScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to grassland at 50 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DeciduousForestAffinityMediumScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to decideous forest at 500 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ConiferousForestAffinityMediumScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to coniferous at 500 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DenseUrbanAreaAffinityMediumScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to dense urban area at 500 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FreshwaterAffinityMediumScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to freshwater at 500 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CroplandAffinityMediumScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to cropland at 500 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GrasslandAffinityMediumScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to grassland at 500 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DeciduousForestAffinityLargeScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to cropland at 5000 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ConiferousForestAffinityLargeScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to grassland at 5000 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DenseUrbanAreaAffinityLargeScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to dense urban area at 5000 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FreshwaterAffinityLargeScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to freshwater at 5000 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CroplandAffinityLargeScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to cropland at 5000 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GrasslandAffinityLargeScale,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to grassland at 5000 m radius buffer scale calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasForest,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Forest as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasWoodedRiparianHabitat,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Wooded riparian habitat as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasWetland,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Wetland as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasWaterBodies,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Water bodies as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasGrassland,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Grassland as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasHedgerows,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Hedgerows as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasOrchard,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Orchard as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasShrubland,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Shrubland as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasOpenHabitat,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Open habitat as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CriticalFeedingAreasUrbanParKGarden,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Urban park/garden as critical feeding areas: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+AllelicRichness,NA,NA,NA,numeric,Number of alleles,.na,NA,NA,Average number of alleles (genetic variants) per microsatellite locus,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CompleteMitochondrialGenome(bp),NA,NA,NA,numeric,base pairs,.na,NA,NA,Number of base pairs in complete mtDNA genome,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GeneticPopulationStructure,NA,NA,NA,numeric,Number of sub-populations,.na,NA,NA,Number of genetic sub-population clusters measured according to individual ancestry based on microsatellite or SNP datasets,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GenomeSize_(Gb),NA,NA,NA,numeric,Giga base pairs,.na,NA,NA,The amount of DNA in the genome measured as number of nucleotide base pairs,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Hybridization,NA,NA,NA,categorical,.na,"yes, no, possible",.na,.na,"Hybridization: yes, no, possible",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Karyotype,NA,NA,NA,numeric,Number of chromosomes,.na,NA,NA,Number of chromosomes,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Linage,NA,NA,NA,numeric,Number of genetic lineages,.na,NA,NA,Number of genetic lineages in the phylogenetic tree constructed with nuclear DNA or mitochondrial DNA sequences,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+NF,NA,NA,NA,numeric,Number of chromosomal arms,.na,NA,NA,Number of chromosomal arms,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+NFa,NA,NA,NA,numeric,Number of autosomal arms,.na,NA,NA,Number of autosomal arms,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+EstExtentOccurrence,NA,NA,NA,numeric,km2,.na,NA,NA,"Estimated extent of occurrence: area contained within the shortest continuous imaginary boundary which can be drawn to encompass all the known, inferred or projected sites of present occurrence of a taxon, excluding cases of vagrancy",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GeographicRange,NA,NA,NA,numeric,km2,.na,NA,NA,Spatial area where a species is found,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+UpperElevationLimit,NA,NA,NA,numeric,m,.na,NA,NA,Upper elevation limit,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+IslandEndemic,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Endemic to an island: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+AltitudinalMigration,NA,NA,NA,categorical,.na,"yes, no, possible",.na,.na,"Altitudinal migration: yes, no, possible",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+BodyMass,NA,NA,NA,numeric,g,.na,NA,NA,Body mass,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ThirdDigitLength,NA,NA,NA,numeric,mm,.na,NA,NA,Third digit length,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FifthDigitLength,NA,NA,NA,numeric,mm,.na,NA,NA,Fifth digit length,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ForearmLength,NA,NA,NA,numeric,mm,.na,NA,NA,Forearm length,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+LCBLCCRatio,NA,NA,NA,numeric,.na,.na,NA,NA,Ratio condylobasal length/condylocanine length,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+CM3,NA,NA,NA,numeric,mm,.na,NA,NA,Length of upper tooth row,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+AspectRatioIndex,NA,NA,NA,numeric,.na,.na,NA,NA,Aspect ratio index,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+WingLoadingIndex,NA,NA,NA,numeric,g/dm2,.na,NA,NA,Wing loading index,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Endoparasites,NA,NA,NA,character,.na,NA,.na,.na,Endoparasites identified in the species,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Fungi,NA,NA,NA,character,.na,NA,.na,.na,Fungal pathogens identified in the species,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Viruses,NA,NA,NA,character,.na,NA,.na,.na,Viruses identified in the species,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SeasonalActivityPatternKurtosis,NA,NA,NA,numeric,.na,.na,NA,NA,"Kurtosis index of the seasonal activity pattern: kurtosis is the measure of the sharpness of the peak of a frequency distribution, with positive values indicating heavy tails and negative values indicated light tails",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SeasonalActivityPatternSkewness,NA,NA,NA,numeric,.na,.na,NA,NA,"Skewness index of the seasonal activity pattern: if values <-0.5: indication of a substantially skewed distribution towards the spring, if values >0.5: indication of a substantially skewed distribution towards the autumn, if values [-0.5,5]: distribution fairly symmetrical with peak around mid-summer",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+BasalMetabolicRate,NA,NA,NA,numeric,ml O2/h,.na,NA,NA,"calculated from measurements of heat production or oxygen consumption in an organism in post-absorptive state, and thermoneutral zone",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+BasalMetabolicRatePerc,NA,NA,NA,numeric,%,.na,NA,NA,Basal rate of metabolism as a percentage of the value expected from the equation described in Genoud et al. (2018),NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DigestiveEfficiency,NA,NA,NA,numeric,%,.na,NA,NA,A measure of how much of a feed or nutrient appears to be digested,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+HeartRateFlight,NA,NA,NA,numeric,bpm,.na,NA,NA,"Heart rate during flight (beats per minutes, bpm)",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+HeartRateResting,NA,NA,NA,numeric,bpm,.na,NA,NA,"Heart rate during rest (beats per minutes, bpm)",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+HeartRateTorpor,NA,NA,NA,numeric,bpm,.na,NA,NA,"Heart rate during torpor (beats per minutes, bpm)",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+MaxTorporBoutDuration,NA,NA,NA,numeric,h,.na,NA,NA,Maximum torpor bout duration,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+MeanTorporBoutDuration,NA,NA,NA,numeric,h,.na,NA,NA,Mean torpor bout duration,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+BodyTempTNZ,NA,NA,NA,numeric,˚C,.na,NA,NA,"Minimum body temperature of the species while in its thermoneutral zone (not corrected). The thermoneutral zone is the range of ambient temperature at which temperature regulation is achieved only by control of sensible heat loss, i.e., without regulatory changes in metabolic heat production or evaporative heat loss.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+RestingMetabolicRate,NA,NA,NA,numeric,W kg-1,.na,NA,NA,The metabolic rate of an animal that is resting in a thermoneutral environment but not in the postabsorptive state,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+TotalEvaporativeWaterLossRate,NA,NA,NA,numeric,ml/h,.na,NA,NA,The sum of cutaneous evaporative water loss and respiratory evaporative water loss,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+TorporBehavior,NA,NA,NA,categorical,.na,"yes, no",.na,.na,"Torpor behaviour: yes, no",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SpeciesThermalIndex,NA,NA,NA,numeric,°C,.na,NA,NA,Species thermal index: thermal preference of a species expressed as the average temperature a species experiences across its geographic range,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ResponseToNightlyTemperature,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to temperature at night calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ResponseToNightlyPrecipitation,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to the amount of precipitations at night calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ResponseToNightlyWindSpeed,NA,NA,NA,numeric,.na,.na,NA,NA,Estimated response to wind speed at night calculated from generalized linear mixed model,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+GestationTime,NA,NA,NA,numeric,days,.na,NA,NA,Time of gestation,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+LitterSize,NA,NA,NA,numeric,individuals,.na,NA,NA,Number of offspring per year,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SexualMaturityFemale,NA,NA,NA,numeric,days,.na,NA,NA,Average age at sexual or reproductive maturity of female,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SexualMaturityMale,NA,NA,NA,numeric,days,.na,NA,NA,Average age at sexual or reproductive maturity of male,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+Weaning,NA,NA,NA,numeric,days,.na,NA,NA,Weaning time,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FirstMainHibernationRoost,NA,NA,NA,categorical,.na,"Thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",.na,.na,"Main hibernation roost: thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+FirstMainMaternityRoost,NA,NA,NA,categorical,.na,"Thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",.na,.na,"Main maternity roost: thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SecondMainHibernationRoost,NA,NA,NA,categorical,.na,"Thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",.na,.na,"Second main hibernation roost: thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+SecondMainMaternityRoost,NA,NA,NA,categorical,.na,"Thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",.na,.na,"Second main maternity roost: thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ThirdMainHibernationRoost,NA,NA,NA,categorical,.na,"Thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",.na,.na,"Third main hibernation roost: thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ThirdMainMaternityRoost,NA,NA,NA,categorical,.na,"Thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",.na,.na,"Third main maternity roost: thermally stable underground roosts (e.g. caves, mines, etc.), thermally unstable underground roosts (e.g. cellar, bunker, etc.), human-made roost (e.g. buildings, barns, churches, etc.), tree roost (e.g. holes, crevices, barck pockets, etc.), rock crevices",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+OvergroundRoostDependence-Castle,NA,NA,NA,categorical,.na,"0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",.na,.na,"Degree of dependence on castle/fortification as overground roost: 0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+OvergroundRoostDependence-Church,NA,NA,NA,categorical,.na,"0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",.na,.na,"Degree of dependence on church as overground roost: 0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+OvergroundRoostDependence-House,NA,NA,NA,categorical,.na,"0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",.na,.na,"Degree of dependence on house/block of flats as overground roost: 0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+OvergroundRoostDependence-Barn,NA,NA,NA,categorical,.na,"0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",.na,.na,"Degree of dependence on barn/stable as overground roost: 0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+OvergroundRoostDependence-Bridge,NA,NA,NA,categorical,.na,"0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",.na,.na,"Degree of dependence on bridge as overground roost: 0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+OvergroundRoostDependence-Tree,NA,NA,NA,categorical,.na,"0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",.na,.na,"Degree of dependence on tree as overground roost: 0: no dependence, 1: low dependence, 2: moderate dependence, 3: high dependence, 4: very high dependence, 5: extremely high dependence.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+MeanNightlyDistance,NA,NA,NA,numeric,m,.na,NA,NA,Mean average daily distance between roost and foraging habitats,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+MaxNightlyDistance,NA,NA,NA,numeric,m,.na,NA,NA,Mean maximum daily distance between roost and foraging habitats,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+HomeRange,NA,NA,NA,numeric,ha,.na,NA,NA,"Area routinely used by an individual to satisfy its daily needs: mean, median, min, max and cumulated.",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+DispersalDistances,NA,NA,NA,numeric,km,.na,NA,NA,"Regular dispersal distances, includes both natal dispersal of juveniles and dispersal of adults for mating / hibernation",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+MaxRecordedMovement,NA,NA,NA,numeric,km,.na,NA,NA,Maximum recorded seasonal movement (includes migration movement),NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+ManoeuvrabilityTurningDiameter,NA,NA,NA,numeric,m,.na,NA,NA,"Estimated realistic turning diameter for minimum flight speed, using values for ﬂight characteristics (ﬂight speed, wing loading) and body measures (body mass, wing area)",NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+PropFlightAtHeight,NA,NA,NA,numeric,%,.na,NA,NA,Proportion of flights at height,NA,https://doi.org/10.1038/s41597-023-02157-4,Froidevaux_2023
+wingspan,NA,NA,NA,numeric,cm,.na,NA,NA,"The linear distance from wing tip to wing tip, or the distance from the midline of the body to a single wing tip, doubled",NA,https://doi.org/10.1111/mam.12270,Crane_2022
+wing_surface_area,NA,NA,NA,numeric,cm2,.na,NA,NA,The full area of the patagium,NA,https://doi.org/10.1111/mam.12270,Crane_2022
+lifting_surface_area,NA,NA,NA,numeric,cm2,.na,NA,NA,"The total area of the patagium, uropatagium (if present), and body excluding the head",NA,https://doi.org/10.1111/mam.12270,Crane_2022
+wing_area_rec,NA,NA,NA,numeric,cm2,.na,NA,NA,The rectangular approximation of the patagium based on the wing length (measured from the edge of the body to the wing tip) multiplied by the wing width (measured from the end of the fifth digit to the tip of the fifth digit),NA,https://doi.org/10.1111/mam.12270,Crane_2022
+partial_aspect_ratio,NA,NA,NA,numeric,.na,.na,NA,NA,"The wingspan squared, divided by wing_area",NA,https://doi.org/10.1111/mam.12270,Crane_2022
+total_aspect_ratio,NA,NA,NA,numeric,.na,.na,NA,NA,"The wingspan squared, divided by lifting_surface_area",NA,https://doi.org/10.1111/mam.12270,Crane_2022
+partial_wing_loading,NA,NA,NA,numeric,Nm−2,.na,NA,NA,Body weight divided by wing_surface_area,NA,https://doi.org/10.1111/mam.12270,Crane_2022
+total_wing_loading,NA,NA,NA,numeric,Nm−2,.na,NA,NA,Body weight divided by lifting_surface_area,NA,https://doi.org/10.1111/mam.12270,Crane_2022
+relative_partial_loading,NA,NA,NA,numeric,.na,.na,NA,NA,"partial_wing_loading divided by body mass raised to the 1/3 power. Body mass, not weight should be used",NA,https://doi.org/10.1111/mam.12270,Crane_2022
+relative_total_loading,NA,NA,NA,numeric,.na,.na,NA,NA,"total_wing_loading divided by body mass raised to 1/3. Body mass, not weight should be used",NA,https://doi.org/10.1111/mam.12270,Crane_2022
+female_maturity_d,NA,NA,NA,numeric,Days,.na,NA,NA,Age at first conception.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+litter_or_clutch_size_n,NA,NA,NA,numeric,Number,.na,NA,NA,Number of offspring per litter or number of eggs per clutch.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+litters_or_clutches_per_y,NA,NA,NA,numeric,Number per year,.na,NA,NA,Number of litters or clutches produced per year.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+adult_body_mass_g,NA,NA,NA,numeric,Grams,.na,NA,NA,"Body mass using data from males, females, and/or unspecified adults.","B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+maximum_longevity_y,NA,NA,NA,numeric,Years,.na,NA,NA,Maximum recorded longevity for species.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+gestation_d,NA,NA,NA,numeric,Days,.na,NA,NA,Length of time from conception or fertilization to birth.,M,https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+weaning_d,NA,NA,NA,numeric,Days,.na,NA,NA,Age at which the species becomes dependent on food other than its mother's milk.,M,https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+birth_or_hatching_weight_g,NA,NA,NA,numeric,Grams,.na,NA,NA,Weight at birth or at hatching.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+weaning_weight_g,NA,NA,NA,numeric,Grams,.na,NA,NA,Weight at weaning.,M,https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+egg_mass_g,NA,NA,NA,NA,Grams,NA,NA,NA,Egg mass.,"B,R",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+incubation_d,NA,NA,NA,NA,Days,NA,NA,NA,Length of time between egg oviposition and hatching.,"B,R",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+fledging_age_d,NA,NA,NA,NA,Days,NA,NA,NA,Age of the bird when it is capable of flight.,B,https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+longevity_y,NA,NA,NA,numeric,Years,.na,NA,NA,Age at death.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+male_maturity_d,NA,NA,NA,numeric,Days,.na,NA,NA,Age of sexual maturity for males.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+inter_litter_or_interbirth_interval_y,NA,NA,NA,numeric,Years,.na,NA,NA,Interval between successive births or ovipositions.  This can differ from litter/clutch frequency due to seasonality.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+female_body_mass_g,NA,NA,NA,numeric,Grams,.na,NA,NA,Body mass of female adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+male_body_mass_g,NA,NA,NA,numeric,Grams,.na,NA,NA,Body mass of male adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+no_sex_body_mass_g,NA,NA,NA,numeric,Grams,.na,NA,NA,Body mass of unspecified adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+egg_width_mm,NA,NA,NA,NA,Millimeters,NA,NA,NA,Egg width.,"B,R",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+egg_length_mm,NA,NA,NA,NA,Millimeters,NA,NA,NA,Egg length.,"B,R",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+fledging_mass_g,NA,NA,NA,NA,Grams,NA,NA,NA,Mass of the bird at the time it has developed the feathers necessary for flight.,B,https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+adult_svl_cm,NA,NA,NA,numeric,Centimeters,.na,NA,NA,"Measure from tip of the snout to either the opening of the cloaca (Birds & Reptiles) or tail base (mammals) for male, female, and/or unspecified adults.","B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+male_svl_cm,NA,NA,NA,numeric,Centimeters,.na,NA,NA,Measure from tip of the snout to the opening of the cloaca or tail base for male adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+female_svl_cm,NA,NA,NA,numeric,Centimeters,.na,NA,NA,Measure from tip of the snout to the opening of the cloaca or tail base for female adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+birth_or_hatching_svl_cm,NA,NA,NA,numeric,Centimeters,.na,NA,NA,"Measure from tip of the snout to the opening of the cloaca or tail base at the time of hatching for male, female, and/or unspecified newborn animals.","B,R, M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+female_svl_at_maturity_cm,NA,NA,NA,numeric,Centimeters,.na,NA,NA,Measure from tip of the snout to the opening of the cloaca or tail base at the time of maturity for females.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+female_body_mass_at_maturity_g,NA,NA,NA,numeric,Grams,.na,NA,NA,Body mass at the time of maturity for females.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+no_sex_svl_cm,NA,NA,NA,numeric,Centimeters,.na,NA,NA,Measure from tip of the snout to the opening of the cloaca or tail base for unspecified adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+no_sex_maturity_d,NA,NA,NA,numeric,Days,.na,NA,NA,Age at sexual maturity for unspecified adults.,"B,R,M",https://doi.org/10.1890/15-0846R.1,Myhrvold_2015
+body_mass,NA,NA,NA,numeric,g,.na,NA,NA,Value derived from the mass (weight) in grams,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+body_length,NA,NA,NA,numeric,mm,.na,NA,NA,Extended dimension of an individual included body and head and measured in centimeters,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+tail_length,NA,NA,NA,numeric,cm,.na,NA,NA,The dimension of tail measured in centimeters,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+forearm,NA,NA,NA,numeric,mm,.na,NA,NA,The dimension of forearm measured in millimeters,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+age,NA,NA,NA,categorical,.na,"adult, juvenile",.na,.na,Age of the specimens,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+sex,NA,NA,NA,categorical,.na,"male, female",.na,.na,Sex of the specimens,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+reproductive_stage,NA,NA,NA,categorical,.na,"pregnant, scroted",.na,.na,Reproductive stage of the specimens,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+status,NA,NA,NA,categorical,.na,"dead, alive",.na,.na,Status of individual when measured,NA,https://doi.org/10.1002/ecy.2106,Gonçalvez_2018
+Type,NA,NA,NA,categorical,.na,"Visitation, Seed Dispersal, Pollination, Consumption, Roost, Host, Predation, Cohabitation, Transport",.na,.na,This database only contains accounts of bats interacting with other organisms and not hypotheses that they might (e.g. a flower has chiropterophilious features). We report what is published and do not assume that every visit to a flower results in pollination or that every fruit eaten results in seed dispersal. We do assume that every object that is consumed is destroyed in the process.,"Interactions are witnessed by the author(s) or recorded via photo, video, or bat detector. In order to distinguish between interaction types, additional confirmation from evidence in fecal samples, stomachs, exclusion experiments, etc., may be necessary. If the author(s) cite an interaction from another publication, it is tagged as “secondary”.","Geiselman, C. K., & Younger, S. (2020). Bat Eco-Interactions Database.",Geiselman_2020
+Habitat,NA,NA,NA,categorical,.na,"Forest, Wetlands, Artificial Landscape, Caves and Subterranean Areas, Rocky Areas, Savanna, Desert, Shrubland, Grassland, Captivity",.na,.na,The terrestrial habitat types used by this database are listed below and are the standard terms used in the IUCN Red List Habitats Authority File (Version 3.0). For more information please see IUCN Habitats Classification Scheme.,"It is acknowledged that the classification scheme used here may not be entirely satisfactory, but it provides a standardization of habitat types for analytical purposes. This database only report data as it is published and does not make changes or evaluates accuracy of the species accounts.","Geiselman, C. K., & Younger, S. (2020). Bat Eco-Interactions Database.",Geiselman_2020
+Forest,Habitat preference,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"We described species’ major habitat breadth based on IUCN Level 1 classification https://www.iucnredlist.org/resources/habitat-classification-scheme (Caves, Forests, Savanna, Desert, Urban, Artificial, and Wetlands).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Savanna,Habitat preference,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"We described species’ major habitat breadth based on IUCN Level 1 classification https://www.iucnredlist.org/resources/habitat-classification-scheme (Caves, Forests, Savanna, Desert, Urban, Artificial, and Wetlands).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Desert,Habitat preference,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"We described species’ major habitat breadth based on IUCN Level 1 classification https://www.iucnredlist.org/resources/habitat-classification-scheme (Caves, Forests, Savanna, Desert, Urban, Artificial, and Wetlands).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Urban,Habitat preference,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"We described species’ major habitat breadth based on IUCN Level 1 classification https://www.iucnredlist.org/resources/habitat-classification-scheme (Caves, Forests, Savanna, Desert, Urban, Artificial, and Wetlands).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Underground,Habitat preference,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"We described species’ major habitat breadth based on IUCN Level 1 classification https://www.iucnredlist.org/resources/habitat-classification-scheme (Caves, Forests, Savanna, Desert, Urban, Artificial, and Wetlands).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Wetlands,Habitat preference,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"We described species’ major habitat breadth based on IUCN Level 1 classification https://www.iucnredlist.org/resources/habitat-classification-scheme (Caves, Forests, Savanna, Desert, Urban, Artificial, and Wetlands).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Population.status,NA,NA,NA,nominal,.na,"Decreasing, Stable, Increasing, Unknown",.na,.na,"Species current conservation status (Data Deficient, Least Concern, Near Threatened, Vulnerable, Endangered, and Critically Endangered) and population trends (e.g., Unknown, Decreasing, Stable, Increasing) were categorised using standard IUCN Red List assessments.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Conservation.status,NA,NA,NA,nominal,.na,"Data.Deficient, Least.Concern, Near.Threatened, Vulnerable, Endangered, Critically.Endangered",.na,.na,"Species current conservation status (Data Deficient, Least Concern, Near Threatened, Vulnerable, Endangered, and Critically Endangered) and population trends (e.g., Unknown, Decreasing, Stable, Increasing) were categorised using standard IUCN Red List assessments.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Geopolitical.endemism,NA,NA,NA,nominal,.na,"Non.Endemic, Endemic",.na,.na,"Using the same criteria (IUCN Red List assessments), we categorised species endemism as geopolitically endemic (e.g., country-endemic, and non-endemic) when a species occurs only in a single country or state territory, and island endemism was classified as island-restricted or predominantly mainland.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Island.endemism,NA,NA,NA,nominal,.na,"Island.Endemic, Mainland",.na,.na,"Using the same criteria (IUCN Red List assessments), we categorised species endemism as geopolitically endemic (e.g., country-endemic, and non-endemic) when a species occurs only in a single country or state territory, and island endemism was classified as island-restricted or predominantly mainland.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Biogeographic.breadth,NA,NA,NA,nominal,.na,"Afrotropical, Indomalayan, Austral-Oceania, Neotropical, Palearactic, Neactic, Cosmopolitan",.na,.na,"We classified species distribution by biogeographical realm (Indomalaya, Austral-Oceania, Afrotropical, Neotropical, Palearctic, and Nearctic) and terrestrial biomes following Olson et al.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Feeding.groups,NA,NA,NA,nominal,.na,"Carnivore, Frugi-nectarivore, Omnivore",.na,.na,"For trophic groups, we derived diet information from EltonTraits 1.030. We grouped species as frugi-nectarivorous for all species that forage on plant-based resources (e.g., fruits, leaves, and nectars). As species foraging smaller vertebrates (i.e., fish, birds, and rodents) and larger invertebrates are very few, we classified them as carnivores along with insectivorous bats. Species that forage on both resources were grouped into omnivores.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Current.range,NA,NA,NA,continuous,NA,.na,NA,NA,Current geographical ranges were assembled from the Phylacine 1.2 database28 based on IUCN species ranges.,NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Natural.range,NA,NA,NA,continuous,NA,.na,NA,NA,"For all species, we estimated their present natural ranges (Peterken 1977), which is potential current natural ranges if species had never experienced strong anthropogenic pressures.",Trait description from Phylacine 1.2,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Generation.length,NA,NA,NA,continuous,NA,.na,NA,NA,The adult body mass (in grams) per species were derived from Phylacine 1.228 and generation length from Pacifici et al.29.,NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Body.mass (grams),NA,NA,NA,continuous,NA,.na,NA,NA,The adult body mass (in grams) per species were derived from Phylacine 1.228 and generation length from Pacifici et al.29.,NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Mining.quarrying,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Sacred.activities,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Tourism.caving,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Guano.extraction,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Vandalism,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Nest.harvesting,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Hunting.bushmeat,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Intensional.killings,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Gating,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Scientific.research,Direct threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Direct threats (Tdir) refer to the threats or risks that are direct to or in cave systems with immediate and perceivable impacts on populations or behaviour of species. This category includes direct human impacts (e.g., persecution, eviction, and cave closures) and the use of caves for harvesting bats, tourism, religious visits, and mining (minerals or guano).",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Agricultural.conversion,Indirect threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Indirect threats (Tind) refer to the threats outside cave systems or within cave proximity, of which the impacts to populations are secondary or non-immediate but otherwise detrimental. Examples include deforestation, agriculture, and urbanisation.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Urbanisation,Indirect threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Indirect threats (Tind) refer to the threats outside cave systems or within cave proximity, of which the impacts to populations are secondary or non-immediate but otherwise detrimental. Examples include deforestation, agriculture, and urbanisation.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Deforestation,Indirect threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Indirect threats (Tind) refer to the threats outside cave systems or within cave proximity, of which the impacts to populations are secondary or non-immediate but otherwise detrimental. Examples include deforestation, agriculture, and urbanisation.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Pollution,Indirect threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Indirect threats (Tind) refer to the threats outside cave systems or within cave proximity, of which the impacts to populations are secondary or non-immediate but otherwise detrimental. Examples include deforestation, agriculture, and urbanisation.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Road.kills,Indirect threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Indirect threats (Tind) refer to the threats outside cave systems or within cave proximity, of which the impacts to populations are secondary or non-immediate but otherwise detrimental. Examples include deforestation, agriculture, and urbanisation.",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Disease.parasites,Natural threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Lastly, Natural threats (Tnat) refer to threats that are natural in origin, though their frequency may be impacted by human activities, and that may directly or indirectly impact populations, such as diseases (e.g., White-nose syndrome) and climate-driven risks (e.g., drought, extreme cold)",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Invasive.species,Natural threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Lastly, Natural threats (Tnat) refer to threats that are natural in origin, though their frequency may be impacted by human activities, and that may directly or indirectly impact populations, such as diseases (e.g., White-nose syndrome) and climate-driven risks (e.g., drought, extreme cold)",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Fires,Natural threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Lastly, Natural threats (Tnat) refer to threats that are natural in origin, though their frequency may be impacted by human activities, and that may directly or indirectly impact populations, such as diseases (e.g., White-nose syndrome) and climate-driven risks (e.g., drought, extreme cold)",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Drought,Natural threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Lastly, Natural threats (Tnat) refer to threats that are natural in origin, though their frequency may be impacted by human activities, and that may directly or indirectly impact populations, such as diseases (e.g., White-nose syndrome) and climate-driven risks (e.g., drought, extreme cold)",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Extreme.cold,Natural threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Lastly, Natural threats (Tnat) refer to threats that are natural in origin, though their frequency may be impacted by human activities, and that may directly or indirectly impact populations, such as diseases (e.g., White-nose syndrome) and climate-driven risks (e.g., drought, extreme cold)",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+Storm,Natural threats,NA,NA,binomial,.na,"Yes = 1, No = 0",.na,.na,"Lastly, Natural threats (Tnat) refer to threats that are natural in origin, though their frequency may be impacted by human activities, and that may directly or indirectly impact populations, such as diseases (e.g., White-nose syndrome) and climate-driven risks (e.g., drought, extreme cold)",NA,https://doi.org/10.1038/s41597-022-01234-4,Tanalgo_2022
+"Record 
+life span",NA,NA,NA,numerical,NA,.na,NA,NA,Records of longevity and associated life history and ecological variables were obtained for 64 species of bats (see Supplementary materials http://www.blackwell-science.co.uk/products/journals/suppmat/ACE/ACE020/ACE020sm.htm) either from the primary literature or from personal records of resighted or recaptured animals banded in the field.,NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+"Progeny 
+per year",NA,NA,NA,numerical,NA,.na,NA,NA,Reproductive rate was estimated as the product of average litter size and the average number of births per year.,NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+Latitude,NA,NA,NA,numerical,NA,.na,NA,NA,We either used the latitude where a longevity record was obtained or the latitude at the middle of a species’ range as reported in the literature.,NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+"Colony 
+size",NA,NA,NA,numerical,NA,.na,NA,NA,"Median colony size was taken from previous reviews (Hosken, 1997, 1998) or from species accounts in the literature.",NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+"Female 
+mass (g)",NA,NA,NA,numerical,g,.na,NA,NA,"When available, we used average body mass of the individuals for which longevity records were available. Otherwise, we used average body mass of females reported in the literature.",NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+Hibernate,NA,NA,NA,categorical,.na,"yes, no",.na,.na,NA,NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+"Cave 
+roost",NA,NA,NA,categorical,.na,"never, sometimes, always",.na,.na,"Bats utilize a variety of roosting sites, including foliage, caves, tree hollows, and man-made structures (Kunz, 1982) with some species using different types of roosts in different regions or times of the year. To reduce the potential complexity of this variable we scored roosting habit as either always in a cave, never in a cave or sometimes use a cave.",NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+Diet,NA,NA,NA,categorical,.na,"animal, fruit",.na,.na,We reduced the potential complexity associated with diet either to consuming animal matter or to consuming fruit or nectar.,NA,https://doi.org/10.1046/j.1474-9728.2002.00020.x,Wilkinson_2002
+sex,NA,NA,NA,categorical,.na,"male, female",.na,.na,The sex of the individual(s).,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+body mass,NA,NA,NA,numeric,kg,.na,NA,NA,Numeric standardised body mass value,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+original body mass,NA,NA,NA,numeric,NA,.na,NA,NA,Unstandardised mass or weight value from source document,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+metabolic rate,NA,NA,NA,numeric,W,.na,NA,NA,Numeric standardised metabolic rate value,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+original metabolic rate,NA,NA,NA,numeric,NA,.na,NA,NA,Unstandardised metabolic rate value from source document,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+original temperature,NA,NA,NA,numeric,NA,.na,NA,NA,Temperature at which metabolic rate was measured,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+mass-specific metabolic rate,NA,NA,NA,numeric,NA,.na,NA,NA,Numeric standardised metabolic rate / body mass,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+brain size,NA,NA,NA,numeric,g,.na,NA,NA,Numeric standardised brain size,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+original brain size,NA,NA,NA,numeric,NA,.na,NA,NA,Unstandardised brain size from source document,NA,https://doi.org/10.1038/s41597-022-01364-9,Herberstein_2022
+diet,NA,NA,NA,categorical,.na,"(1) animalivore species that occasionally feed on fruits (e.g. phyllostomines, micronycterines), (2) nectar-feeding species which are secondary frugivorous but frequently feed on fruits (glossophagines and lonchophyllines), and (3) obligatory frugivores species which are highly dependent on fruit (carolliines and stenordermatines)",.na,.na,"For diet, we used a previous classification of degree of frugivory in the Neotropical bat family Phyllostomidae (Lobova et al. 2009; Fleming and Kress 2013; Mello et al. 2015) which is: (1) animalivore species that occasionally feed on fruits (e.g. phyllostomines, micronycterines), (2) nectar-feeding species which are secondary frugivorous but frequently feed on fruits (glossophagines and lonchophyllines), and (3) obligatory frugivores species which are highly dependent on fruit (carolliines and stenordermatines).",effect,10.1007/s00442-020-04662-4,Laurindo_2020
+aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,"We used aspect ratio (AR), i.e. the ratio between wingspan and wing area, as the morphological trait related to wing shape.",effect,10.1007/s00442-020-04662-4,Laurindo_2020
+body mass,NA,NA,NA,numeric,NA,.na,NA,NA,NA,effect,10.1007/s00442-020-04662-4,Laurindo_2020
+greatest skull length,skull shape,NA,NA,numeric,NA,.na,NA,NA,"Selected skull dimensions were the greatest length, braincase and zygomatic breadth. Because these tree variables are highly correlated (Appendix 3), we ran a principal component analysis (PCA) to summarize the three measurements in a unique variable (PC1).",effect,10.1007/s00442-020-04662-4,Laurindo_2020
+braincase breadth,skull shape,NA,NA,numeric,NA,.na,NA,NA,"Selected skull dimensions were the greatest length, braincase and zygomatic breadth. Because these tree variables are highly correlated (Appendix 3), we ran a principal component analysis (PCA) to summarize the three measurements in a unique variable (PC1).",effect,10.1007/s00442-020-04662-4,Laurindo_2020
+zygomatic breadth,skull shape,NA,NA,numeric,NA,.na,NA,NA,"Selected skull dimensions were the greatest length, braincase and zygomatic breadth. Because these tree variables are highly correlated (Appendix 3), we ran a principal component analysis (PCA) to summarize the three measurements in a unique variable (PC1).",effect,10.1007/s00442-020-04662-4,Laurindo_2020
+foraging guild,NA,NA,NA,categorical,.na,"mixed, open, edge, glean",.na,.na,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+diet specialization,NA,NA,NA,categorical,.na,"spec, interm, gener",.na,.na,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+nursery site,NA,NA,NA,categorical,.na,"cave, tree, build",.na,.na,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+migration strategy,NA,NA,NA,categorical,.na,"resid, short, long",.na,.na,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+mean birth date,NA,NA,NA,categorical,.na,"may, june, july",.na,.na,Months of year,response,10.1098/rspb.2018.2193,Barbaro_2019
+home range size,NA,NA,NA,categorical,.na,"small, mid, large, very large",.na,.na,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+female fecundity,NA,NA,NA,numeric,pups,.na,NA,NA,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+body mass,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1098/rspb.2018.2193,Barbaro_2019
+habitat specilization,NA,NA,NA,numeric,NA,.na,NA,NA,ssi,response,10.1098/rspb.2018.2193,Barbaro_2019
+thermal index,NA,NA,NA,numeric,Cº,.na,NA,NA,sti,response,10.1098/rspb.2018.2193,Barbaro_2019
+trophic functional groups,NA,NA,NA,categorical,.na,"aerial insectivores, frugivores, gleaning animalivores, nectarivores, piscivores, sanguinivores",.na,.na,NA,response,10.1111/ecog.03654,Stevens_2018
+forearm length,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+greatest length of skull,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+condylobasal length,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+length of maxillary toothrow,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+breadth of post-orbital constriction,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+breadth of braincase,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+breadth across upper molars,morphological,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ecog.03654,Stevens_2018
+Total skull length (TL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Postorbital Width (PW),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Zygomatic Breadth (ZB),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Posterior Skull width (PSW),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Palatal Width at canines (PW),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Palatal Width at first molar (PW1),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Total Palate Length (TPL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Anterior Skull Length (ASL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Post-Palatal length (PPL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Maxillary Toothrow Length (MTL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Dentary Depth under first molar (DD),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Coronoid Process Height (CPH),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Condyle height (CH),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Condyle to Canine bite point distance (CC),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Condyle to first molar point distance (Cm1),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Condyle to last molar point distance (Cm3),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Total Dentary Length (TDL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Condyle-Coronoid Length (CCL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Coronoid-Angular Length (CAL),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Mandibular toothrow length (MAN),Morphological traits,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3390/d10030100,Murillo-García_2018
+Ability to fly,NA,NA,NA,categorical,.na,"edge, gleaner, open",.na,.na,NA,response,10.1016/j.foreco.2018.02.028,Renner_2018
+body mass,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.12.036,Farneda_2018
+trophic level,NA,NA,NA,categorical,.na,"animalivorous, phytophagous",.na,.na,NA,response,10.1016/j.biocon.2017.12.036,Farneda_2018
+dietary specialization,NA,NA,NA,categorical,.na,"low, intermediate, high",.na,.na,NA,response,10.1016/j.biocon.2017.12.036,Farneda_2018
+vertical stratification,NA,NA,NA,categorical,.na,"canopy, oportunistic, understorey",.na,.na,NA,response,10.1016/j.biocon.2017.12.036,Farneda_2018
+aspect ratio,wing morphology,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.12.036,Farneda_2018
+relative wing loading,wing morphology,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.12.036,Farneda_2018
+Foraging guild,NA,NA,NA,categorical,.na,"edge, open, clutter",.na,.na,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+diet,NA,NA,NA,categorical,.na,"insectivore, nectivore, carnivore",.na,.na,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+mass,Size,NA,NA,numeric,g,.na,NA,NA,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+wing loading,Wing morphology,NA,NA,numeric,N/m2,.na,NA,NA,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+aspect ratio,Wing morphology,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+peak frequency,echolocation,NA,NA,numeric,kHz,.na,NA,NA,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+roost site,NA,NA,NA,categorical,.na,"cave, crevice, tree",.na,.na,NA,undefined,10.4404/hystrix-00016-2017,Monadjem_2018
+Foraging guild,NA,NA,NA,categorical,.na,"Open-space foragers-1, Edge-space foragers-2, Narrow-space foragers-3",.na,.na,"Use of the aerosphere by each species, requiring adaptations in wing shape and echolocation calls",response,10.4404/hystrix-00020-2017,Pereira_2018
+Main Feeding Habits,NA,NA,NA,categorical,.na,"Frugivory (F)-1, Nectarivory (N)-2, Insectivory (I)-3, Carnivory (C)-4, Omnivory (O)-5, Sanguinivory (S)-6, F+N-7, F+I-8, F+C-9; N+I-10, F+N+I-11, F+I+C-12",.na,.na,Main types of dietary items,response,10.4404/hystrix-00020-2017,Pereira_2018
+Main trophic level,NA,NA,NA,categorical,.na,"Phytophagous-1, Insectivorous-2, Carnivorous-3, Omnivorous-4",.na,.na,"Four general categories, based on the information of the guilds",response,10.4404/hystrix-00020-2017,Pereira_2018
+Forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,Average forearm length of each species captured / literature data,response,10.4404/hystrix-00020-2017,Pereira_2018
+body mass,NA,NA,NA,numeric,NA,.na,NA,NA,Average body mass of each species captured / literature data,response,10.4404/hystrix-00020-2017,Pereira_2018
+Aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,Average aspect ratio – wingspan (cm)/area (cm2) –captures / literature data,response,10.4404/hystrix-00020-2017,Pereira_2018
+Wing load,NA,NA,NA,numeric,NA,.na,NA,NA,Average relative wing loading - weight (g)/ wing area (cm2) – of each captures / literature data,response,10.4404/hystrix-00020-2017,Pereira_2018
+diet,NA,NA,NA,categorical,.na,"F = fruit, N = nectar, I = invertebrates, V = vertebrates, B = blood",.na,.na,NA,response,10.1111/btp.12501,Presley_2018
+foraging location,NA,NA,NA,categorical,.na,"C = forest canopy, S = forest subcanopy, U = forest understory",.na,.na,NA,response,10.1111/btp.12501,Presley_2018
+foraging strategy,NA,NA,NA,categorical,.na,"P = pounce, G = glean, H = hover",.na,.na,NA,response,10.1111/btp.12501,Presley_2018
+body mass,body size,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+forearm length,body size,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+greatest length of skull,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+condylobasal length,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+maxillary tooth row length,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+breadth across upper molars,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+post-orbital constriction,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+breadth of braincase,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+wing aspect ratio,aerodynamics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+wing loading,aerodynamics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/btp.12501,Presley_2018
+FA = Forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+GSL = Greatest skull length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+TL = Total length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+T = Tail length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+E = Ear length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+CI = Condylo-incisive length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+CC = Condylo-canine length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+Zyg = Zygomatic breadth,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+Mast = Mastoid breadth,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+Brain = Breadth of brain case,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+Inter = Narrowest breadth of skull,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+Mand = Mandibular length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+Mc-m3 = Mandibular tooth row length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+c-m3 = Length of upper tooth row,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+c-c = Width across the upper canines,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+m3-m3 = Width across the upper molars,NA,NA,NA,numeric,NA,.na,NA,NA,NA,undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+ecolocation strategy,NA,NA,NA,categorical,.na,"high-duty cycle echolocation (HDC), low-duty cycle nasal echolocation (LDCN), low-duty cycle mouth echolocation (LDCM)",.na,.na,"We also classified bats to one of three echolocation strategies — high-duty cycle echolocation (HDC), low-duty cycle nasal echolocation (LDCN) or low-duty cycle mouth echolocation (LDCM) (Monadjem et al., 2010; Lazure and Fenton, 2011).",undefined,10.3161/15081109ACC2017.19.2.005,Reardon_2017
+foraging guild,NA,NA,NA,categorical,.na,"AI = aerial insectivore, HI = high flying insectivores, GO = gleaning omnivores, CF = canopy frugivores, UF = understory frugivores, N = nectarivores, S = sanguinivores, P = piscivores",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+fruit,diet,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+nectar,diet,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+invertebrates,diet,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+terrestrial vertebrates,diet,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+fish,diet,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+blood,diet,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+open habitat,foraging location,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+above water,foraging location,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+above canopy,foraging location,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+canopy,foraging location,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+subcanopy,foraging location,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+understory,foraging location,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+aerial,foraging strategy,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+gleaning,foraging strategy,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+hover,foraging strategy,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+other,foraging strategy,NA,NA,categorical,.na,"1 = yes, 2 = no",.na,.na,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+mass,body size,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+forearm length,body size,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+greatest length of skull,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+condylobasal length,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+molar tooth row length,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+breadth across molars,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+post-orbital constriction,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+breadth of braincase,masticatory mode,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+Aspect ratio,flight ability,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+wing loading,flight ability,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/2041-210X.12696,Scheiner_2017
+forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.7717/peerj.3424,Briones-Salas_2017
+weight,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.7717/peerj.3424,Briones-Salas_2017
+diet,NA,NA,NA,categorical,.na,"insectivorous, frugivorous, hematophagous",.na,.na,NA,response,10.7717/peerj.3424,Briones-Salas_2017
+flight heigth,NA,NA,NA,categorical,.na,"low, medium, high",.na,.na,NA,response,10.7717/peerj.3424,Briones-Salas_2017
+echolocation call type,NA,NA,NA,categorical,.na,"N = no call, CF = constant frequency call, FM.QCF = frequency modulated call with a quasi-constant frequency tail, FMmult = multi-harmonic frequency modulated call, FM = frequency modulated call, Clk = click call",.na,.na,NA,response,10.1016/j.biocon.2017.03.026,Wordley_2017
+diet,NA,NA,NA,categorical,.na,"Fru = frugivore, Ins = insectivore, Car = insectivore and carnivore",.na,.na,NA,response,10.1016/j.biocon.2017.03.026,Wordley_2017
+frequency of maximum energy,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.03.026,Wordley_2017
+forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.03.026,Wordley_2017
+wing aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.03.026,Wordley_2017
+relative wing loading,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1016/j.biocon.2017.03.026,Wordley_2017
+forearm size,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+wingspan,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+total wing area,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+wing loading,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+body weight,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+diet,NA,NA,NA,categorical,.na,"frugivorous 1, frugivorous 2, frugivorous 3, frugivorous 4, nectarivorous, insectivorous, hematophage",.na,.na,NA,response,10.1371/journal.pone.0166765,García-Morales_2016
+conservation status,NA,NA,NA,categorical,.na,"Least Concern, Near-threatened, Vulnerable",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+biogeographical range,NA,NA,NA,categorical,.na,"Northern, Widespread, Southern",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+Diet specialisation,NA,NA,NA,categorical,.na,"Generalist, Intermediate, Specialist",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+foraging guild,NA,NA,NA,categorical,.na,"Gleaning, Mixed Gleaning/flying, Flying edge/close, Flying open",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+fecundity,NA,NA,NA,numeric,offspring,.na,3,1,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+nest or roost site location,NA,NA,NA,categorical,.na,"Building, Cave and rock, Tree",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+body mass,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+home range size,NA,NA,NA,numeric,ha,.na,NA,NA,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+migration status,NA,NA,NA,categorical,.na,"Resident, Short-distance migrant, Long-distance migrant",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+average birth date,breeding phenology,NA,NA,categorical,.na,"Before June, June, After June",.na,.na,NA,response,10.1007/s00442-016-3671-9,Charbonnier_2016
+body mass,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2664.12490,Farneda_2015
+trophic level,NA,NA,NA,categorical,.na,"animalivorous, phytophagous",.na,.na,NA,response,10.1111/1365-2664.12490,Farneda_2015
+dietary specialization,NA,NA,NA,categorical,.na,"(1) low – two or more of the above categories of food items contributed > 10% to all food records, (2) intermediate – one single food item contributed > 90% to all food records, (3) high – restricted food category of one particular item of food.",.na,.na,"Food items were divided into six broad categories: (a) fruit, (b) nectar or pollen, (c) leaves, (d) arthropods, (e) blood, and (f) vertebrates. The percentage of the contribution of each food item to the total dietary records for each bat species was based on the literature (see Table S1 for a complete list of references). Species were assigned to three categories of dietary specialization: (1) low – two or more of the above categories of food items contributed > 10% to all food records; (2) intermediate – one single food item contributed > 90% to all food records; (3) high – restricted food category of one particular item of food.",response,10.1111/1365-2664.12490,Farneda_2015
+vertical stratification,NA,NA,NA,categorical,.na,"(U) understory species, < 33% of all captures in canopy nets, (N) species without apparent preference, 33.1–66% of all captures in canopy nets, (C) canopy species, > 66.1% of all captures in canopy nets.",.na,.na,"Based on capture rate (bats per mnh) using the proportion of captures in ground vs. canopy nets in fragment interiors and continuous forest sites. For this, we considered only bats captured at heights > 6 m in canopy nets vs. < 3 m in ground nets. Species were assigned to three categories of vertical stratification: (U) understory species, < 33% of all captures in canopy nets; (N) species without apparent preference, 33.1–66% of all captures in canopy nets; (C) canopy species, > 66.1% of all captures in canopy nets.",response,10.1111/1365-2664.12490,Farneda_2015
+mobility,NA,NA,NA,categorical,.na,"low, intermediate, high",.na,.na,"Based on the relationship between mean and maximum recapture distances (Fig. S3), using both recapture data obtained during our study and from the radio-tracking and mark-recapture literature (see Table S1 for a complete list of references). Species were grouped into three categories of mobility: low, intermediate, and high (see Fig. S3).",response,10.1111/1365-2664.12490,Farneda_2015
+aspect ratio,wing morphology,NA,NA,numeric,NA,.na,NA,NA,"Considered measures of aspect ratio (wingspan2/wing area) and relative wing loading (wing loading [body mass multiplied by the gravitational acceleration, 9.81 ms2/wing area]/body mass0.33; see Norberg & Rayner 1987 and Norberg 1998). Calculations were made using the average of measurement values of up to five individuals of each species recorded in our study.",response,10.1111/1365-2664.12490,Farneda_2015
+relative wing loading,wing morphology,NA,NA,numeric,NA,.na,NA,NA,"Considered measures of aspect ratio (wingspan2/wing area) and relative wing loading (wing loading [body mass multiplied by the gravitational acceleration, 9.81 ms2/wing area]/body mass0.33; see Norberg & Rayner 1987 and Norberg 1998). Calculations were made using the average of measurement values of up to five individuals of each species recorded in our study.",response,10.1111/1365-2664.12490,Farneda_2015
+Diet,NA,NA,NA,categorical,.na,"Fruit or plant, Nectar or pollen, Invertebrates, Vertebrates, Blood",.na,.na,NA,response,10.1111/ddi.12277,Cisneros_2014
+Foraging location,NA,NA,NA,categorical,.na,"Canopy, Subcanopy, Understory",.na,.na,NA,response,10.1111/ddi.12277,Cisneros_2014
+Foraging strategy,NA,NA,NA,categorical,.na,"Gleaning, Hover, Pounce",.na,.na,NA,response,10.1111/ddi.12277,Cisneros_2014
+Roost type,NA,NA,NA,categorical,.na,"Foliage, Bark or roots, Tree hole or termite nest, Man-made structures, Culvert or under large rocks, Cave, tunnels, mines or sewers",.na,.na,NA,response,10.1111/ddi.12277,Cisneros_2014
+Mass Mean,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Greatest length of skull,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Condylobasal length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Length of maxillary toothrow,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Breadth across upper molars,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Width across postorbital constriction,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Breadth of braincase,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Wing loading,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/ddi.12277,Cisneros_2014
+Trophic guilds,Diet,NA,NA,categorical,.na,"aerial insectivores, frugivores, gleaning animalivores, nectarivores, piscivores, sanguinivores",.na,.na,NA,response,10.1111/geb.12192,Stevens_2014
+forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+greatest length of skull,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+condylobasal length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+length of maxillary toothrow,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+breadth of post-orbital constriction,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+breadth of braincase,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+breadth across upper molars,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/geb.12192,Stevens_2014
+Diet,NA,NA,NA,categorical,.na,"Fruit or plant, Nectar or pollen, Invertebrates, Vertebrates, Blood",.na,.na,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Foraging location,NA,NA,NA,categorical,.na,"Canopy, Subcanopy, Understory",.na,.na,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Foraging strategy,NA,NA,NA,categorical,.na,"Gleaning, Hover, Pounce",.na,.na,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Roost type,NA,NA,NA,categorical,.na,"Foliage, Bark or roots, Tree hole or termite nest, Man-made structures, Culvert or under large rocks, Cave, tunnels, mines or sewers",.na,.na,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Mass Mean,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Greatest length of skull,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Condylobasal length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Length of maxillary toothrow,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Breadth across upper molars,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Width across postorbital constriction,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Breadth of braincase,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Wing loading,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+Aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/1365-2656.12201,Cisneros_2014
+foraging habitat,NA,NA,NA,categorical,.na,"edge-low, edge-medium, edge-medium/high, edge-high, open-adapted, clutter-adapted",.na,.na,NA,response,10.1007/s10980-012-9842-0,Luck_2013
+total activity level,NA,NA,NA,numeric,NA,.na,NA,NA,i.e. number of passes from all bat species including passes not identified to species level,response,10.1007/s10980-012-9842-0,Luck_2013
+functional groups,NA,NA,NA,categorical,.na,"aerial insectivores, frugivores, gleaning animalivores (those that glean vertebrates and invertebrates from surfaces such a leaves, tree 
+trunks and the ground [3]), nectarivores, piscivores, sanguinivores.",.na,.na,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+greatest length of skull,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+condylobasal length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+length of maxillary toothrow,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+breadth of post-orbital constriction,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+breadth of braincase,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+breadth across upper molars,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1371/journal.pone.0056853,Stevens_2013
+forearm length,NA,NA,NA,numeric,cm,.na,NA,NA,NA,response,10.1111/j.1365-2664.2012.02159.x,Hanspach_2012
+wing loading (total body mass/wing area),NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/j.1365-2664.2012.02159.x,Hanspach_2012
+aspect ratio (squared wing span/wing area),NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.1111/j.1365-2664.2012.02159.x,Hanspach_2012
+body mass,NA,NA,NA,numeric,g,.na,NA,NA,NA,response,10.1111/j.1365-2664.2012.02159.x,Hanspach_2012
+echolocation frequency,NA,NA,NA,categorical,.na,"low = below 38 kHz, medium = 38–48 kHz, high = above 48 kHz, linear = vertically linear calls",.na,.na,NA,response,10.1111/j.1365-2664.2012.02159.x,Hanspach_2012
+functional group,NA,NA,NA,categorical,.na,"aerial insectivores, frugivores, gleaning animalivores, high-flying insectivores, nectarivores, piscivores, sanguinivores",.na,.na,NA,response,10.1644/BWG-128,Stevens_2004
+Diet,NA,NA,NA,categorical,.na,"Anomala albopilosa, Other Coleoptera, Dictyoptera, Chironomidae, Other Diptera, Hemiptera, Hymenoptera, Lepidoptera, Orthoptera, Others",.na,.na,NA,effect,10.3354/esr00156,Fukui_2009
+wing loading,NA,NA,NA,numeric,NA,.na,NA,NA,NA,effect,10.3354/esr00156,Fukui_2009
+aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,NA,effect,10.3354/esr00156,Fukui_2009
+wingtip shape index,NA,NA,NA,numeric,NA,.na,NA,NA,NA,effect,10.3354/esr00156,Fukui_2009
+Trophic guilds,NA,NA,NA,categorical,.na,"carnívoros = consumen vertebrados terrestres regularmente, piscívoros = consumen principalmente peces, insectívoros aéreos = cazan insectos en el aire, insectívoros recolectores (Insectivorous gleaners) = capturan invertebrados de superficies, frugívoros = consumen principalmente frutas, nectarívoros = consumen principalmente recursos florales como néctar, polen y/o pétalos, omnívoros = consumen regularmente varios de los alimentos mencionados.",.na,.na,NA,both,10.17151/bccm.2017.21.1.8,Sánchez_2017
+dietary habits,NA,NA,NA,categorical,.na,"IN-  Insectivore, FR- Frugivore, N- Nectarivore, S- Sanguinivore., n/d = no data",.na,.na,NA,response,10.12933/therya-17-463,Lucho_2017
+biomass,NA,NA,NA,numeric,g,.na,NA,NA,% B = Contribution of species to total Biomass,response,10.12933/therya-17-463,Lucho_2017
+total length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.12933/therya-17-463,Lucho_2017
+tail length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.12933/therya-17-463,Lucho_2017
+hind foot length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.12933/therya-17-463,Lucho_2017
+ear length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.12933/therya-17-463,Lucho_2017
+forearm length,NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.12933/therya-17-463,Lucho_2017
+diet,NA,NA,NA,categorical,.na,"fruit, nectar, invertebrates, terrestrial vertebrates, fish, blood",.na,.na,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+foraging location,NA,NA,NA,categorical,.na,"open habitat, over water, above canopy, canopy, subcanopy, understory",.na,.na,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+foraging method,NA,NA,NA,categorical,.na,"aerial, gleaning, hover, other",.na,.na,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+body mass,body size,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+forearm length,body size,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+greatest length of the skull,masticatory characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+condylobasal length,masticatory characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+molar tooth row length,masticatory characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+breadth across molars,masticatory characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+post-orbital constriction,masticatory characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+breadth of braincase,masticatory characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+wing aspect ratio,flight characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+wing loading,flight characteristics,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3390/D12060238,Carrasco-Rueda_2020
+Weight,NA,NA,NA,numeric,g,.na,NA,NA,Based on the average body mass of each species (g),response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+Size,NA,NA,NA,numeric,mm,.na,NA,NA,Based on the average forearm of each species (mm),response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+wing loading,NA,NA,NA,numeric,NA,.na,NA,NA,Based on the average of aspect ratio and relative wing loading of each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+aspect ratio,NA,NA,NA,numeric,NA,.na,NA,NA,Based on the average of aspect ratio and relative wing loading of each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+Invertebrates-general (Diet-Inv),Dietary specialization,NA,NA,numeric,NA,.na,NA,NA,Percentage of the contribution of each food item to the total dietary records for each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+blood of vertebrates (Diet-Vend),Dietary specialization,NA,NA,numeric,NA,.na,NA,NA,Percentage of the contribution of each food item to the total dietary records for each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+"Reptiles, snakes, amphibians, salamanders (Diet-Vect)",Dietary specialization,NA,NA,numeric,NA,.na,NA,NA,Percentage of the contribution of each food item to the total dietary records for each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+"Fruit, drupes (Diet-Fruit)",Dietary specialization,NA,NA,numeric,NA,.na,NA,NA,Percentage of the contribution of each food item to the total dietary records for each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+"Nectar, pollen, plant exudates, gums (Diet-Nect).",Dietary specialization,NA,NA,numeric,NA,.na,NA,NA,Percentage of the contribution of each food item to the total dietary records for each species,response,10.31687/saremMN.19.26.1.0.09,Pereira_2019
+Weight,NA,NA,NA,numeric,g,.na,NA,NA,NA,response,10.3161/15081109ACC2018.20.1.009,Coelho_2018
+Feeding guild,NA,NA,NA,categorical,.na,"Nect= nectarivorous, Frug= frugivorous, Inset= insectivorous, Hema= hematophagous",.na,.na,NA,response,10.3161/15081109ACC2018.20.1.009,Coelho_2018
+Aspect ratio (ratio between wing span and width),NA,NA,NA,numeric,NA,.na,NA,NA,NA,response,10.3161/15081109ACC2018.20.1.009,Coelho_2018
+Type of shelterused,NA,NA,NA,categorical,.na,"Tr= tree, Cav=cave, Le=leaf, Build=buildings",.na,.na,NA,response,10.3161/15081109ACC2018.20.1.009,Coelho_2018

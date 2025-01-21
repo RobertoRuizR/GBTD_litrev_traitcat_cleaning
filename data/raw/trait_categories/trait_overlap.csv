@@ -1,0 +1,352 @@
+Trait type,Complex or functional dimension,Castillo-Figueroa_2021,Soria_2021,Cosentino_2023,Froidevaux_2023,Crane_2022,Myhrvold_2015,Gonçalvez_2018,Geiselman_2020,Tanalgo_2022,Wilkinson_2002,Herberstein_2022,Laurindo_2020,Barbaro_2019,Stevens_2018,Murillo-García_2018,Renner_2018,Farneda_2018,Monadjem_2018,Pereira_2018,Presley_2018,Reardon_2017,Scheiner_2017,Briones-Salas_2017,Wordley_2017,García-Morales_2016,Charbonnier_2016,Farneda_2015,Cisneros_2014,Stevens_2014,Luck_2013,Stevens_2013,Hanspach_2012,Stevens_2004,Fukui_2009,Sánchez_2017,Lucho_2017,Carrasco-Rueda_2020,Pereira_2019,Coelho_2018
+Morphological,Size,Body mass,adult_mass_g,Body mass (F/M/U),BodyMass,NA,adult_body_mass_g,body_mass,NA,Body.mass (grams),NA,body mass,body mass,body mass,NA,NA,NA,body mass,mass,body mass,body mass,NA,mass,weight,NA,body weight,body mass,body mass,Mass Mean,NA,NA,NA,body mass,NA,NA,NA,NA,body mass,Weight,Weight
+Morphological,Size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,biomass,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,female_body_mass_g,NA,NA,NA,"Female 
+mass (g)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,male_body_mass_g,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,no_sex_body_mass_g,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,original body mass,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,Total length,adult_body_length_mm,Total length (F/M/U),NA,NA,adult_svl_cm,body_length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TL = Total length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,total length,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,no_sex_svl_cm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,NA,NA,Head body length (F/M/U),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,male_svl_cm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,NA,NA,NA,NA,NA,female_svl_cm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Size,Forearm length,adult_forearm_length_mm,Forearm length (F/M/U),ForearmLength,NA,NA,forearm,NA,NA,NA,NA,NA,NA,forearm length,NA,NA,NA,NA,Forearm length,forearm length,FA = Forearm length,forearm length,forearm length,forearm length,forearm size,NA,NA,Forearm length,forearm length,NA,forearm length,forearm length,NA,NA,NA,forearm length,forearm length,Size,NA
+Morphological,Size,NA,NA,Sexual dimorphism in size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,Length of the third digit,NA,NA,ThirdDigitLength,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,Length of the fifth digit,NA,NA,FifthDigitLength,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,Wing loading,NA,Wing loading (F/M/U),WingLoadingIndex,partial_wing_loading,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wing loading,Wing load,wing loading,NA,wing loading,NA,NA,wing loading,NA,NA,Wing loading,NA,NA,NA,wing loading (total body mass/wing area),NA,wing loading,NA,NA,wing loading,wing loading,NA
+Morphological,Wings,NA,NA,NA,NA,total_wing_loading,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,NA,NA,NA,NA,relative_partial_loading,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,relative wing loading,NA,NA,NA,NA,NA,NA,relative wing loading,NA,NA,relative wing loading,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,NA,NA,NA,NA,relative_total_loading,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,Aspect ratio,NA,Wing aspect ratio (F/M/U),AspectRatioIndex,partial_aspect_ratio,NA,NA,NA,NA,NA,NA,aspect ratio,NA,NA,NA,NA,aspect ratio,aspect ratio,Aspect ratio,wing aspect ratio,NA,Aspect ratio,NA,wing aspect ratio,aspect ratio,NA,aspect ratio,Aspect ratio,NA,NA,NA,aspect ratio (squared wing span/wing area),NA,aspect ratio,NA,NA,wing aspect ratio,aspect ratio,Aspect ratio (ratio between wing span and width)
+Morphological,Wings,NA,NA,NA,NA,total_aspect_ratio,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,Tip shape index,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wingtip shape index,NA,NA,NA,NA,NA
+Morphological,Wings,Wing span,NA,Wingspan (F/M/U),NA,wingspan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,wingspan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,NA,NA,Wing length (F/M/U),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,NA,NA,Wing area (F/M/U),NA,wing_surface_area,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,total wing area,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,NA,NA,NA,NA,lifting_surface_area,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Wings,NA,NA,NA,NA,wing_area_rec,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Pollex,Length of the pollex without claw,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Pollex,Length of the pollex with claw,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Hindlimbs,Length of the foot without claw,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Hindlimbs,length of the foot with claw,NA,Hind foot length (F/M/U),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,hind foot length,NA,NA,NA
+Morphological,Hindlimbs,Length of the tibia,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Hindlimbs,Length of calcaneus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,Length of the ear,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,E = Ear length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ear length,NA,NA,NA
+Morphological,Head,Length of tragus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,Length of nose leaf,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,Inner nostril width ratio,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,brain_mass_g,NA,NA,NA,NA,NA,NA,NA,NA,brain size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,original brain size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Inter = Narrowest breadth of skull,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,greatest skull length,NA,greatest length of skull,Total skull length (TL),NA,NA,NA,NA,greatest length of skull,GSL = Greatest skull length,greatest length of skull,NA,NA,NA,NA,NA,Greatest length of skull,greatest length of skull,NA,greatest length of skull,NA,NA,NA,NA,NA,greatest length of the skull,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,braincase breadth,NA,breadth of braincase,NA,NA,NA,NA,NA,breadth of braincase,Brain = Breadth of brain case,breadth of braincase,NA,NA,NA,NA,NA,Breadth of braincase,breadth of braincase,NA,breadth of braincase,NA,NA,NA,NA,NA,breadth of braincase,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zygomatic breadth,NA,NA,Zygomatic Breadth (ZB),NA,NA,NA,NA,NA,Zyg = Zygomatic breadth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Mast = Mastoid breadth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,condylobasal length,NA,NA,NA,NA,NA,condylobasal length,NA,condylobasal length,NA,NA,NA,NA,NA,Condylobasal length,condylobasal length,NA,condylobasal length,NA,NA,NA,NA,NA,condylobasal length,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,length of maxillary toothrow,Maxillary Toothrow Length (MTL),NA,NA,NA,NA,maxillary tooth row length,c-m3 = Length of upper tooth row,NA,NA,NA,NA,NA,NA,Length of maxillary toothrow,length of maxillary toothrow,NA,length of maxillary toothrow,NA,NA,NA,NA,NA,molar tooth row length,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,breadth of post-orbital constriction,NA,NA,NA,NA,NA,post-orbital constriction,NA,post-orbital constriction,NA,NA,NA,NA,NA,Width across postorbital constriction,breadth of post-orbital constriction,NA,breadth of post-orbital constriction,NA,NA,NA,NA,NA,post-orbital constriction,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,breadth across upper molars,NA,NA,NA,NA,NA,breadth across upper molars,NA,breadth across molars,NA,NA,NA,NA,NA,Breadth across upper molars,breadth across upper molars,NA,breadth across upper molars,NA,NA,NA,NA,NA,breadth across molars,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Postorbital Width (PW),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Posterior Skull width (PSW),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Palatal Width at canines (PW),NA,NA,NA,NA,NA,c-c = Width across the upper canines,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Palatal Width at first molar (PW1),NA,NA,NA,NA,NA,m3-m3 = Width across the upper molars,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Total Palate Length (TPL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Anterior Skull Length (ASL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Post-Palatal length (PPL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Dentary Depth under first molar (DD),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Coronoid Process Height (CPH),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Condyle height (CH),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,CI = Condylo-incisive length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Condyle to Canine bite point distance (CC),NA,NA,NA,NA,NA,CC = Condylo-canine length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Condyle to first molar point distance (Cm1),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,CM3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Condyle to last molar point distance (Cm3),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Total Dentary Length (TDL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Condyle-Coronoid Length (CCL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Coronoid-Angular Length (CAL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Mandibular toothrow length (MAN),NA,NA,NA,NA,NA,Mc-m3 = Mandibular tooth row length,molar tooth row length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Mand = Mandibular length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Head,NA,NA,NA,LCBLCCRatio,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Morphological,Tail,Tail length,NA,Tail length (F/M/U),NA,NA,NA,tail_length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,T = Tail length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,tail length,NA,NA,NA
+Morphological,Tail,Uropatagium area,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Litters per year,litters_per_year_n,Number of litters per year,NA,NA,litters_or_clutches_per_y,NA,NA,NA,"Progeny 
+per year",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Litter size,litter_size_n,Litter size,LitterSize,NA,litter_or_clutch_size_n,NA,NA,NA,NA,NA,NA,female fecundity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fecundity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Gestation duration,gestation_length_d,Total gestation length,GestationTime,NA,gestation_d,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Active gestation length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Lactation duration,NA,Lactation length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,teat_number_n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,neonate_mass_g,Neonatal body mass,NA,NA,birth_or_hatching_weight_g,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Neonate head-body length,NA,NA,birth_or_hatching_svl_cm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,weaning_age_d,Weaning length,Weaning,NA,weaning_d,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,weaning_mass_g,Weaning body mass,NA,NA,weaning_weight_g,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Weaning head-body length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,generation_length_d,NA,NA,NA,NA,NA,NA,Generation.length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Reproductive status,NA,NA,NA,NA,NA,reproductive_stage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,NA,sex,NA,NA,NA,sex,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Parental cares,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,age_first_reproduction_d,Age of first birth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,interbirth_interval_d,Interval between births,NA,NA,inter_litter_or_interbirth_interval_y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,mean birth date,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,average birth date,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Sperm retention,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Delayed implantation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Delayed embryonic development,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,max_longevity_d,NA,MaxLongevity,NA,maximum_longevity_y,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,longevity_y,NA,NA,NA,"Record 
+life span",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Life-span in the wild,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Life-span in captivity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,NA,age,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,NA,status,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Sexual maturity age,maturity_d,Sexual maturity age (F/M/U),NA,NA,no_sex_maturity_d,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,female_maturity_d,NA,SexualMaturityFemale,NA,female_maturity_d,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,male_maturity_d,NA,SexualMaturityMale,NA,male_maturity_d,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,female_svl_at_maturity_cm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,NA,NA,NA,female_body_mass_at_maturity_g,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,Mating systems,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Polygamy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Polyandry,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Polygyny,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Reproductive,NA,NA,Monogamy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,Digestive capactiy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,DigestiveEfficiency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,Gut size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,Gut retention time of seeds,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,Type of lingual papillae,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,Metabolic rate,NA,NA,BasalMetabolicRate,NA,NA,NA,NA,NA,NA,metabolic rate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,original metabolic rate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,mass-specific metabolic rate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,BasalMetabolicRatePerc,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,RestingMetabolicRate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,HeartRateFlight,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,HeartRateResting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,TotalEvaporativeWaterLossRate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,SpeciesThermalIndex,NA,NA,NA,NA,NA,NA,NA,NA,thermal index,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,Body temperature,NA,NA,BodyTempTNZ,NA,NA,NA,NA,NA,NA,original temperature,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,ResponseToNightlyTemperature,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,ResponseToNightlyPrecipitation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,ResponseToNightlyWindSpeed,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,hibernation_torpor,Hibernation,TorporBehavior,NA,NA,NA,NA,NA,Hibernate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,Hibernation length,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,HeartRateTorpor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,MaxTorporBoutDuration,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Physiological,NA,NA,NA,MeanTorporBoutDuration,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,Migration,NA,Migratory,NA,NA,NA,NA,NA,NA,NA,NA,NA,migration strategy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,migration status,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,Sociality,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,social_group_size_n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Territoriality (F/M/U),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,Foraging strategy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ability to fly,NA,Foraging guild,NA,foraging strategy,NA,foraging guild,NA,NA,NA,NA,NA,Foraging strategy,NA,NA,NA,NA,NA,NA,NA,NA,foraging method,NA,NA
+Life history,Behavioral,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aerial,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Hawking,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Gleaning,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,gleaning,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Flycatching,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Trawling,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Hovering,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,hover,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Perching,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,other,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,Activity pattern,activity_cycle,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Activity pattern/Dusk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Activity pattern/Night,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Activity pattern/Dawn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,Activity pattern/Day,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,NA,SeasonalActivityPatternKurtosis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,NA,SeasonalActivityPatternSkewness,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Behavioral,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,total activity level,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,Feeding guild,trophic_level,NA,DietType,NA,NA,NA,NA,Feeding.groups,Diet,NA,diet,NA,trophic functional groups,NA,NA,trophic level,diet,Main trophic level,diet,NA,NA,diet,diet,diet,NA,trophic level,Diet,Trophic guilds,NA,functional groups,NA,functional group,NA,Trophic guilds,dietary habits,diet,NA,Feeding guild
+Life history,Trophic niche,NA,NA,Insectivorous,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Frugivorous,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Nectarivorous,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Carnivorous,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,Diet specialization,NA,NA,TrophicSpecialization,NA,NA,NA,NA,NA,NA,NA,NA,diet specialization,NA,NA,NA,dietary specialization,NA,Main Feeding Habits,NA,NA,NA,NA,NA,NA,Diet specialisation,dietary specialization,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,NA,FirstMainPreyItem,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Diet,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,NA,SecondMainPreyItem,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,NA,ThirdMainPreyItem,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,dphy_invertebrate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,invertebrates,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Invertebrates-general (Diet-Inv),NA
+Life history,Trophic niche,NA,dphy_vertebrate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,terrestrial vertebrates,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,dphy_plant,Plants,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_inv,Insects,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Arachnids,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Centipedes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_vend,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Birds,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Mammals,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,blood,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,blood of vertebrates (Diet-Vend),NA
+Life history,Trophic niche,NA,det_vect,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Reptiles, snakes, amphibians, salamanders (Diet-Vect)",NA
+Life history,Trophic niche,NA,NA,Reptiles,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Amphibians,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_vfish,Fishes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fish,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_vunk,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_scav,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_fruit,Fruits,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,fruit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fruit, drupes (Diet-Fruit)",NA
+Life history,Trophic niche,NA,det_nect,Nectar,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,nectar,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Nectar, pollen, plant exudates, gums (Diet-Nect).",NA
+Life history,Trophic niche,NA,det_seed,Seeds,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_plantother,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Leaves,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Flowers,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,det_diet_breadth_n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,NA,DietaryNicheBreadth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,NA,DietaryDiversity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,Bite force,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Dental formula,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Trophic niche,NA,NA,Number of teeth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,Foraging hábitat,foraging_stratum,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,foraging guild,NA,NA,NA,vertical stratification,NA,Foraging guild,foraging location,NA,NA,NA,NA,NA,foraging guild,vertical stratification,Foraging location,NA,foraging habitat,NA,NA,NA,NA,NA,NA,foraging location,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,above canopy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,canopy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,subcanopy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,understory,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Ground,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Aerial,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Vegetation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Clutter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Clutter_Edge,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Open,CriticalFeedingAreasOpenHabitat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,open habitat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,freshwater,Aquatic,CriticalFeedingAreasWaterBodies,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,above water,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,marine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasForest,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasWoodedRiparianHabitat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasWetland,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasGrassland,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasHedgerows,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasOrchard,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasShrubland,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CriticalFeedingAreasUrbanParKGarden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,Vertical stratification,terrestrial_non-volant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,terrestrial_volant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,ManoeuvrabilityTurningDiameter,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,PropFlightAtHeight,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,flight heigth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,Home range,home_range_km2,Home range (F/M/U),HomeRange,NA,NA,NA,NA,NA,NA,NA,NA,home range size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,home range size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,MaxRecordedMovement,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,mobility,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,dispersal_km,Dispersal distance (F/M/U),DispersalDistances,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,MeanNightlyDistance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,MaxNightlyDistance,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,density_n_km2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,fossoriality,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,upper_elevation_m,NA,UpperElevationLimit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,lower_elevation_m,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,AltitudinalMigration,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,altitude_breadth_m,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,island_dwelling,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,island_endemicity,NA,IslandEndemic,NA,NA,NA,NA,Island.endemism,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Geopolitical.endemism,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,dissected_by_mountains,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,glaciation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,biogeographical_realm,NA,NA,NA,NA,NA,NA,Biogeographic.breadth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,biogeographical range,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,EstExtentOccurrence,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,GeographicRange,NA,NA,NA,NA,Current.range,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Natural.range,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,habitat_breadth_n,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,Habitat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,SpeciesHabitatSpecializationIndex,NA,NA,NA,NA,NA,NA,NA,NA,habitat specilization,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,DeciduousForestAffinitySmallScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,ConiferousForestAffinitySmallScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,DenseUrbanAreaAffinitySmallScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,FreshwaterAffinitySmallScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CroplandAffinitySmallScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,GrasslandAffinitySmallScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,DeciduousForestAffinityMediumScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,ConiferousForestAffinityMediumScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,DenseUrbanAreaAffinityMediumScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,FreshwaterAffinityMediumScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CroplandAffinityMediumScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,GrasslandAffinityMediumScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,DeciduousForestAffinityLargeScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,ConiferousForestAffinityLargeScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,DenseUrbanAreaAffinityLargeScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,FreshwaterAffinityLargeScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,CroplandAffinityLargeScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,GrasslandAffinityLargeScale,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Forest,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Savanna,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Desert,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Urban,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Underground,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,NA,NA,NA,NA,NA,Wetlands,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,Type of roost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,roost site,NA,NA,NA,NA,NA,NA,NA,nest or roost site location,NA,Roost type,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Type of shelterused
+Life history,Spatial niche,NA,NA,Roost type/Crevices in rocks (CRR),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Roost type/Crevices in trees (CRT),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Roost type/Caves and sinkhole (CA),NA,NA,NA,NA,NA,NA,"Cave 
+roost",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Roost type/Foliage (FO),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Roost type/Human buildings (HB),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Roost type/Rocky outcrops (RO),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Roost type/Holes in the ground (HG),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,OvergroundRoostDependence-Castle,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,OvergroundRoostDependence-Church,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,OvergroundRoostDependence-House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,OvergroundRoostDependence-Barn,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,OvergroundRoostDependence-Bridge,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,OvergroundRoostDependence-Tree,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Nursery roost,NA,NA,NA,NA,NA,NA,NA,NA,NA,nursery site,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Nursery roost size,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,FirstMainHibernationRoost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,FirstMainMaternityRoost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,SecondMainHibernationRoost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,SecondMainMaternityRoost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,ThirdMainHibernationRoost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,NA,ThirdMainMaternityRoost,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Colony size,NA,NA,NA,NA,NA,NA,"Colony 
+size",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Spatial niche,NA,NA,Mixed colony,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,Echolocation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,Echolocation type,CallType,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ecolocation strategy,NA,NA,echolocation call type,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,echolocation frequency,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,CallBandwidth,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,Duration,NA,NA,CallDuration,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,Interval,NA,NA,InterpulseInterval,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,Frequency,NA,Frequency of maximum energy (FME),CallPeakFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,peak frequency,NA,NA,NA,NA,NA,frequency of maximum energy,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,End frequency (EF),CallEndFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,CallMaxFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,CallMidFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,CallMinFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,CallSlope,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,CallStartFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,rateBuzz,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,buzzDuration,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,NA,NA,NA,buzzPeakFrequency,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,Intensity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Life history,Echolocation,Harmonics,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,AllelicRichness,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,CompleteMitochondrialGenome(bp),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,GeneticPopulationStructure,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,GenomeSize_(Gb),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,Hybridization,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,Karyotype,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,Linage,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,NF,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Genetic,Genetic composition,NA,NA,NA,NFa,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Interactions,NA,NA,NA,NA,NA,NA,NA,Type,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Interactions,NA,NA,Pest control,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Interactions,NA,NA,Seed dispersal,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Interactions,NA,NA,Pollination,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Conservation,NA,NA,Conservation status,NA,NA,NA,NA,NA,Conservation.status,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,conservation status,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Conservation,NA,NA,NA,NA,NA,NA,NA,NA,Population.status,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Overharvesting for food (OH),NA,NA,NA,NA,NA,Hunting.bushmeat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Deforestation (DE),NA,NA,NA,NA,NA,Deforestation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Persecution (P),NA,NA,NA,NA,NA,Intensional.killings,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Vandalism,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Habitat loss (HL),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Urbanisation,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Agricultural.conversion,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Dead trees removal (DTR),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Roost disturbance (RD),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Tourism.caving,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Guano.extraction,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Collisions (COL),NA,NA,NA,NA,NA,Road.kills,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,Threats/Chemical pollution (CP),NA,NA,NA,NA,NA,Pollution,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Gating,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Mining.quarrying,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Sacred.activities,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Nest.harvesting,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Scientific.research,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Invasive.species,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Fires,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Drought,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Extreme.cold,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Conservation,Threats,NA,NA,NA,NA,NA,NA,NA,NA,Storm,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Pathogens,NA,NA,NA,Endoparasites,NA,NA,NA,NA,Disease.parasites,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Pathogens,NA,NA,NA,Fungi,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Interactions,Pathogens,NA,NA,NA,Viruses,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
