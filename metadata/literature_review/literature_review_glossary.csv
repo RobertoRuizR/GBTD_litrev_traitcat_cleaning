@@ -1,0 +1,8 @@
+﻿Column name,Description
+includes_bats_in_title,Does the publication have the “bat” or any variation of the word in the title?
+includes_traits_in_title,Does the publication have the “trait” or any variation of the word in the title?
+to_keep,"The publication is kept if it is a database, review, or a study which takes its data from longitudinal studies or biological collections."
+includes_trait_info,Does the publication include bat functional trait data?
+directly_available,Is the trait data freely accesible from the data source?
+fully_included_in_another_source,Is the trait data fully obtained from any other source already included in the literature review?
+pub_type,Type of publication.

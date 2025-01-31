@@ -4,10 +4,38 @@ library(annotater) # Annotate Package Load Calls
 
 # Get bat trait alignment info
 # trait.overlap = Overlap from several trait names and categories from databases revised
-trait.overlap <- read.csv("data/raw/trait_categories/trait_overlap.csv")
+trait.overlap <- read.csv("data/raw/trait_categories/trait_overlap_zoosum.csv")
+
+trait.overlap <- trait.overlap %>%
+  clean_names() |>
+  mutate_all(na_if,"")
+
 
 # trait.info = trait information from each source organized using the Ecological Trait Standard column names
-trait.info <- read.csv("data/raw/trait_categories/trait_info.csv")
+trait.info <- read.csv("data/raw/trait_categories/trait_info_zoosum.csv")
+
+trait.info$fa_y <- str_replace_all(str_to_lower(trait.info$fa_y), "ç", "c")
+trait.info$fa_y <- str_replace_all(str_to_lower(trait.info$fa_y), "-", "_")
+
+##### First integrate info from Zootraits
+trait.summary <-   trait.overlap %>%
+  rowwise() %>%
+  mutate(label = list(detect(across(3:14), ~ !is.na(.x)))) %>%
+  mutate(times_represented = sum(!is.na(across(3:14)))) %>%
+  mutate(represented_in =   str_c(colnames(list(keep(across(3:14), ~!is.na(.x)))[[1]]), collapse = ", ") ) %>%
+  mutate(first_represented_in =  list(colnames(.)[sum(as.integer(list(detect_index(across(3:14), ~!is.na(.x)))), 2)])) %>%
+  filter(times_represented >= 1) %>%
+  select("trait_type", "complex_or_functional_dimension", "label", "times_represented", "represented_in", "first_represented_in")
+
+dimension_summary <-trait.summary[,1:2] |>
+  add_count(complex_or_functional_dimension) |>
+  distinct(complex_or_functional_dimension, .keep_all = T) |>
+  arrange(trait_type)
+
+dimension_summary1 <-trait.overlap[,1:2] |>
+  add_count(complex_or_functional_dimension) |>
+  distinct(complex_or_functional_dimension, .keep_all = T) |>
+  arrange(trait_type)
 
 
 # Calculate times any given trait is represented in the databases, and which ones, from the trait.overlap file
@@ -29,17 +57,25 @@ trait.summary %<>%
   mutate(allowed_values_max = NA) %>%
   mutate(description =   NA)
 
+
 # Summarize each column from trait category overlap file
-trait.summary$allowed_values_levels <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), factorLevels)))
-trait.summary$description <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), traitDescription)))
-trait.summary$type <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), valueType)))
-trait.summary$units <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), expectedUnit)))
-trait.summary$allowed_values_min <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), minAllowedValue)))
-trait.summary$allowed_values_max <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), maxAllowedValue)))
+trait.summary$allowed_values_levels <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), factorLevels)), recursive = F)
+trait.summary$description <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), traitDescription)), recursive = F)
+trait.summary$type <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), valueType)), recursive = F)
+trait.summary$units <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), expectedUnit)), recursive = F)
+trait.summary$allowed_values_min <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), minAllowedValue)), recursive = F)
+trait.summary$allowed_values_max <- unlist(modify2(trait.summary$first_represented_in, trait.summary$label, \ (.x, .y) select(filter(trait.info, (fa_y == as_vector(.x)) ,  (trait == as_vector(.y))), maxAllowedValue)), recursive = F)
 
 # Fill blank row spaces in description and allowed_values_levels columns
 trait.summary$description <- map(trait.summary$description, \ (.x) if_else(is.na(pluck(.x, 1)), "Definition not specified in database; Check in article for more details", pluck(.x, 1)))
 trait.summary$allowed_values_levels <- map(trait.summary$allowed_values_levels, \ (.x) if_else(is.na(pluck(.x, 1)), "Numeric or not specified in database; Check in article for more details", pluck(.x, 1)))
+
+trait.summary$description <- replace(trait.summary$description, trait.summary$description == "", "Definition not specified in database; Check in article for more details")
+
+trait.summary$allowed_values_levels <- replace(trait.summary$allowed_values_levels, trait.summary$allowed_values_levels == "", ".na")
+trait.summary$allowed_values_levels <- replace(trait.summary$allowed_values_levels, trait.summary$allowed_values_levels == ".na", "Numeric or not specified in database; Check in article for more details")
+
+
 
 # Standardize each column as a character column
 trait.summary$label <- as.character(trait.summary$label)
@@ -54,29 +90,6 @@ trait.summary$allowed_values_levels <- as.character(trait.summary$allowed_values
 
 # Write trait.summary csv file to disk
 write_csv(trait.summary, "data/processed/trait_categories/trait_overlap_summary.csv")
-
-# Transform messy to clean column names
-clean_summary <- trait.summary |>
-  clean_names()
-
-# Write clean_summary csv file to disk
-write_csv(clean_summary, "data/processed/trait_categories/trait_overlap_summary_clean_names.csv")
-
-
-# Get statistics for trait types and dimensions from summary table
-dimension_summary <-clean_summary[,1:2] |>
-  add_count(complex_or_functional_dimension) |>
-  distinct(complex_or_functional_dimension, .keep_all = T) |>
-  arrange(trait_type)
-
-type_summary <- clean_summary[,1:2] |>
-  count(trait_type)
-
-# Write dimension_summary csv file to disk
-write_csv(dimension_summary, "data/processed/trait_categories/trait_dimension_count.csv")
-
-# Write type_summary csv file to disk
-write_csv(type_summary, "data/processed/trait_categories/trait_type_count.csv")
 
 # Write trait.sources csv file to disk
 trait.sources <- distinct(trait.info[12:13], fa_y, .keep_all = T)

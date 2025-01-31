@@ -1,18 +1,18 @@
 trait_type,complex_or_functional_dimension,n
-Conservation,Conservation,2
-Conservation,Threats,23
-Genetic,Genetic composition,9
-Interactions,Interactions,4
-Interactions,Pathogens,3
-Life history,Reproductive,37
-Life history,Physiological,23
-Life history,Behavioral,21
-Life history,Trophic niche,37
-Life history,Spatial niche,98
-Life history,Echolocation,18
 Morphological,Size,13
 Morphological,Wings,14
 Morphological,Pollex,2
 Morphological,Hindlimbs,4
 Morphological,Head,35
 Morphological,Tail,2
+Life history,Reproductive,37
+Life history,Physiological,23
+Life history,Behavioral,21
+Life history,Trophic niche,37
+Life history,Spatial niche,98
+Life history,Echolocation,18
+Life history,Conservation,2
+Life history,Threats,23
+Genetic,Genetic composition,9
+Interactions,Ecological interactions,4
+Interactions,Pathogens,3

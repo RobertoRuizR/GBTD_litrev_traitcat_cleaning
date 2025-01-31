@@ -80,6 +80,22 @@ both_citations <- bind_rows(pruned_ct, pruned_zote)
 tidy_both <- both_citations |>
   distinct(Title, .keep_all = T)
 
+# Duplicates not removed automatically (remove second option):
+
+tidy_both[1,1]
+tidy_both[164,1]
+
+tidy_both[40,1]
+tidy_both[64,1]
+
+tidy_both[89,1]
+tidy_both[253,1]
+
+tidy_both[6,1]
+tidy_both[317,1]
+
+tidy_both <- tidy_both[-c(164, 64, 253, 317),]
+
 # For screening purposes, create columns to evaluate if the word "bat" AND/OR "trait" (or any variant) is present in the title of the publication
 tidy_both <- mutate(tidy_both, includes_bats_in_title = NA)
 tidy_both <- mutate(tidy_both, includes_traits_in_title = NA)
@@ -96,19 +112,19 @@ tidy_both <- tidy_both |>
 write_csv(tidy_both, "data/processed/literature_review/export_clean_citations.csv")
 
 # Import processed data sheet (clean_citations_v1)
-citations_v1 <- read_csv("data/processed/literature_review/export_clean_citations_v1.csv")
+citations <- read_csv("data/processed/literature_review/export_clean_citations_v1.csv")
 
 # Keep only publications with bat functional trait data
-citations_v2 <- citations_v1 |>
-  filter(to_keep == "yes") |>
+citations_v1 <- citations |>
+  filter(to_keep == "yes")  |>
   filter(includes_trait_info == "yes") |>
+  filter(fully_included_in_another_source == "no") |>
+  select(Title, Year, Source, DOI, directly_available) |>
   filter(!is.na(DOI)) # Filter out Geiselman & Sherman batbase.org as it doesn't have a DOI
 
 
 #### Export citation data as BibTex file
-
-dois <- citations_v2$DOI
-
+dois <- citations_v1$DOI
 
 # Use cr_cn() to get BibTeX files for my DOIs
 my_citations_bibtex <- rcrossref::cr_cn(dois, format = "bibtex") %>%

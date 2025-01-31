@@ -3,7 +3,7 @@
 - [Introduction](#introduction)
 - [Methodology](#methodology)
   - [Literature review](#literature-review)
-  - [Functional trait selection](#functional-trait-selection)
+  - [Obtention of functional trait category information, selection of sources, and data manipulation](#obtention-of-functional-trait-category-information-selection-of-sources-and-data-manipulation)
 - [File organization](#file-organization)
   - [Data](#data)
   - [Metadata](#metadata)
@@ -52,7 +52,7 @@ A second phase of literature review was conducted by searching the Web of Scienc
 6. Each entry whose data comes from any other data source considered in this literature search was discarded (n left = 161).
    - fully_included_in_another_source: Is the trait data fully obtained from any other source already included in the literature review?
 
-### Functional trait selection
+### Obtention of functional trait category information, selection of sources, and data manipulation
 
 A total of 11 databases and reviews were selected for the selection of the functional traits to be evaluated. Full citation data is contained in the bib/trait_categories folder as .bib and .docx files. Data sources were included if they were:
 
@@ -61,26 +61,7 @@ A total of 11 databases and reviews were selected for the selection of the funct
 - A dimension-specific global compilation of bat functional trait data.
 - The proposal for a trait-based approach for studying bats (Castillo-Figueroa & Pérez-Torres 2021) was used as a starting point (Table XX).
 
-```{r echo=FALSE}
-
-library(tidyverse)
-library(kableExtra)
-
-types_dims <- read_csv("metadata/trait_categories/glossary_types_dimensions.csv")
-
-types_dims[5:21, c(2:3,5)] |>
-  kbl(caption = "Traits represented only in one data source. trait_type: Type of trait; complex_or_functional_dimension: Dimension of the trait; times_represented: Number of times a trait is found in sources; description: Trait description as found in database; represented_in: Data sources where a trait is included.") |>
-  kable_styling(full_width = F, html_font = "Calibri", fixed_thead = T, font_size = 18) |>
-  column_spec(1:2, bold = T) |>
-  collapse_rows(columns = 1:2, valign = "middle") |>
-  footnote(general = "The trait name, type, and description were extracted from the first citation of the respective represented_in list. Trait names are reported as written in the data source consulted.", footnote_as_chunk = T) |>
-  save_kable(file = "output/trait_categories/table_types_dimensions_sources.html", self_contained = T)
-
-
-
-```
-
-![Trait types and complex or functional dimensions included.](doc/images/table_types_dimensions_sources.html)
+![Trait types and complex or functional dimensions included.](images/table_types_dimensions_sources.html)
 
 The following information was obtained from each source where available. Names and definitions were obtained from the Ecological Trait-data Standard (Schneider et al., 2019), except where noted:
 
@@ -98,13 +79,11 @@ The following information was obtained from each source where available. Names a
 - source: The original source of the trait definition.
 - fa_y: Indicates the first author and publication year of each source (Own definition).
 
-Once the trait data from each source was obtained, the data sheets were combined by row using the column names specified previously (Figure 1a). A new data sheet was generated where each row is a different functional trait and each column is a data source (Figure 1b). If any given functional trait is included in two or more publications, they occupy the same row in a different column, each with the name given by the source indicated in the column header (Figure 1b). If any given trait is present in a source (Database A), but absent in another source (Database B), the row in the Database B was assigned a NA value. Following this methodology, any additional functional trait reported in a source will generate a new row without affecting the data sources already included. The number of times in which any given trait was represented in all the data sources was counted, and the descriptors of each trait were obtained from the first publication in which it was identified (Figure 1c).
+Once the trait data from each source was obtained, the data sheets were combined by row using the column names specified previously. A new data sheet was generated where each row is a different functional trait and each column is a data source (trait_overlap_FULLZOOSUM). The first two columns are A) the trait type and B) trait complex or functional dimension following Castillo-Figueroa & Pérez-Torres (2021). If any given functional trait is included in two or more publications, they occupy the same row in a different column, each with the name given by the source indicated in the column header. If any given trait is present in a source (A), but absent in another source (B), the row in the B source was assigned a NA value. Following this methodology, any additional functional trait reported in a source will generate a new row without affecting the data sources already included. The number of times in which any given trait was represented in all the data sources was counted, and the descriptors of each trait were obtained from the first publication in which it was identified.
 
-![The first two columns in b) and c) correspond to trait type and the trait complex or functional dimension following Castillo-Figueroa & Pérez-Torres (2021).](doc/images/FirstChapter_TraitSelection.png "Trait selection process.")
+In order to select the trait list to be evaluated, a summary of the trait representativeness by data source was conducted. The trait name, type and dimension, variable type, number of times it is represented in the sources consulted, and the sources’ citations are reported as tables and histograms. There are 3 files per table and histogram tables and histograms in the output/trait_categories folder: 1) the full list of traits obtained, 2) the traits reported in 2 or more data sources, and 3) the traits reported in only one data source. The reasoning behind the output reported is because a trait reported in only one data source is either 1) only present in the proposal made by Castillo-Figueroa & Pérez-Torres (2021) and therefore doesn’t contain any data, or 2) prone to skew the representativeness of the trait to a single data source due to variables only present in one data source. Nevertheless, traits represented only once in a data source, besides Castillo-Figueroa & Pérez-Torres (2021) proposal, should be individually checked as they might be too bat-specific to be well represented in multi-taxa assessments.
 
-In order to select the trait list to be evaluated, a summary of the trait representativeness by data source was conducted. The trait name, type and dimension, variable type, number of times it is represented in the sources consulted, and the sources’ citations are reported as tables and histograms. There are 3 files per table and histogram tables and histograms in the output/trait_categories folder: 1) the full list of traits obtained, 2) the traits reported in 2 or more data sources, and 3) the traits reported in only one data source besides the proposal made by Castillo-Figueroa & Pérez-Torres (2021), and 4) the traits reported only in the proposal made by Castillo-Figueroa & Pérez-Torres (2021). The reasoning to provide two tables were a trait is reported just once per data source is twofold: a) A trait reported only in the proposal made by Castillo-Figueroa & Pérez-Torres (2021) doesn’t contain any data, and b) a trait found only once is prone to skew the representativeness of the trait to a single data source. Nevertheless, traits represented once, besides Castillo-Figueroa & Pérez-Torres (2021) proposal, should be individually checked as they might be too bat-specific to be well represented in multi-taxa assessments.
-
-![](doc/images/type_dimensions_hist_full.png)
+<img src="images/type_dimensions_hist_full.png" width="900"/>
 
 Glossary for column names in trait_overlap_summary.csv. The column names label, type, units, allowed_values_min, allowed_values_max, and description were taken from the traits.build package (Wenk et al., 2024). The following trait types and dimensions were obtained from the proposal of Castillo-Figueroa & Pérez-Torres (2021), and complemented by the types and dimensions included the databases AfroBat (Cosentino et al., 2023), EuroBaTrait (Froidevaux et al., 2023), and Bat Eco-Interactions (Geiselman & Ember, 2020).
 
