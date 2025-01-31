@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 # GlobalBatTraitDatabase: Literature review and trait selection process
 
 - [Introduction](#introduction)
