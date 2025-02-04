@@ -3,7 +3,7 @@ project:
 output-dir: docs
 
 website:
-  title: "GBTD Robert"
+  title: "GBTD"
   sidebar:
     background: primary
     pinned: true
@@ -13,11 +13,11 @@ website:
       - href: index.qmd
         text: Home
       - href: readme.qmd
-        text: Repo description
+        text: Methodology
 
 format:
   html:
-    theme: darkly
+    theme: flatly
     fontsize: 1.3em
     toc: true
 

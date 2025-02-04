@@ -1,6 +1,6 @@
-A total of 345 different traits were identified in the studies consulted (Table 3). Four trait types are represented: Morphological (n traits = 70), Life history (n traits = 259), Genetic (n traits = 9), and Interactions (n traits = 7). The types are subdivided in 17 complexes or functional dimensions: Size, Wings, Pollex, Hindlimbs, Head, and Tail (Morphological); Reproductive, Physiological, Behavioral, Trophic niche, Spatial niche, Echolocation, Conservation, and Threats (Life history); Genetic composition (Genetic); and Ecological interactions and Pathogens (Interactions).
+A total of 345 different traits were identified in the studies consulted (Table 3). Four trait types are represented: Morphological (n traits = 70), Life history (n traits = 259), Genetic (n traits = 9), and Interactions (n traits = 7). The types are subdivided into 17 complexes or functional dimensions: Size, Wings, Pollex, Hindlimbs, Head, and Tail (Morphological); Reproductive, Physiological, Behavioral, Trophic niche, Spatial niche, Echolocation, Conservation, and Threats (Life history); Genetic composition (Genetic); and Ecological interactions and Pathogens (Interactions).
 
-```{r Trait list, echo=FALSE, message=FALSE, fig.cap= "Trait representation list"}
+```{r Trait list, echo=FALSE, message=FALSE, warning=FALSE, tidy=FALSE}
 
 library(tidyverse)
 library(ggh4x)

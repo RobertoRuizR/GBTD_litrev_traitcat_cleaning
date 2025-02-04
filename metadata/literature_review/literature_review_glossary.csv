@@ -6,3 +6,4 @@ includes_trait_info,Does the publication include bat functional trait data?
 directly_available,Is the trait data freely accesible from the data source?
 fully_included_in_another_source,Is the trait data fully obtained from any other source already included in the literature review?
 pub_type,Type of publication.
+phase,"Phase of literature review: first_phase: Automated search of Google Scholar, Scopus, and Web of Science databases; second_phase: Manual search made by screening pf Web of Science and databases listed in supplementary files of cosentino et al., (2023) and Froidevaux et al., (2023); third_phase: Entries obtained by manual citation searching."

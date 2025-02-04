@@ -1,6 +1,6 @@
-After the removal of duplicated and non relevant entries, a total of 158 studies were obtained from the literature search.
+After the removal of duplicated and non-relevant entries, a total of 158 studies were obtained from the literature search.Of the total of studies obtained, 27 were databases or data papers, 105 were review articles, and 26 were studies which obtained their data from long-term sampling efforts or biological collections
 
-```{r Literature review list, echo=FALSE, message=FALSE, fig.cap= "Literature review"}
+```{r Literature review list, echo=FALSE, message=FALSE, warning=FALSE, tidy=FALSE}
 
 library(tidyverse)
 library(ggh4x)
@@ -17,9 +17,8 @@ citation_list |>
   select(Title, Year, Source, DOI, directly_available) |>
   kbl(caption = "Table 2. List of studies obtained from the literature review carried out for the extraction of bat functional trait data.", col.names = c("Title", "Year", "Study", "DOI", "Trait data directly available")) |>
   kable_styling(full_width = F, html_font = "Calibri", fixed_thead = T, font_size = 16) |>
-  scroll_box(width = "1300px", height = "500px")
+  scroll_box(height = "500px")
 
 ```
 
-<br>
-<br>
+<br> <br>

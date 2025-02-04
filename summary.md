@@ -1,4 +1,3 @@
-# GlobalBatTraitDatabase: Literature review and trait selection process
 
 - [Configuration](doc/config.md)
 -   [Introduction](doc/intro.md)
@@ -7,7 +6,7 @@
     -   [Functional trait selection process](doc/trait_categories.md)
 -   Preliminary results
     -   [Literature review](doc/literature_review_results.md)
-    -   [Functional trait selection process](doc/trait_categories_results.md)
+    -   [Functional traits selection process](doc/trait_categories_results.md)
 -   [Points to discuss](doc/discuss.md)
 -   [References](doc/references.md)
 -   [File organization](doc/sections.md)

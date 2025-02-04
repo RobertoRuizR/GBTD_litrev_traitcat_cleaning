@@ -1,12 +1,12 @@
-A literature search of the Web of Science and Scopus databases, and also the Google Scholar search engine, was conducted on December 1st, 2024, with Harzing’s Publish or Perish software using the following keywords: “bat review” OR “bat dataset” OR “bat global assessment” OR “bat traits” OR "bat functional traits" OR “bat meta-analysis” OR “bat data paper”. The inclusion criteria for entries included was:
+A literature search of the Web of Science and Scopus databases, and also the Google Scholar search engine, was conducted on December 1st, 2024, with Harzing’s Publish or Perish software using the following keywords: “bat review” OR “bat dataset” OR “bat global assessment” OR “bat traits” OR "bat functional traits" OR “bat meta-analysis” OR “bat data paper”. The inclusion criteria for entries considered was:
 
 1.  Multi-taxa or specific studies that included information on bat functional traits
 
 2.  Secondary studies (e.g. databases and review articles). No publications from grey literature were considered..
 
-3.  Studies withdata was taken from biological collections and long term studies,.
+3.  Studies with data taken from biological collections and long-term studies,.
 
-4.  Studies reported in the english or spanish languages.
+4.  Studies published in the english or spanish languages.
 
 5.  Studies published in a scientific journal with an assigned impact factor.
 
@@ -34,7 +34,7 @@ A second phase of literature review was conducted from the 2nd of December to De
     -   *to_keep*: The publication is kept if it is a database, review, or a study which takes its data from biological collections or long term studies?
 5.  Each entry was manually screened in order to retain only entries with information on bat functional traits. (n left = 171).
     -   *includes_trait_info*: Does the publication include bat functional trait data?
-6.  Each entry whose data comes from any other study considered in this literature search was discarded (n left = 157).
+6.  Each entry whose data comes from any other study considered in this literature search was discarded (n left = 158).
     -   *fully_included_in_another_source*: Is the trait data fully obtained from any other study already included in the literature review?
 
 ```{r literature review selection process, fig.align = 'center', out.width = "100%", fig.cap = "Figure 1. PRISMA 2020 flow diagram for bat functional trait data retrieval for the creation of a Global Bat Trait Database", echo=FALSE, message=FALSE}
