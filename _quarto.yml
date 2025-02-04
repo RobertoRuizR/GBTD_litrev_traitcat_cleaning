@@ -1,0 +1,26 @@
+project:
+  type: website
+output-dir: docs
+
+website:
+  title: "GBTD Robert"
+  sidebar:
+    background: primary
+    pinned: true
+    align: center
+    style: docked
+    contents: 
+      - href: index.qmd
+        text: Home
+      - href: readme.qmd
+        text: Repo description
+
+format:
+  html:
+    theme: darkly
+    fontsize: 1.3em
+    toc: true
+
+execute:
+  freeze: auto
+
