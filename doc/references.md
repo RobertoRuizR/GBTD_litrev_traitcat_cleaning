@@ -12,6 +12,8 @@
 
 -   Hortal, J., De Bello, F., Diniz-Filho, J. A. F., Lewinsohn, T. M., Lobo, J. M., & Ladle, R. J. (2015). Seven Shortfalls that Beset Large-Scale Knowledge of Biodiversity. Annual Review of Ecology, Evolution, and Systematics, 46(1), 523–549. <https://doi.org/10.1146/annurev-ecolsys-112414-054400>
 
+-   Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Alonso-Fernández, S. (2021). Declaración PRISMA 2020: Una guía actualizada para la publicación de revisiones sistemáticas. Revista Española de Cardiología, 74(9), 790–799. <https://doi.org/10.1016/j.recesp.2021.06.016>
+
 -   Schneider, F., Jochum, M., LeProvost, G., Ostrowski, A., Penone, C., & Simons, N. K. (2019). Ecological Trait-data Standard Vocabulary (v0.10). <https://doi.org/10.5281/zenodo.2605377>
 
 -   Troudet, J., Grandcolas, P., Blin, A., Vignes-Lebbe, R., & Legendre, F. (2017). Taxonomic bias in biodiversity data and societal preferences. Scientific Reports, 7(1), 9132. <https://doi.org/10.1038/s41598-017-09084-6>
@@ -26,6 +28,4 @@
 
 -   Zamora-Gutierrez, V., Ortega, J., Avila-Flores, R., Aguilar-Rodríguez, P. A., Alarcón-Montano, M., Avila-Torresagatón, L. G., Ayala-Berdón, J., Bolívar-Cimé, B., Briones-Salas, M., Chan-Noh, M., Chávez-Cauich, M., Chávez, C., Cortés-Calva, P., Cruzado, J., Cuevas, J. C., Del Real-Monroy, M., Elizalde-Arellano, C., García-Luis, M., García-Morales, R., … MacSwiney G., M. C. (2020). The Sonozotz project: Assembling an echolocation call library for bats in a megadiverse country. Ecology and Evolution, 10(11), 4928–4943. <https://doi.org/10.1002/ece3.6245>
 
-
-<br>
-<br>
+<br> <br>

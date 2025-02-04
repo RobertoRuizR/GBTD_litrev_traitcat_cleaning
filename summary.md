@@ -1,5 +1,6 @@
 # GlobalBatTraitDatabase: Literature review and trait selection process
 
+- [Configuration](doc/config.md)
 -   [Introduction](doc/intro.md)
 -   Methodology
     -   [Literature review](doc/literature_review.md)

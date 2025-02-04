@@ -1,4 +1,4 @@
-After the removal of duplicated and non relevant entries, a total of 157 studies were obtained from the literature search.
+After the removal of duplicated and non relevant entries, a total of 158 studies were obtained from the literature search.
 
 ```{r Literature review list, echo=FALSE, message=FALSE, fig.cap= "Literature review"}
 

@@ -1,10 +1,10 @@
-A literature search of the Web of Science and Scopus databases, and also the Google Scholar search engine, was conducted with Harzing’s Publish or Perish software using the following keywords: “bat review” OR “bat dataset” OR “bat global assessment” OR “bat traits” OR "bat functional traits" OR “bat meta-analysis” OR “bat data paper”. The inclusion criteria for entries included was:
+A literature search of the Web of Science and Scopus databases, and also the Google Scholar search engine, was conducted on December 1st, 2024, with Harzing’s Publish or Perish software using the following keywords: “bat review” OR “bat dataset” OR “bat global assessment” OR “bat traits” OR "bat functional traits" OR “bat meta-analysis” OR “bat data paper”. The inclusion criteria for entries included was:
 
 1.  Multi-taxa or specific studies that included information on bat functional traits
 
 2.  Secondary studies (e.g. databases and review articles). No publications from grey literature were considered..
 
-3.  Studies whose data was taken from biological collections and long term studies,.
+3.  Studies withdata was taken from biological collections and long term studies,.
 
 4.  Studies reported in the english or spanish languages.
 
@@ -23,7 +23,7 @@ The next series of steps were implemented in order to clean the citation data fo
     -   Keywords removed from the Publisher field: *donepetro, ebooks*.
 5.  Entries in a language other than english or spanish were removed (n left = 161).
 
-A second phase of literature review was conducted by searching the Web of Science database using the following string search: (bat OR bats OR chiroptera) AND (review OR traits OR functional traits OR meta-analysis) NOT (vaccines OR biomaterial OR bio-medical OR brown adipose tissue OR therapeutics OR biosynthesis). The entries were reviewed up until page number 30 with the following results:
+A second phase of literature review was conducted from the 2nd of December to December 15, 2024, undefinedby searching the Web of Science database using the following string search: (bat OR bats OR chiroptera) AND (review OR traits OR functional traits OR meta-analysis) NOT (vaccines OR biomaterial OR bio-medical OR brown adipose tissue OR therapeutics OR biosynthesis). The entries were reviewed up until page number 30. The databases included in the supplementary tables available in Cosentino et al., (2023) and Froidevaux et al., (2023) were also included at this point in the Bats_Data
 
 1.  259 entries were obtained
 2.  Duplicate entries were removed (n left = 233).
