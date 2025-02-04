@@ -21,6 +21,10 @@
 
 # Introduction
 
+This document compiles the code and data used for the literature review and functional trait selection process for the creation of a Global Bat Trait Database. This repository is maintained by Roberto A. Ruiz-Ramírez. Any questions or inquiries: [roberto.ruiz\@posgrado.ecologia.edu.mx](mailto:roberto.ruiz@posgrado.ecologia.edu.mx)
+
+This database is part of the first chapter of the PhD thesis "*Assessment of knowledge gaps in bats: A macroecological perspective*" which is being carried out by [Roberto Antonio Ruiz-Ramírez](https://maevolab.mx/authors/roberto/) at the [Evolutionary Macroecology Lab](https://maevolab.mx/). This chapter focuses on the assessment of knowledge gaps and biases in the available information on bat functional traits at a global level.
+
 Functional traits (FT) – well-defined, measurable, morphophysiological
 and ecological characteristics that influence the fitness of individuals
 – have been used to model numerous ecological processes, as well as
