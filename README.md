@@ -1,5 +1,5 @@
+# Global Bat Trait Database: Literature review and trait selection process
 
-- [Configuration](#configuration)
 - [Introduction](#introduction)
 - [Methodology](#methodology)
   - [Literature review](#literature-review)
@@ -18,7 +18,6 @@
   - [Scripts](#scripts)
   - [References](#references-1)
 
-# Configuration
 
 # Introduction
 
