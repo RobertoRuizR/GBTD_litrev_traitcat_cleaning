@@ -97,7 +97,7 @@ data for the first phase of literature review (Figure 1):
 
 1.  The three files obtained in the first literature search (found in
     data/raw/literature_review/ as scholar.csv, scopus.csv, and wos.csv)
-    were combined in the R environment (n left = 538).
+    were combined in the R environment (n = 538).
 2.  Duplicate entries were removed (n left = 514).
 3.  Entries without any Source, Year, or Publisher information were
     removed (n left = 325).
