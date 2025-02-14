@@ -6,5 +6,4 @@ Functional traits (FT) – well-defined, measurable, morphophysiological and eco
 
 The specific objectives of this chapter are: 1) to identify the gaps and biases in the knowledge of the functional traits of the order Chiroptera at a global level, and 2) to create a global bat functional trait database.
 
-<br>
-<br>
+<br> <br>

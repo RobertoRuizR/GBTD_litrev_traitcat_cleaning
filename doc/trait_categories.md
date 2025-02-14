@@ -1,8 +1,8 @@
 A total of 12 studies were screened for the selection of the functional traits to be evaluated (Table 1). The proposal for a trait-based approach for the study of bats (Castillo-Figueroa & Pérez-Torres 2021) was used as a baseline to define the trait types, complex or functional dimensions, and traits to be evaluated. Full citation data is contained in the bib/trait_categories folder as .bib, .csv and .docx files. Studies were included if they were:
 
--   A multi-taxa global compilation of functional trait data which includes bats.
--   A bat-specific global compilation of functional trait data.
--   A dimension-specific global compilation of bat functional trait data.
+-   A multi-taxa compilation of functional trait data which includes bats.
+-   A bat-specific compilation of functional trait data.
+-   A dimension-specific compilation of bat functional trait data.
 
 In addition to wing morphology traits, echolocation traits are also highly relevant for the study of bat ecology and conservation (Zamora et al., 2016; Zamora et al., 2020). However, the databases specialized for bat echolocation calls (e.g. ChiroVox; Görföl et al., 2022) usually contain the .wav files instead of the extracted parameters reported in other databases (e.g. frequency of the call, interpulse duration, pulse duration, among others). For this reason, such databases are not included in the studies screened for the trait selection process.
 

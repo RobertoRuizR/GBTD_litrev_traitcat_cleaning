@@ -7,8 +7,8 @@
     process](#functional-trait-selection-process)
 - [Preliminary results](#preliminary-results)
   - [Literature review](#literature-review-1)
-  - [Functional traits selection
-    process](#functional-traits-selection-process)
+  - [Functional trait selection
+    process](#functional-trait-selection-process-1)
 - [Points to discuss](#points-to-discuss)
 - [References](#references)
 - [File organization](#file-organization)
@@ -19,11 +19,8 @@
   - [References](#references-1)
 
 
+
 # Introduction
-
-This document compiles the code and data used for the literature review and functional trait selection process for the creation of a Global Bat Trait Database. This repository is maintained by Roberto A. Ruiz-Ramírez. Any questions or inquiries: [roberto.ruiz\@posgrado.ecologia.edu.mx](mailto:roberto.ruiz@posgrado.ecologia.edu.mx)
-
-This database is part of the first chapter of the PhD thesis "*Assessment of knowledge gaps in bats: A macroecological perspective*" which is being carried out by [Roberto Antonio Ruiz-Ramírez](https://maevolab.mx/authors/roberto/) at the [Evolutionary Macroecology Lab](https://maevolab.mx/). This chapter focuses on the assessment of knowledge gaps and biases in the available information on bat functional traits at a global level.
 
 Functional traits (FT) – well-defined, measurable, morphophysiological
 and ecological characteristics that influence the fitness of individuals
@@ -69,91 +66,56 @@ database.
 
 ## Literature review
 
-A literature search of the Web of Science and Scopus databases, and also
-the Google Scholar search engine, was conducted on December 1st, 2024,
-with Harzing’s Publish or Perish software using the following keywords:
-“bat review” OR “bat dataset” OR “bat global assessment” OR “bat traits”
-OR “bat functional traits” OR “bat meta-analysis” OR “bat data paper”.
+A literature search of the Web of Science database and Google Scholar
+search engine was conducted on February, 2025, using the following
+keywords: (bat OR bats OR chiropter\*) AND (review OR trait OR traits OR
+functional traits OR functional trait OR characteristic OR
+characteristics OR morphological OR life history). The literature search
+was not restricted in the date range and it included studies from 1966
+up to 2025. Entries not related to bats were excluded from the search
+terms: (vaccines OR biomaterial OR bio-medical OR brown adipose tissue
+OR therapeutics OR biosynthesis). The first 300 listed results were
+inspected from the Web of Science and Google Scholar searches, as this
+number is also reported in published systematic reviews of bats
+(e.g. Crane et al., 2022) (Figure 1). The reference lists and
+supplementary information from relevant publications were also inspected
+(AfroBat, EuroBaTrait) for further relevant entries.
+
 The inclusion criteria for entries considered was:
 
-1.  Multi-taxa or specific studies that included information on bat
-    functional traits
+1.  Multi-taxa or bat-specific studies that included information on bat
+    functional traits published on peer-reviewed journals.
 
-2.  Secondary studies (e.g. databases and review articles). No
-    publications from grey literature were considered..
+    - This includes data papers, review articles, and case studies.
 
-3.  Studies with data taken from biological collections and long-term
-    studies,.
+2.  Multi-taxa or bat-specific publications that included information on
+    bat functional traits but were not published on peer-reviewed
+    journals.
 
-4.  Studies published in the english or spanish languages.
+    - This includes online databases, books, book chapters, and reports.
 
-5.  Studies published in a scientific journal with an assigned impact
-    factor.
+3.  Studies published in the english or spanish languages.
 
 <br>
 
-The next series of steps were implemented in order to clean the citation
-data for the first phase of literature review (Figure 1):
+The bat functional trait information available from the Handbook of
+Mammals of the World (Wilson & Mittermeier 2019, obtained from Sherman
+et al., 2024), as well as the Mammalian Species records, which are
+published by the American Society of Mammalogists, will also be obtained
+for integration into the database.
 
-1.  The three files obtained in the first literature search (found in
-    data/raw/literature_review/ as scholar.csv, scopus.csv, and wos.csv)
-    were combined in the R environment (n = 538).
-2.  Duplicate entries were removed (n left = 514).
-3.  Entries without any Source, Year, or Publisher information were
-    removed (n left = 325).
-4.  Entries not related to bats (e.g. brown adipose tissue) were removed
-    (n left = 163).
-    - Keywords removed from the Source field: *Conference, Forum,
-      Universe, Astrophysical, Astronomy, X-ray, X-Ray, bioRxiv,
-      BioRxiv, arXiv, Medical, Authorea, Electronics, Industrial,
-      Addiction, Law, Children, Patent, Fuel, Epiphany, Legal,
-      Available, Congress, magnetic, EURASIP, Technology, IEEE,
-      Neurocomputing, EPA, Engineering, Theological, Poet, Future, Drug,
-      Energies, policy, Experientia, Nutrients, Intelligence, Physician,
-      Network, Reform, Expert, Administration, Briefings, Pentagon,
-      Computational, Entropy.*
-    - Keywords removed from the Title field: *adipose, fat, poetry,
-      GABA, Basophil, galaxies, gamma-ray, Combustion, UAV, Dances,
-      cigarette, Cigarette, industrial, Brownian, President, magnetic,
-      director, Children, carbon, CO2, Smoking, Court, package, cloning,
-      Twitter, X-ray, Judges, archaeal, engagement, amnesic, adiposity,
-      economic, benzene, policy, Internet, Education, stance, WAN,
-      Diffusion, PasswordsVirtual, TECHNOLOGIES, eyetracking,
-      Eye-Tracking, CCS, cluster*.
-    - Keywords removed from the Publisher field: *donepetro, ebooks*.
-5.  Entries in a language other than english or spanish were removed (n
-    left = 161).
-
-A second phase of literature review was conducted from the 2nd of
-December to December 15, 2024, undefinedby searching the Web of Science
-database using the following string search: (bat OR bats OR chiroptera)
-AND (review OR traits OR functional traits OR meta-analysis) NOT
-(vaccines OR biomaterial OR bio-medical OR brown adipose tissue OR
-therapeutics OR biosynthesis). The entries were reviewed up until page
-number 30. The databases included in the supplementary tables available
-in Cosentino et al., (2023) and Froidevaux et al., (2023) were also
-included at this point in the Bats_Data
-
-1.  259 entries were obtained
-2.  Duplicate entries were removed (n left = 233).
-3.  This dataset (second_phase) was combined with the previous dataset
-    (first_phase) and duplicates were removed (n left = 379).
-4.  Entries were screened manually to discard any irrelevant publication
-    (i.e. not related to bats) that was left behind by previous steps.
-    (n left = 223).
+1.  Eeach entry will be screened manually to identify publications
+    reporting bat functional trait data. The following columns were
+    added to the csv file for screening purposes.
     - *includes_bats_in_title*: Does the publication have the “bat” or
       any variation of the word in the title?
     - *includes_traits_in_title*: Does the publication have the “trait”
       or any variation of the word in the title?
-    - *to_keep*: The publication is kept if it is a database, review, or
-      a study which takes its data from biological collections or long
-      term studies?
-5.  Each entry was manually screened in order to retain only entries
-    with information on bat functional traits. (n left = 171).
+    - *to_keep*: Column to exclude duplicates, non english or spanish
+      publications, not excluded by automatic tools. Also excludes
+      publications not accessible for initial screening.
     - *includes_trait_info*: Does the publication include bat functional
       trait data?
-6.  Each entry whose data comes from any other study considered in this
-    literature search was discarded (n left = 158).
     - *fully_included_in_another_source*: Is the trait data fully
       obtained from any other study already included in the literature
       review?
@@ -180,10 +142,9 @@ dimensions, and traits to be evaluated. Full citation data is contained
 in the bib/trait_categories folder as .bib, .csv and .docx files.
 Studies were included if they were:
 
-- A multi-taxa global compilation of functional trait data which
-  includes bats.
-- A bat-specific global compilation of functional trait data.
-- A dimension-specific global compilation of bat functional trait data.
+- A multi-taxa compilation of functional trait data which includes bats.
+- A bat-specific compilation of functional trait data.
+- A dimension-specific compilation of bat functional trait data.
 
 In addition to wing morphology traits, echolocation traits are also
 highly relevant for the study of bat ecology and conservation (Zamora et
@@ -396,11 +357,8 @@ Castillo-Figueroa & Pérez-Torres (2021).
 
 ## Literature review
 
-After the removal of duplicated and non-relevant entries, a total of 158
-studies were obtained from the literature search.Of the total of studies
-obtained, 27 were databases or data papers, 105 were review articles,
-and 26 were studies which obtained their data from long-term sampling
-efforts or biological collections
+After the removal of duplicated and non-relevant entries, a total of 535
+studies were obtained from the literature search.
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; ">
 
@@ -431,6 +389,23 @@ Trait data directly available
 <tbody>
 <tr>
 <td style="text-align:left;">
+A database of common vampire bat reports
+</td>
+<td style="text-align:right;">
+2022
+</td>
+<td style="text-align:left;">
+Scientific Data
+</td>
+<td style="text-align:left;">
+10.1038/s41597-022-01140-9
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 A dataset on African bats’ functional traits
 </td>
 <td style="text-align:right;">
@@ -441,507 +416,6 @@ Scientific Data
 </td>
 <td style="text-align:left;">
 10.1038/s41597-023-02472-w
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Trait-dependent tolerance of bats to urbanization: a global
-meta-analysis
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-Proceedings of the Royal Society …
-</td>
-<td style="text-align:left;">
-10.1098/rspb.2018.1222
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Urban affinity and its associated traits: A global analysis of bats
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Global Change …
-</td>
-<td style="text-align:left;">
-10.1111/gcb.16320
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Global patterns of functional trait variation along aridity gradients in
-bats
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Global Ecology and …
-</td>
-<td style="text-align:left;">
-10.1111/geb.13278
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Why bats matters: A critical assessment of bat-mediated ecological
-processes in the Neotropics
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-european Journal of ecology
-</td>
-<td style="text-align:left;">
-10.17161/eurojecol.v6i1.13824
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-African bat database: curated data of occurrences, distributions and
-conservation metrics for sub-Saharan bats
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Scientific Data
-</td>
-<td style="text-align:left;">
-10.1038/s41597-024-04170-7
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A meta-analysis exploring associations between habitat degradation and
-Neotropical bat virus prevalence and seroprevalence
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Ecography
-</td>
-<td style="text-align:left;">
-10.1111/ecog.07041
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Drivers of bat roles in Neotropical seed dispersal networks: abundance
-is more important than functional traits
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Oecologia
-</td>
-<td style="text-align:left;">
-10.1007/s00442-020-04662-4
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A global synthesis of survival estimates for microbats
-</td>
-<td style="text-align:right;">
-2015
-</td>
-<td style="text-align:left;">
-Biology …
-</td>
-<td style="text-align:left;">
-10.1098/rsbl.2015.0371
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Does seed ingestion by bats enhance germination? A new meta-analysis 15
-years later
-</td>
-<td style="text-align:right;">
-2019
-</td>
-<td style="text-align:left;">
-Mammal …
-</td>
-<td style="text-align:left;">
-10.1111/mam.12153
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cerrado bat community assembly is determined by both present day and
-historical factors
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Journal of Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/jbi.14798
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Six reference-quality genomes reveal evolution of bat adaptations
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Nature
-</td>
-<td style="text-align:left;">
-10.1038/s41586-020-2486-3
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Drivers of European bat population change: a review reveals evidence
-gaps
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal …
-</td>
-<td style="text-align:left;">
-10.1111/mam.12239
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Design and applicability of DNA arrays and DNA barcodes in biodiversity
-monitoring
-</td>
-<td style="text-align:right;">
-2007
-</td>
-<td style="text-align:left;">
-BMC biology
-</td>
-<td style="text-align:left;">
-10.1186/1741-7007-5-24
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The influence of bat ecology on viral diversity and reservoir status
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1002/ece3.6315
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The role of forest structure and composition in driving the distribution
-of bats in Mediterranean regions
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Scientific Reports
-</td>
-<td style="text-align:left;">
-10.1038/s41598-022-07229-w
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Vulnerability of bat-plant pollination interactions due to environmental
-change
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Global Change …
-</td>
-<td style="text-align:left;">
-10.1111/gcb.15611
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Do gastrointestinal microbiomes play a role in bats’ unique viral
-hosting capacity?
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Trends in …
-</td>
-<td style="text-align:left;">
-10.1016/j.tim.2021.12.009
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Evolutionary history and precipitation seasonality shape niche overlap
-in Neotropical bat-plant pollination networks
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Biotropica
-</td>
-<td style="text-align:left;">
-10.1111/btp.13181
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-An integrative approach to understanding diversity patterns and
-assemblage rules in Neotropical bats
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Scientific Reports
-</td>
-<td style="text-align:left;">
-10.1038/s41598-023-35100-z
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Sensory adaptations reshaped intrinsic factors underlying morphological
-diversification in bats
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-BMC biology
-</td>
-<td style="text-align:left;">
-10.1186/s12915-021-01022-3
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Annual precipitation predicts the phylogenetic signal in bat-fruit
-interaction networks across the Neotropics
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Biology …
-</td>
-<td style="text-align:left;">
-10.1098/rsbl.2021.0478
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Atmospheric humidity affects global variation of bat echolocation via
-indirect effects
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Frontiers in Ecology …
-</td>
-<td style="text-align:left;">
-10.3389/fevo.2022.934876
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scale‐dependent influences of environmental, historical, and spatial
-processes on taxonomic and functional beta diversity of Japanese bat
-assemblages
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1002/ece3.11277
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Global shifts in mammalian population trends reveal key predictors of
-virus spillover risk
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-… of the Royal …
-</td>
-<td style="text-align:left;">
-10.1098/rspb.2019.2736
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Reducing conflict between the common vampire bat Desmodus rotundus and
-cattle ranching in Neotropical landscapes
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Mammal …
-</td>
-<td style="text-align:left;">
-10.1111/mam.12313
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-An overview of bats microbiota and its implication in transmissible
-diseases
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Frontiers in …
-</td>
-<td style="text-align:left;">
-10.3389/fmicb.2022.1012189
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Geographical analysis for detecting high-risk areas for bovine/human
-rabies transmitted by the common hematophagous bat in the Amazon region,
-Brazil
-</td>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:left;">
-PLoS …
-</td>
-<td style="text-align:left;">
-10.1371/journal.pone.0157332
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-DarkCideS 1.0, a global database for bats in karsts and caves
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Scientific Data
-</td>
-<td style="text-align:left;">
-10.1038/s41597-022-01234-4
 </td>
 <td style="text-align:left;">
 yes
@@ -966,7 +440,61 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-A database of common vampire bat reports
+Activity following arousal in winter in North American vespertilionid
+bats
+</td>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:left;">
+MAMMAL REVIEW
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+no
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+An integrative approach to understanding diversity patterns and
+assemblage rules in Neotropical bats
+</td>
+<td style="text-align:right;">
+2023
+</td>
+<td style="text-align:left;">
+Scientific Reports
+</td>
+<td style="text-align:left;">
+10.1038/s41598-023-35100-z
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+An optimum body size for mammals? Comparative evidence from bats
+</td>
+<td style="text-align:right;">
+1997
+</td>
+<td style="text-align:left;">
+Functional Ecology
+</td>
+<td style="text-align:left;">
+10.1046/j.1365-2435.1997.00149.x
+</td>
+<td style="text-align:left;">
+no
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AnimalTraits - a curated animal trait database for body mass, metabolic
+rate and brain size
 </td>
 <td style="text-align:right;">
 2022
@@ -975,7 +503,7 @@ A database of common vampire bat reports
 Scientific Data
 </td>
 <td style="text-align:left;">
-10.1038/s41597-022-01140-9
+10.1038/s41597-022-01364-9
 </td>
 <td style="text-align:left;">
 yes
@@ -983,68 +511,17 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-DBatVir: the database of bat-associated viruses
+ATLANTIC MAMMAL TRAITS: a data set of morphological traits of mammals in
+the Atlantic Forest of South America
 </td>
 <td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Database
-</td>
-<td style="text-align:left;">
-10.1093/database/bau021
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The Sonozotz project: Assembling an echolocation call library for bats
-in a megadiverse country
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1002/ece3.6245
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A Standardized Review of Bat Names Across Multiple Taxonomic Authorities
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Arizona State University
-</td>
-<td style="text-align:left;">
-10.5281/zenodo.7915721
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-BatFly: A database of Neotropical bat-fly interactions
-</td>
-<td style="text-align:right;">
-2024
+2018
 </td>
 <td style="text-align:left;">
 Ecology
 </td>
 <td style="text-align:left;">
-10.1002/ecy.4249
+10.1002/ecy.2106
 </td>
 <td style="text-align:left;">
 yes
@@ -1052,16 +529,35 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-ChiroVox: a public library of bat calls
+ATLANTIC POLLINATION: a data set of flowers and interaction with
+nectar-feeding vertebrates from the Atlantic Forest
 </td>
 <td style="text-align:right;">
 2022
 </td>
 <td style="text-align:left;">
-PeerJ
+Ecology
 </td>
 <td style="text-align:left;">
-10.7717/peerj.12445
+10.1002/ecy.3595
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Atmospheric humidity affects global variation of bat echolocation via
+indirect effects
+</td>
+<td style="text-align:right;">
+2022
+</td>
+<td style="text-align:left;">
+FRONTIERS IN ECOLOGY AND EVOLUTION
+</td>
+<td style="text-align:left;">
+NA
 </td>
 <td style="text-align:left;">
 yes
@@ -1087,999 +583,16 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Updated distribution maps for neotropical bats in the superfamily
-Noctilionoidea
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-Ecology
-</td>
-<td style="text-align:left;">
-10.1002/ecy.2404
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-NeoBat Interactions: A data set of bat-plant interactions in the
-Neotropics
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Ecology
-</td>
-<td style="text-align:left;">
-10.1002/ecy.3640
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Climate is changing, are European bats too? A multispecies analysis of
-trends in body size
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1002/ece3.10872
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bats and their vital ecosystem services: a global review
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Integrative Zoology
-</td>
-<td style="text-align:left;">
-10.1111/1749-4877.12552
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Migration and dispersal patterns of bats and their influence on genetic
-structure
-</td>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/j.1365-2907.2012.00218.x
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Macroecological patterns of mammals across taxonomic, spatial, and
-temporal scales
-</td>
-<td style="text-align:right;">
-2019
-</td>
-<td style="text-align:left;">
-Journal of Mammalogy
-</td>
-<td style="text-align:left;">
-10.1093/jmammal/gyy171
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Limitations and gaps in global bat wing morphology trait data
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12270
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Global Medicinal Use of Bats: A Systematic Literature and Social Media
-Review
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Diversity
-</td>
-<td style="text-align:left;">
-10.3390/d14030179
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Is banning Persistent Organic Pollutants efficient? A quantitative and
-qualitative systematic review in bats
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Perspectives in Ecology and Conservation
-</td>
-<td style="text-align:left;">
-10.1016/j.pecon.2024.07.001
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bat mating systems:A review and recategorisation
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1002/ece3.70149
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bats and pollution: Genetic approaches in ecotoxicology
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Chemosphere
-</td>
-<td style="text-align:left;">
-10.1016/j.chemosphere.2022.135934
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The state of the bats in North America
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Annals of the New York Academy of Sciences
-</td>
-<td style="text-align:left;">
-10.1111/nyas.15225
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Estado del arte del conocimiento de biodiversidad de los polinizadores
-de Mexico
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Revista Mexicana de Biodiversidad
-</td>
-<td style="text-align:left;">
-10.22201/ib.20078706e.2022.93.3948
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Multiple mortality events in bats: a global review
-</td>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12064
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bats as bushmeat: a global review
-</td>
-<td style="text-align:right;">
-2009
-</td>
-<td style="text-align:left;">
-Oryx
-</td>
-<td style="text-align:left;">
-10.1017/S0030605308000938
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bats as prey of diurnal birds: a global perspective
-</td>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12060
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Interspecific competition in bats: state of knowledge and research
-challenges
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12180
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Effective conservation of subterranean-roosting bats
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Conservation Biology
-</td>
-<td style="text-align:left;">
-10.1111/cobi.14157
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Roads and bats: a meta-analysis and review of the evidence on vehicle
-collisions and barrier effects
-</td>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12072
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Cats Felis catus as a threat to bats worldwide: a review of the evidence
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12240
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-We eat meat: a review of carnivory in bats
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12254
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Trophic structure of frugivorous bats in the Neotropics: emergent
-patterns in evolutionary history
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12116
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Redefining the study of sexual dimorphism in bats: following the odour
-trail
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12232
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Does body mass restrict call peak frequency in echolocating bats?
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12196
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Chromatic disorders in bats: a review of pigmentation anomalies and the
-misuse of terms to describe them
-</td>
-<td style="text-align:right;">
-2017
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12083
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The threat of invasive species to bats: a review
-</td>
-<td style="text-align:right;">
-2017
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12099
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bats and aquatic habitats: a review of habitat use and anthropogenic
-impacts
-</td>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12059
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Identifying unusual mortality events in bats: a baseline for bat
-hibernation monitoring and white-nose syndrome research
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12122
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Roost site selection by tree-dwelling bats across biogeographical
-regions: an updated meta-analysis with meta-regression
-</td>
-<td style="text-align:right;">
-2015
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12044
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-In the shadow of the rising sun: a systematic review of Japanese bat
-research and conservation
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12226
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bats and bat-borne diseases: a perspective on Australian megabats
-</td>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:left;">
-Australian Journal of Zoology
-</td>
-<td style="text-align:left;">
-10.1071/ZO12126
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Systematic Review of the Roost-Site Characteristics of North American
-Forest Bats: Implications for Conservation
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Diversity
-</td>
-<td style="text-align:left;">
-10.3390/d12020076
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bat echolocation in continental China: a systematic review and first
-acoustic identification key for the country
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal Research
-</td>
-<td style="text-align:left;">
-10.1007/s13364-021-00570-x
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The calls of Vietnamese bats: a major step toward the acoustic
-characterization of Asian bats
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Scientific Reports
-</td>
-<td style="text-align:left;">
-10.1038/s41598-024-72436-6
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Economic value of bat predation services: A review and new estimates
-from macadamia orchards
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-Ecosystem Services
-</td>
-<td style="text-align:left;">
-10.1016/j.ecoser.2017.11.015
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Effects of climate change on life-history traits in hibernating mammals
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12308
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A review of the breeding biology of Chiroptera
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12236
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Heterothermy, body size, and locomotion as ecological predictors of
-migration in mammals
-</td>
-<td style="text-align:right;">
-2022
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12263
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Thinking outside the box: A review of artificial roosts for bats
-</td>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Wildlife Society Bulletin - Record Set Up In Error
-</td>
-<td style="text-align:left;">
-10.1002/wsb.461
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Activity following arousal in winter in North American vespertilionid
-bats
-</td>
-<td style="text-align:right;">
-2006
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/j.1365-2907.2006.00095.x
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Interindividual communication by bats via echolocation
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Canadian Journal of Zoology
-</td>
-<td style="text-align:left;">
-10.1139/cjz-2022-0121
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Use of synanthropic roosts by bats in Europe and North America
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12380
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Robust evidence for bats as reservoir hosts is lacking in most African
-virus studies: a review and call to optimize sampling and conserve bats
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Biology Letters
-</td>
-<td style="text-align:left;">
-10.1098/rsbl.2023.0358
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Evolution of Body Mass in Bats: Insights from a Large Supermatrix
-Phylogeny
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Journal of Mammalian Evolution
-</td>
-<td style="text-align:left;">
-10.1007/s10914-018-9447-8
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Ecological and evolutionary characteristics of anthropogenic roosting
-ability in bats of the world
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-iScience
-</td>
-<td style="text-align:left;">
-10.1016/j.isci.2024.110369
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A global assessment of the ‘island rule’ in bats based on functionally
-distinct measures of body size
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Journal of Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/jbi.14624
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Exploration of the morphology and functional implications of the
-forelimb in bats (Mammalia, Chiroptera) from the Neotropical region
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Zoomorphology
-</td>
-<td style="text-align:left;">
-10.1007/s00435-022-00588-y
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The relationship between wing morphology and foraging guilds: exploring
-the evolution of wing ecomorphs in bats
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Biological Journal of the Linnean Society
-</td>
-<td style="text-align:left;">
-10.1093/biolinnean/blad157
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Ecological Morphology of Neotropical Bat Wing Structures
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Zoological Studies
-</td>
-<td style="text-align:left;">
-10.6620/ZS.2020.59-60
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Latitudinal gradients in the ecology of New World bats
-</td>
-<td style="text-align:right;">
-2019
-</td>
-<td style="text-align:left;">
-Global Ecology and Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/geb.12892
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Pest suppression by bats and management strategies to favour it: a
-global review
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Biological Reviews
-</td>
-<td style="text-align:left;">
-10.1111/brv.12967
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Altitudinal migration in bats: evidence, patterns, and drivers
-</td>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:left;">
-Biological Reviews
-</td>
-<td style="text-align:left;">
-10.1111/brv.12024
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Tree roost selection by bats: an empirical synthesis using meta-analysis
-</td>
-<td style="text-align:right;">
-2005
-</td>
-<td style="text-align:left;">
-Wildlife Society Bulletin
-</td>
-<td style="text-align:left;">
-10.2193/0091-7648(2005)33\[1123:TRSBBA\]2.0.CO;2
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Acoustic identification of Mexican bats based on taxonomic and
-ecological constraints on call design
-</td>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:left;">
-Methods in Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1111/2041-210X.12556
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 Bat-borne viruses in Africa: a critical review
 </td>
 <td style="text-align:right;">
 2020
 </td>
 <td style="text-align:left;">
-Journal of Zoology
+JOURNAL OF ZOOLOGY
 </td>
 <td style="text-align:left;">
-10.1111/jzo.12769
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Environmental drivers of body size in North American bats
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Functional Ecology
-</td>
-<td style="text-align:left;">
-10.1111/1365-2435.14287
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-An optimum body size for mammals? Comparative evidence from bats
-</td>
-<td style="text-align:right;">
-1997
-</td>
-<td style="text-align:left;">
-Functional Ecology
-</td>
-<td style="text-align:left;">
-10.1046/j.1365-2435.1997.00149.x
+NA
 </td>
 <td style="text-align:left;">
 no
@@ -2087,17 +600,17 @@ no
 </tr>
 <tr>
 <td style="text-align:left;">
-The Critical Importance of Old World Fruit Bats for Healthy Ecosystems
-and Economies
+Bat functional traits associated with environmental, landscape, and
+conservation variables in Neotropical dry forests
 </td>
 <td style="text-align:right;">
-2021
+2023
 </td>
 <td style="text-align:left;">
-Frontiers in Ecology and Evolution
+FRONTIERS IN FORESTS AND GLOBAL CHANGE
 </td>
 <td style="text-align:left;">
-10.3389/fevo.2021.641411
+NA
 </td>
 <td style="text-align:left;">
 yes
@@ -2105,246 +618,16 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Review and meta-analysis of correlates of home range size in bats
+Bat mating systems-A review and recategorisation
 </td>
 <td style="text-align:right;">
 2024
 </td>
 <td style="text-align:left;">
-Journal of Mammalogy
+ECOLOGY AND EVOLUTION
 </td>
 <td style="text-align:left;">
-10.1093/jmammal/gyae036
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Trends in Bacterial Pathogens of Bats: Global Distribution and Knowledge
-Gaps
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Transboundary and Emerging Diseases
-</td>
-<td style="text-align:left;">
-10.1155/2023/9285855
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Coronavirus sampling and surveillance in bats from 1996-2019: a
-systematic review and meta-analysis
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Nature Microbiology
-</td>
-<td style="text-align:left;">
-10.1038/s41564-023-01375-1
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The Virome of Bats Inhabiting Brazilian Biomes: Knowledge Gaps and
-Biases towards Zoonotic Viruses
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Microbiology Spectrum
-</td>
-<td style="text-align:left;">
-10.1128/spectrum.04077-22
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Monitoring the trade in bat taxidermy and specimens on e-commerce
-platforms
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Biological Conservation
-</td>
-<td style="text-align:left;">
-10.1016/j.biocon.2024.110827
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Ecomorphological and phylogenetic controls on sympatry across extant
-bats
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-Journal of Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/jbi.13353
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Presencia del virus de la rabia en murciélagos no hematófagos en México
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Ecosistemas y Recursos Agropecuarios
-</td>
-<td style="text-align:left;">
-10.19136/era.a11n2.3768
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bat Ecology and Microbiome of the Gut: A Narrative Review of Associated
-Potentials in Emerging and Zoonotic Diseases
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Animals
-</td>
-<td style="text-align:left;">
-10.3390/ani14203043
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-How significant are bats as potential carriers of zoonotic
-\<i\>Cryptosporidium\</i\> and \<i\>Giardia\</i\>?
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Current Research in Parasitology & Vector-Borne Diseases
-</td>
-<td style="text-align:left;">
-10.1016/j.crpvbd.2023.100155
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Viral Co-Infection in Bats: A Systematic Review
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Viruses
-</td>
-<td style="text-align:left;">
-10.3390/v15091860
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Phylogeographic Aspects of Bat Lyssaviruses in Europe: A Review
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Pathogens
-</td>
-<td style="text-align:left;">
-10.3390/pathogens12091089
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-\<i\>Leishmania\</i\> species infection of bats: A systematic review
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Acta Tropica
-</td>
-<td style="text-align:left;">
-10.1016/j.actatropica.2023.107025
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The Bats of Greece: An Updated Review of Their Distribution, Ecology and
-Conservation
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Animals: an open access journal from MDPI
-</td>
-<td style="text-align:left;">
-10.3390/ani13152529
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A review of the diet of the common vampire bat (Desmodus rotundus) in
-the context of anthropogenic change
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Mammalian Biology
-</td>
-<td style="text-align:left;">
-10.1007/s42991-023-00358-3
+NA
 </td>
 <td style="text-align:left;">
 yes
@@ -2371,87 +654,16 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Body size information in large-scale acoustic bat databases
-</td>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:left;">
-PeerJ
-</td>
-<td style="text-align:left;">
-10.7717/peerj.5370
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Ecotoxicology of heavy metal contamination of Neotropical bats
+BatFly: A database of Neotropical bat–fly interactions
 </td>
 <td style="text-align:right;">
 2024
 </td>
 <td style="text-align:left;">
-Environmental Monitoring and Assessment
+Ecology
 </td>
 <td style="text-align:left;">
-10.1007/s10661-024-12553-x
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Organic contaminants in bats: Trends and new issues
-</td>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Environment International
-</td>
-<td style="text-align:left;">
-10.1016/j.envint.2013.10.009
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Inventory, Features, and Protection of Underground Roosts Used by Bats
-in Mexico
-</td>
-<td style="text-align:right;">
-2017
-</td>
-<td style="text-align:left;">
-Acta Chiropterologica
-</td>
-<td style="text-align:left;">
-10.3161/15081109ACC2017.19.2.019
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Structure of the Interaction Networks Between Bats (Mammalia:
-Chiroptera) and Ectoparasite Flies (Diptera: Streblidae, Nycteribiidae)
-on a Latitudinal Gradient
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Acta Chiropterologica
-</td>
-<td style="text-align:left;">
-10.3161/15081109ACC2020.22.1.018
+10.1002/ecy.4249
 </td>
 <td style="text-align:left;">
 yes
@@ -2459,157 +671,33 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-A systematic review on current approaches in bat virus discovered
-between 2018 and 2022
+Bats and bat-borne diseases: a perspective on Australian megabats
 </td>
 <td style="text-align:right;">
-2024
+2013
 </td>
 <td style="text-align:left;">
-Journal of Virological Methods
-</td>
-<td style="text-align:left;">
-10.1016/j.jviromet.2024.115005
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Wildlife Use of Anthropogenic Structures: A Comprehensive Review of
-Bridge Use by Bats
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Acta Chiropterologica
-</td>
-<td style="text-align:left;">
-10.3161/15081109ACC2023.25.1.008
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bat-associated microbes: Opportunities and perils, an overview
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Heliyon
-</td>
-<td style="text-align:left;">
-10.1016/j.heliyon.2023.e22351
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Are we hunting bats to extinction? Worldwide patterns of hunting risk in
-bats are driven by species ecology and regional economicsy
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Biological Conservation
-</td>
-<td style="text-align:left;">
-10.1016/j.biocon.2023.109944
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Infection of bats with Histoplasma species
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Medical Mycology
-</td>
-<td style="text-align:left;">
-10.1093/mmy/myad080
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A systematic review of trace elements in the tissues of bats
-(Chiroptera)
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Environmental Pollution
-</td>
-<td style="text-align:left;">
-10.1016/j.envpol.2024.124349
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Zoonotic bacterial pathogens in bats samples around the world: a scoping
-review
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Preventive Veterinary Medicine
-</td>
-<td style="text-align:left;">
-10.1016/j.prevetmed.2024.106135
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Roost Fidelity of Bats: A Review
-</td>
-<td style="text-align:right;">
-1995
-</td>
-<td style="text-align:left;">
-Journal of Mammalogy
-</td>
-<td style="text-align:left;">
-10.2307/1382357
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Exploring a Hidden Structure in New World Bats: The Pollex
-</td>
-<td style="text-align:right;">
-2022
+AUSTRALIAN JOURNAL OF ZOOLOGY
 </td>
 <td style="text-align:left;">
 NA
 </td>
 <td style="text-align:left;">
-10.5281/zenodo.13503351
+no
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bats as bushmeat: a global review
+</td>
+<td style="text-align:right;">
+2009
+</td>
+<td style="text-align:left;">
+ORYX
+</td>
+<td style="text-align:left;">
+NA
 </td>
 <td style="text-align:left;">
 yes
@@ -2617,53 +705,16 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Urbanisation generates multiple trait syndromes for terrestrial animal
-taxa worldwide
+Bats as prey of diurnal birds: a global perspective
 </td>
 <td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Nature Communications
-</td>
-<td style="text-align:left;">
-10.1038/s41467-023-39746-1
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Evolution of litter size in bats and its influence on longevity and
-roosting ecology
-</td>
-<td style="text-align:right;">
-2021
-</td>
-<td style="text-align:left;">
-Biological Journal of the Linnean Society
-</td>
-<td style="text-align:left;">
-10.1093/biolinnean/blaa203
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Re-weighing the 5% tagging recommendation: assessing the potential
-impacts of tags on the behaviour and body condition of bats
-</td>
-<td style="text-align:right;">
-2024
+2016
 </td>
 <td style="text-align:left;">
 Mammal Review
 </td>
 <td style="text-align:left;">
-10.1111/mam.12369
+10.1111/mam.12060
 </td>
 <td style="text-align:left;">
 yes
@@ -2671,16 +722,86 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Bats as bioindicators of heavy metal pollution: history and prospect
+Beyond head and wings: Unveiling influence of diet, body size, and
+phylogeny on the evolution of the femur in phyllostomid bats
 </td>
 <td style="text-align:right;">
-2015
+2025
 </td>
 <td style="text-align:left;">
-Mammalian Biology
+The Anatomical Record
 </td>
 <td style="text-align:left;">
-10.1016/j.mambio.2015.01.001
+10.1002/ar.25551
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Body Mass of Late Quaternary Mammals
+</td>
+<td style="text-align:right;">
+2003
+</td>
+<td style="text-align:left;">
+Ecology
+</td>
+<td style="text-align:left;">
+10.1890/02-9003
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Cerrado bat community assembly is determined by both present-day and
+historical factors
+</td>
+<td style="text-align:right;">
+2024
+</td>
+<td style="text-align:left;">
+Journal of Biogeography
+</td>
+<td style="text-align:left;">
+10.1111/jbi.14798
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ChiroVox: a public library of bat calls
+</td>
+<td style="text-align:right;">
+2022
+</td>
+<td style="text-align:left;">
+PeerJ
+</td>
+<td style="text-align:left;">
+10.7717/peerj.12445
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+COMADRE: a global data base of animal demography
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Journal of Animal Ecology
+</td>
+<td style="text-align:left;">
+10.1111/1365-2656.12482
 </td>
 <td style="text-align:left;">
 no
@@ -2688,35 +809,16 @@ no
 </tr>
 <tr>
 <td style="text-align:left;">
-Post-construction bird and bat fatality monitoring studies at wind
-energy projects in Latin America: A summary and review
+COMBINE: a coalesced mammal database of intrinsic and extrinsic traits
 </td>
 <td style="text-align:right;">
 2021
 </td>
 <td style="text-align:left;">
-Heliyon
+Ecology
 </td>
 <td style="text-align:left;">
-10.1016/j.heliyon.2021.e07251
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Evidence of Antimicrobial Resistance in Bats and Its Planetary Health
-Impact for Surveillance of Zoonotic Spillover Events: A Scoping Review
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-International Journal of Environmental Research and Public Health
-</td>
-<td style="text-align:left;">
-10.3390/ijerph20010243
+10.1002/ecy.3344
 </td>
 <td style="text-align:left;">
 yes
@@ -2742,16 +844,16 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Bat Eco-Interactions
+DarkCideS 1.0, a global database for bats in karsts and caves
 </td>
 <td style="text-align:right;">
-2024
+2022
 </td>
 <td style="text-align:left;">
-NA
+Scientific Data
 </td>
 <td style="text-align:left;">
-NA
+10.1038/s41597-022-01234-4
 </td>
 <td style="text-align:left;">
 yes
@@ -2759,16 +861,247 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Morphologic Properties of Bat Wings
+DBatVir: the database of bat-associated viruses
 </td>
 <td style="text-align:right;">
-1972
+2014
 </td>
 <td style="text-align:left;">
-Journal of Mammalogy
+Database
 </td>
 <td style="text-align:left;">
-10.2307/1379035
+10.1093/database/bau021
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Drivers of bat roles in Neotropical seed dispersal networks: abundance
+is more important than functional traits
+</td>
+<td style="text-align:right;">
+2020
+</td>
+<td style="text-align:left;">
+Oecologia
+</td>
+<td style="text-align:left;">
+10.1007/s00442-020-04662-4
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ecological and evolutionary characteristics of anthropogenic roosting
+ability in bats of the world
+</td>
+<td style="text-align:right;">
+2024
+</td>
+<td style="text-align:left;">
+iScience
+</td>
+<td style="text-align:left;">
+10.1016/j.isci.2024.110369
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ecological Morphology of Neotropical Bat Wing Structures
+</td>
+<td style="text-align:right;">
+2020
+</td>
+<td style="text-align:left;">
+Zoological Studies
+</td>
+<td style="text-align:left;">
+10.6620/ZS.2020.59-60
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Economic value of bat predation services - A review and new estimates
+from macadamia orchards
+</td>
+<td style="text-align:right;">
+2018
+</td>
+<td style="text-align:left;">
+ECOSYSTEM SERVICES
+</td>
+<td style="text-align:left;">
+10.1016/j.ecoser.2017.11.015
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Effects of climate change on life-history traits in hibernating mammals
+</td>
+<td style="text-align:right;">
+2023
+</td>
+<td style="text-align:left;">
+MAMMAL REVIEW
+</td>
+<td style="text-align:left;">
+10.1111/mam.12308
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Establishing macroecological trait datasets: digitalization,
+extrapolation, and validation of diet preferences in terrestrial mammals
+worldwide
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Ecology and Evolution
+</td>
+<td style="text-align:left;">
+10.1002/ece3.1136
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Evolution of Body Mass in Bats: Insights from a Large Supermatrix
+Phylogeny
+</td>
+<td style="text-align:right;">
+2020
+</td>
+<td style="text-align:left;">
+Journal of Mammalian Evolution
+</td>
+<td style="text-align:left;">
+10.1007/s10914-018-9447-8
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Evolution of litter size in bats and its influence on longevity and
+roosting ecology
+</td>
+<td style="text-align:right;">
+2021
+</td>
+<td style="text-align:left;">
+Biological Journal of the Linnean Society
+</td>
+<td style="text-align:left;">
+10.1093/biolinnean/blaa203
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Evolutionary history and precipitation seasonality shape niche overlap
+in Neotropical bat–plant pollination networks
+</td>
+<td style="text-align:right;">
+2023
+</td>
+<td style="text-align:left;">
+Biotropica
+</td>
+<td style="text-align:left;">
+10.1111/btp.13181
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Exploration of the morphology and functional implications of the
+forelimb in bats (Mammalia, Chiroptera) from the Neotropical region
+</td>
+<td style="text-align:right;">
+2023
+</td>
+<td style="text-align:left;">
+Zoomorphology
+</td>
+<td style="text-align:left;">
+10.1007/s00435-022-00588-y
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Global patterns of functional trait variation along aridity gradients in
+bats
+</td>
+<td style="text-align:right;">
+2021
+</td>
+<td style="text-align:left;">
+Global Ecology and Biogeography
+</td>
+<td style="text-align:left;">
+10.1111/geb.13278
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Go big or go fish: morphological specializations in carnivorous bats
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+Proceedings of the Royal Society B: Biological Sciences
+</td>
+<td style="text-align:left;">
+10.1098/rspb.2016.0615
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Home ranges of Recent mammals
+</td>
+<td style="text-align:right;">
+2015
+</td>
+<td style="text-align:left;">
+Ecology
+</td>
+<td style="text-align:left;">
+10.1890/14-2264.1
 </td>
 <td style="text-align:left;">
 no
@@ -2776,17 +1109,120 @@ no
 </tr>
 <tr>
 <td style="text-align:left;">
-Beyond head and wings: Unveiling influence of diet, body size, and
-phylogeny on the evolution of the femur in phyllostomid bats
+HomeRange: A global database of mammalian home ranges
 </td>
 <td style="text-align:right;">
-2024
+2023
 </td>
 <td style="text-align:left;">
-The Anatomical Record
+Global Ecology and Biogeography
 </td>
 <td style="text-align:left;">
-10.1002/ar.25551
+10.1111/geb.13625
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interindividual communication by bats via echolocation
+</td>
+<td style="text-align:right;">
+2023
+</td>
+<td style="text-align:left;">
+CANADIAN JOURNAL OF ZOOLOGY
+</td>
+<td style="text-align:left;">
+10.1139/cjz-2022-0121
+</td>
+<td style="text-align:left;">
+no
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Interspecific competition in bats: state of knowledge and research
+challenges
+</td>
+<td style="text-align:right;">
+2020
+</td>
+<td style="text-align:left;">
+Mammal Review
+</td>
+<td style="text-align:left;">
+10.1111/mam.12180
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Life history, ecology and longevity in bats
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+AGING CELL
+</td>
+<td style="text-align:left;">
+10.1046/j.1474-9728.2002.00020.x
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Limitations and gaps in global bat wing morphology trait data
+</td>
+<td style="text-align:right;">
+2022
+</td>
+<td style="text-align:left;">
+Mammal Review
+</td>
+<td style="text-align:left;">
+10.1111/mam.12270
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Multiple mortality events in bats: a global review
+</td>
+<td style="text-align:right;">
+2016
+</td>
+<td style="text-align:left;">
+MAMMAL REVIEW
+</td>
+<td style="text-align:left;">
+10.1111/mam.12064
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NeoBat Interactions: A data set of bat-plant interactions in the
+Neotropics
+</td>
+<td style="text-align:right;">
+2022
+</td>
+<td style="text-align:left;">
+Ecology
+</td>
+<td style="text-align:left;">
+10.1002/ecy.3640
 </td>
 <td style="text-align:left;">
 yes
@@ -2812,17 +1248,17 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Dental Variation in Megabats (Chiroptera: Pteropodidae): Tooth Metrics
-Correlate with Body Size and Tooth Proportions Reflect Phylogeny
+Redefining the study of sexual dimorphism in bats: following the odour
+trail
 </td>
 <td style="text-align:right;">
 2021
 </td>
 <td style="text-align:left;">
-Journal of Mammalian Evolution
+Mammal Review
 </td>
 <td style="text-align:left;">
-10.1007/s10914-020-09508-7
+10.1111/mam.12232
 </td>
 <td style="text-align:left;">
 yes
@@ -2830,16 +1266,17 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Comparative morphology and scaling of the femur in yangochiropteran bats
+Redefining the study of sexual dimorphism in bats: following the odour
+trailPalabras clave
 </td>
 <td style="text-align:right;">
-2019
+2021
 </td>
 <td style="text-align:left;">
-Journal of Anatomy
+MAMMAL REVIEW
 </td>
 <td style="text-align:left;">
-10.1111/joa.12996
+NA
 </td>
 <td style="text-align:left;">
 yes
@@ -2847,26 +1284,43 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-ATLANTIC MAMMAL TRAITS: a data set of morphological traits of mammals in
-the Atlantic Forest of South America
+Review and meta-analysis of correlates of home range size in bats
 </td>
 <td style="text-align:right;">
-2018
+2024
 </td>
 <td style="text-align:left;">
-Ecology
+JOURNAL OF MAMMALOGY
 </td>
 <td style="text-align:left;">
-10.1002/ecy.2106
+NA
 </td>
 <td style="text-align:left;">
-yes
+no
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-ZooTraits: An R shiny app for exploring animal trait data for ecological
-and evolutionary research
+ROOST FIDELITY OF BATS - A REVIEW
+</td>
+<td style="text-align:right;">
+1995
+</td>
+<td style="text-align:left;">
+JOURNAL OF MAMMALOGY
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+no
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Scale-dependent influences of environmental, historical, and spatial
+processes on taxonomic and functional beta diversity of Japanese bat
+assemblages
 </td>
 <td style="text-align:right;">
 2024
@@ -2875,7 +1329,7 @@ and evolutionary research
 Ecology and Evolution
 </td>
 <td style="text-align:left;">
-10.1002/ece3.11334
+10.1002/ece3.11277
 </td>
 <td style="text-align:left;">
 yes
@@ -2883,16 +1337,17 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-COMBINE: a coalesced mammal database of intrinsic and extrinsic traits
+Sensory adaptations reshaped intrinsic factors underlying morphological
+diversification in bats
 </td>
 <td style="text-align:right;">
 2021
 </td>
 <td style="text-align:left;">
-Ecology
+BMC Biology
 </td>
 <td style="text-align:left;">
-10.1002/ecy.3344
+10.1186/s12915-021-01022-3
 </td>
 <td style="text-align:left;">
 yes
@@ -2900,34 +1355,17 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-AnimalTraits - a curated animal trait database for body mass, metabolic
-rate and brain size
+Systematic Review of the Roost-Site Characteristics of North American
+Forest Bats: Implications for Conservation
 </td>
 <td style="text-align:right;">
-2022
+2020
 </td>
 <td style="text-align:left;">
-Scientific Data
+DIVERSITY-BASEL
 </td>
 <td style="text-align:left;">
-10.1038/s41597-022-01364-9
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Life history, ecology and longevity in bats
-</td>
-<td style="text-align:right;">
-2002
-</td>
-<td style="text-align:left;">
-Aging Cell
-</td>
-<td style="text-align:left;">
-10.1046/j.1474-9728.2002.00020.x
+NA
 </td>
 <td style="text-align:left;">
 yes
@@ -2935,8 +1373,7 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-TetraDENSITY 2.0: A Database of Population Density Estimates in
-Tetrapods
+TetraDENSITY 2.0—A Database of Population Density Estimates in Tetrapods
 </td>
 <td style="text-align:right;">
 2024
@@ -2946,60 +1383,6 @@ Global Ecology and Biogeography
 </td>
 <td style="text-align:left;">
 10.1111/geb.13929
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fig-eating by vertebrate frugivores: a global review
-</td>
-<td style="text-align:right;">
-2001
-</td>
-<td style="text-align:left;">
-Biological Reviews
-</td>
-<td style="text-align:left;">
-10.1017/S1464793101005760
-</td>
-<td style="text-align:left;">
-no
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Establishing macroecological trait datasets: digitalization,
-extrapolation, and validation of diet preferences in terrestrial mammals
-worldwide
-</td>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:left;">
-Ecology and Evolution
-</td>
-<td style="text-align:left;">
-10.1002/ece3.1136
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The relationship between body mass and field metabolic rate among
-individual birds and mammals
-</td>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:left;">
-Journal of Animal Ecology
-</td>
-<td style="text-align:left;">
-10.1111/1365-2656.12086
 </td>
 <td style="text-align:left;">
 yes
@@ -3025,16 +1408,17 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-COMADRE: a global data base of animal demography
+The Sonozotz project: Assembling an echolocation call library for bats
+in a megadiverse country
 </td>
 <td style="text-align:right;">
-2016
+2020
 </td>
 <td style="text-align:left;">
-Journal of Animal Ecology
+Ecology and Evolution
 </td>
 <td style="text-align:left;">
-10.1111/1365-2656.12482
+10.1002/ece3.6245
 </td>
 <td style="text-align:left;">
 no
@@ -3042,16 +1426,17 @@ no
 </tr>
 <tr>
 <td style="text-align:left;">
-Body Mass of Late Quaternary Mammals
+Trait-dependent tolerance of bats to urbanization: a global
+meta-analysis
 </td>
 <td style="text-align:right;">
-2003
+2018
 </td>
 <td style="text-align:left;">
-Ecology
+Proceedings of the Royal Society B: Biological Sciences
 </td>
 <td style="text-align:left;">
-10.1890/02-9003
+10.1098/rspb.2018.1222
 </td>
 <td style="text-align:left;">
 yes
@@ -3059,16 +1444,88 @@ yes
 </tr>
 <tr>
 <td style="text-align:left;">
-Home ranges of Recent mammals
+Updated distribution maps for neotropical bats in the superfamily
+Noctilionoidea
 </td>
 <td style="text-align:right;">
-2015
+2018
 </td>
 <td style="text-align:left;">
 Ecology
 </td>
 <td style="text-align:left;">
-10.1890/14-2264.1
+10.1002/ecy.2404
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Urban affinity and its associated traits: A global analysis of bats
+</td>
+<td style="text-align:right;">
+2022
+</td>
+<td style="text-align:left;">
+GLOBAL CHANGE BIOLOGY
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Urbanisation generates multiple trait syndromes for terrestrial animal
+taxa worldwide
+</td>
+<td style="text-align:right;">
+2023
+</td>
+<td style="text-align:left;">
+NATURE COMMUNICATIONS
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Vulnerability of bat-plant pollination interactions due to environmental
+change
+</td>
+<td style="text-align:right;">
+2021
+</td>
+<td style="text-align:left;">
+GLOBAL CHANGE BIOLOGY
+</td>
+<td style="text-align:left;">
+NA
+</td>
+<td style="text-align:left;">
+yes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Why bats matters: A critical assessment of bat-mediated ecological
+processes in the Neotropics
+</td>
+<td style="text-align:right;">
+2020
+</td>
+<td style="text-align:left;">
+European Journal of Ecology
+</td>
+<td style="text-align:left;">
+10.17161/eurojecol.v6i1.13824
 </td>
 <td style="text-align:left;">
 no
@@ -3076,17 +1533,17 @@ no
 </tr>
 <tr>
 <td style="text-align:left;">
-ATLANTIC POLLINATION: a data set of flowers and interaction with
-nectar-feeding vertebrates from the Atlantic Forest
+ZooTraits: An R shiny app for exploring animal trait data for ecological
+and evolutionary research
 </td>
 <td style="text-align:right;">
-2022
+2024
 </td>
 <td style="text-align:left;">
-Ecology
+Ecology and Evolution
 </td>
 <td style="text-align:left;">
-10.1002/ecy.3595
+10.1002/ece3.11334
 </td>
 <td style="text-align:left;">
 yes
@@ -3109,112 +1566,6 @@ Nucleic Acids Research
 yes
 </td>
 </tr>
-<tr>
-<td style="text-align:left;">
-HomeRange: A global database of mammalian home ranges
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Global Ecology and Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/geb.13625
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Frugivoria: A trait database for birds and mammals exhibiting frugivory
-across contiguous Neotropical moist forests
-</td>
-<td style="text-align:right;">
-2023
-</td>
-<td style="text-align:left;">
-Global Ecology and Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/geb.13716
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-A phylogeny-informed characterisation of global tetrapod traits
-addresses data gaps and biases
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-PLOS Biology
-</td>
-<td style="text-align:left;">
-10.1371/journal.pbio.3002658
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Insufficient and biased representation of species geographic responses
-to climate change
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Global Change Biology
-</td>
-<td style="text-align:left;">
-10.1111/gcb.17408
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Status and trends in United States terrestrial mammal research since
-1900
-</td>
-<td style="text-align:right;">
-2024
-</td>
-<td style="text-align:left;">
-Mammal Review
-</td>
-<td style="text-align:left;">
-10.1111/mam.12367
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Global gaps in trait data for terrestrial vertebrates
-</td>
-<td style="text-align:right;">
-2020
-</td>
-<td style="text-align:left;">
-Global Ecology and Biogeography
-</td>
-<td style="text-align:left;">
-10.1111/geb.13184
-</td>
-<td style="text-align:left;">
-yes
-</td>
-</tr>
 </tbody>
 </table>
 
@@ -3222,7 +1573,7 @@ yes
 
 <br> <br>
 
-## Functional traits selection process
+## Functional trait selection process
 
 A total of 345 different traits were identified in the studies consulted
 (Table 3). Four trait types are represented: Morphological (n traits =
@@ -11527,16 +9878,14 @@ functional trait is represented in the studies consulted</figcaption>
 
 ## Literature review
 
-The creation of the database described is done using “only” data found
-in secondary sources, such as databases and review articles. The reason
-is simple: There are *too many traits* for *too many bats*. The present
-review, and subsequent database, aims to be the next step in the
-trait-based approach for the study of bats proposed by Castillo-Figueroa
-& Pérez-Torres (2021). For example, several databases (e.g. ZooTraits;
-Gonçalvez-Souza et al., 2024*,* and ChiroVox; Görföl et al., 2022) are
-continuously updated and openly invite data integration from around the
-world. As such, this database will be easy to access and to update, as
-the final goal is to be a dynamic repository of bat tra
+The present review, and subsequent database, aims to be the next step in
+the trait-based approach for the study of bats proposed by
+Castillo-Figueroa & Pérez-Torres (2021). For example, several databases
+(e.g. ZooTraits; Gonçalvez-Souza et al., 2024*,* and ChiroVox; Görföl et
+al., 2022) are continuously updated and openly invite data integration
+from around the world. As such, this database will be easy to access and
+to update, as the final goal is to be a dynamic repository of bat
+traits.
 
 ## Trait selection process
 
@@ -11719,6 +10068,9 @@ consulted.
   longevity in bats. *Aging Cell*, *1*(2), 124–131.
   <https://doi.org/10.1046/j.1474-9728.2002.00020.x>
 
+- Wilson, D. E., & Mittermeier, R. A. (2019). *Handbook of the mammals
+  of the world*. Lynx edicions.
+
 - Zakharova, L., Meyer, K. M., & Seifan, M. (2019). Trait-based
   modelling in ecology: A review of two decades of research. *Ecological
   Modelling*, *407*, 108703.
@@ -11771,26 +10123,21 @@ categories*”.
 
 Files in data/raw/literature_review folder:
 
-- Entries obtained using Harzig’s Publish or Perish software:
-  - *scholar.csv*: Entries obtained from Google Scholar (n = 493).
-  - *scopus.csv*: Entries obtained from Scopus (n = 31).
-  - *wos.csv*: Entries obtained from Web of Science (n = 14).
-- Entries obtained by searching Clarivate’s Web of Science manually.
-  Format is ZoteroCollection_ZoteroSubcollection:
-  - *Bats_Databases.csv*: n = 14
-  - *Bats_Reviews.csv*: n = 168
-  - *Bats_Traits.csv*: n = 26
-  - *Databases_Traits*: n = 51
+- Entries obtained during the literature search:
+  - *Scholar_search_YYYY-MM-DD.csv*: Entries obtained from Google
+    Scholar (n = 268).
+  - *Wos_search_YYYY-MM-DD.csv*: Entries obtained from Web of Science (n
+    = 300).
+  - *manual_search_YYYY-MM-DD.csv*: Entries obtained from manual
+    citation searching relevant publications (n = 51).
 
 Files included in data/processed/literature_review folder:
 
-- *export_clean_citations.csv*: Citation data obtained from both
-  literature searches. This file does not include entries removed using
+- *export_clean_citations.csv*: Citation data obtained from the
+  literature search. This file does not include entries removed using
   automated tools, nor it contains duplicated entries
 - *export_clean_citations_v1.csv:* Citation data screened manually to
   exclude entries which:
-  - Are not databases, review articles, or articles containing trait
-    data from biological collections or long term studies.
   - Do not include trait data.
   - Are included in a study already included.
   - For a detailed glossary of terms used view

@@ -1,6 +1,6 @@
 # Literature review
 
-The creation of the database described is done using "only" data found in secondary sources, such as databases and review articles. The reason is simple: There are *too many traits* for *too many bats*. The present review, and subsequent database, aims to be the next step in the trait-based approach for the study of bats proposed by Castillo-Figueroa & Pérez-Torres (2021). For example, several databases (e.g. ZooTraits; Gonçalvez-Souza et al., 2024*,* and ChiroVox; Görföl et al., 2022) are continuously updated and openly invite data integration from around the world. As such, this database will be easy to access and to update, as the final goal is to be a dynamic repository of bat tra
+The present review, and subsequent database, aims to be the next step in the trait-based approach for the study of bats proposed by Castillo-Figueroa & Pérez-Torres (2021). For example, several databases (e.g. ZooTraits; Gonçalvez-Souza et al., 2024*,* and ChiroVox; Görföl et al., 2022) are continuously updated and openly invite data integration from around the world. As such, this database will be easy to access and to update, as the final goal is to be a dynamic repository of bat traits.
 
 # Trait selection process
 

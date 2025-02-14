@@ -1,14 +1,14 @@
 ---
 title: "Global Bat Trait Database: Literature review and trait selection process"
 ---
-- [Configuration](#configuration)
+
 - [Introduction](#introduction)
 - [Methodology](#methodology)
   - [Literature review](#literature-review)
   - [Functional trait selection process](#functional-trait-selection-process)
 - [Preliminary results](#preliminary-results)
   - [Literature review](#literature-review-1)
-  - [Functional traits selection process](#functional-traits-selection-process)
+  - [Functional trait selection process](#functional-trait-selection-process-1)
 - [Points to discuss](#points-to-discuss)
 - [References](#references)
 - [File organization](#file-organization)
@@ -18,7 +18,6 @@ title: "Global Bat Trait Database: Literature review and trait selection process
   - [Scripts](#scripts)
   - [References](#references-1)
 
-# Configuration
 
 # Introduction
 
@@ -30,50 +29,35 @@ Functional traits (FT) – well-defined, measurable, morphophysiological and eco
 
 The specific objectives of this chapter are: 1) to identify the gaps and biases in the knowledge of the functional traits of the order Chiroptera at a global level, and 2) to create a global bat functional trait database.
 
-<br>
-<br>
+<br> <br>
 
 # Methodology
 
 ## Literature review
 
-A literature search of the Web of Science and Scopus databases, and also the Google Scholar search engine, was conducted on December 1st, 2024, with Harzing’s Publish or Perish software using the following keywords: “bat review” OR “bat dataset” OR “bat global assessment” OR “bat traits” OR "bat functional traits" OR “bat meta-analysis” OR “bat data paper”. The inclusion criteria for entries considered was:
+A literature search of the Web of Science database and Google Scholar search engine was conducted on February, 2025, using the following keywords: (bat OR bats OR chiropter\*) AND (review OR trait OR traits OR functional traits OR functional trait OR characteristic OR characteristics OR morphological OR life history). The literature search was not restricted in the date range and it included studies from 1966 up to 2025. Entries not related to bats were excluded from the search terms: (vaccines OR biomaterial OR bio-medical OR brown adipose tissue OR therapeutics OR biosynthesis). The first 300 listed results were inspected from the Web of Science and Google Scholar searches, as this number is also reported in published systematic reviews of bats (e.g. Crane et al., 2022) (Figure 1). The reference lists and supplementary information from relevant publications were also inspected (AfroBat, EuroBaTrait) for further relevant entries.
 
-1. Multi-taxa or specific studies that included information on bat functional traits
+The inclusion criteria for entries considered was:
 
-2. Secondary studies (e.g. databases and review articles). No publications from grey literature were considered..
+1. Multi-taxa or bat-specific studies that included information on bat functional traits published on peer-reviewed journals.
 
-3. Studies with data taken from biological collections and long-term studies,.
+   - This includes data papers, review articles, and case studies.
 
-4. Studies published in the english or spanish languages.
+2. Multi-taxa or bat-specific publications that included information on bat functional traits but were not published on peer-reviewed journals.
 
-5. Studies published in a scientific journal with an assigned impact factor.
+   - This includes online databases, books, book chapters, and reports.
+
+3. Studies published in the english or spanish languages.
 
 <br>
 
-The next series of steps were implemented in order to clean the citation data for the first phase of literature review (Figure 1):
+The bat functional trait information available from the Handbook of Mammals of the World (Wilson & Mittermeier 2019, obtained from Sherman et al., 2024), as well as the Mammalian Species records, which are published by the American Society of Mammalogists, will also be obtained for integration into the database.
 
-1. The three files obtained in the first literature search (found in data/raw/literature_review/ as scholar.csv, scopus.csv, and wos.csv) were combined in the R environment (n left = 538).
-2. Duplicate entries were removed (n left = 514).
-3. Entries without any Source, Year, or Publisher information were removed (n left = 325).
-4. Entries not related to bats (e.g. brown adipose tissue) were removed (n left = 163).
-   - Keywords removed from the Source field: *Conference, Forum, Universe, Astrophysical, Astronomy, X-ray, X-Ray, bioRxiv, BioRxiv, arXiv, Medical, Authorea, Electronics, Industrial, Addiction, Law, Children, Patent, Fuel, Epiphany, Legal, Available, Congress, magnetic, EURASIP, Technology, IEEE, Neurocomputing, EPA, Engineering, Theological, Poet, Future, Drug, Energies, policy, Experientia, Nutrients, Intelligence, Physician, Network, Reform, Expert, Administration, Briefings, Pentagon, Computational, Entropy.*
-   - Keywords removed from the Title field: *adipose, fat, poetry, GABA, Basophil, galaxies, gamma-ray, Combustion, UAV, Dances, cigarette, Cigarette, industrial, Brownian, President, magnetic, director, Children, carbon, CO2, Smoking, Court, package, cloning, Twitter, X-ray, Judges, archaeal, engagement, amnesic, adiposity, economic, benzene, policy, Internet, Education, stance, WAN, Diffusion, PasswordsVirtual, TECHNOLOGIES, eyetracking, Eye-Tracking, CCS, cluster*.
-   - Keywords removed from the Publisher field: *donepetro, ebooks*.
-5. Entries in a language other than english or spanish were removed (n left = 161).
-
-A second phase of literature review was conducted from the 2nd of December to December 15, 2024, undefinedby searching the Web of Science database using the following string search: (bat OR bats OR chiroptera) AND (review OR traits OR functional traits OR meta-analysis) NOT (vaccines OR biomaterial OR bio-medical OR brown adipose tissue OR therapeutics OR biosynthesis). The entries were reviewed up until page number 30. The databases included in the supplementary tables available in Cosentino et al., (2023) and Froidevaux et al., (2023) were also included at this point in the Bats_Data
-
-1. 259 entries were obtained
-2. Duplicate entries were removed (n left = 233).
-3. This dataset (second_phase) was combined with the previous dataset (first_phase) and duplicates were removed (n left = 379).
-4. Entries were screened manually to discard any irrelevant publication (i.e. not related to bats) that was left behind by previous steps. (n left = 223).
+1. Eeach entry will be screened manually to identify publications reporting bat functional trait data. The following columns were added to the csv file for screening purposes.
    - *includes_bats_in_title*: Does the publication have the “bat” or any variation of the word in the title?
    - *includes_traits_in_title*: Does the publication have the “trait” or any variation of the word in the title?
-   - *to_keep*: The publication is kept if it is a database, review, or a study which takes its data from biological collections or long term studies?
-5. Each entry was manually screened in order to retain only entries with information on bat functional traits. (n left = 171).
+   - *to_keep*: Column to exclude duplicates, non english or spanish publications, not excluded by automatic tools. Also excludes publications not accessible for initial screening.
    - *includes_trait_info*: Does the publication include bat functional trait data?
-6. Each entry whose data comes from any other study considered in this literature search was discarded (n left = 158).
    - *fully_included_in_another_source*: Is the trait data fully obtained from any other study already included in the literature review?
 
 ```{r literature review selection process, fig.align = 'center', out.width = "100%", fig.cap = "Figure 1. PRISMA 2020 flow diagram for bat functional trait data retrieval for the creation of a Global Bat Trait Database", echo=FALSE, message=FALSE}
@@ -88,9 +72,9 @@ knitr::include_graphics(here::here("output/literature_review", "PRISMA_2020_flow
 
 A total of 12 studies were screened for the selection of the functional traits to be evaluated (Table 1). The proposal for a trait-based approach for the study of bats (Castillo-Figueroa & Pérez-Torres 2021) was used as a baseline to define the trait types, complex or functional dimensions, and traits to be evaluated. Full citation data is contained in the bib/trait_categories folder as .bib, .csv and .docx files. Studies were included if they were:
 
-- A multi-taxa global compilation of functional trait data which includes bats.
-- A bat-specific global compilation of functional trait data.
-- A dimension-specific global compilation of bat functional trait data.
+- A multi-taxa compilation of functional trait data which includes bats.
+- A bat-specific compilation of functional trait data.
+- A dimension-specific compilation of bat functional trait data.
 
 In addition to wing morphology traits, echolocation traits are also highly relevant for the study of bat ecology and conservation (Zamora et al., 2016; Zamora et al., 2020). However, the databases specialized for bat echolocation calls (e.g. ChiroVox; Görföl et al., 2022) usually contain the .wav files instead of the extracted parameters reported in other databases (e.g. frequency of the call, interpulse duration, pulse duration, among others). For this reason, such databases are not included in the studies screened for the trait selection process.
 
@@ -133,7 +117,7 @@ knitr::include_graphics(here::here("doc/images", "FirstChapter_TraitSelection.pn
 
 ## Literature review
 
-After the removal of duplicated and non-relevant entries, a total of 158 studies were obtained from the literature search.Of the total of studies obtained, 27 were databases or data papers, 105 were review articles, and 26 were studies which obtained their data from long-term sampling efforts or biological collections
+After the removal of duplicated and non-relevant entries, a total of 535 studies were obtained from the literature search.
 
 ```{r Literature review list, echo=FALSE, message=FALSE, warning=FALSE, tidy=FALSE}
 
@@ -149,7 +133,7 @@ citation_list |>
   filter(to_keep == "yes")  |>
   filter(includes_trait_info == "yes") |>
   filter(fully_included_in_another_source == "no") |>
-  select(Title, Year, Source, DOI, directly_available) |>
+  select(title, year, source, doi, directly_available) |>
   kbl(caption = "Table 2. List of studies obtained from the literature review carried out for the extraction of bat functional trait data.", col.names = c("Title", "Year", "Study", "DOI", "Trait data directly available")) |>
   kable_styling(full_width = F, html_font = "Calibri", fixed_thead = T, font_size = 16) |>
   scroll_box(height = "500px")
@@ -158,7 +142,7 @@ citation_list |>
 
 <br> <br>
 
-## Functional traits selection process
+## Functional trait selection process
 
 A total of 345 different traits were identified in the studies consulted (Table 3). Four trait types are represented: Morphological (n traits = 70), Life history (n traits = 259), Genetic (n traits = 9), and Interactions (n traits = 7). The types are subdivided into 17 complexes or functional dimensions: Size, Wings, Pollex, Hindlimbs, Head, and Tail (Morphological); Reproductive, Physiological, Behavioral, Trophic niche, Spatial niche, Echolocation, Conservation, and Threats (Life history); Genetic composition (Genetic); and Ecological interactions and Pathogens (Interactions).
 
@@ -207,7 +191,7 @@ trait_summary |>
 
 ## Literature review
 
-The creation of the database described is done using "only" data found in secondary sources, such as databases and review articles. The reason is simple: There are *too many traits* for *too many bats*. The present review, and subsequent database, aims to be the next step in the trait-based approach for the study of bats proposed by Castillo-Figueroa & Pérez-Torres (2021). For example, several databases (e.g. ZooTraits; Gonçalvez-Souza et al., 2024*,* and ChiroVox; Görföl et al., 2022) are continuously updated and openly invite data integration from around the world. As such, this database will be easy to access and to update, as the final goal is to be a dynamic repository of bat tra
+The present review, and subsequent database, aims to be the next step in the trait-based approach for the study of bats proposed by Castillo-Figueroa & Pérez-Torres (2021). For example, several databases (e.g. ZooTraits; Gonçalvez-Souza et al., 2024*,* and ChiroVox; Görföl et al., 2022) are continuously updated and openly invite data integration from around the world. As such, this database will be easy to access and to update, as the final goal is to be a dynamic repository of bat traits.
 
 ## Trait selection process
 
@@ -273,6 +257,8 @@ In the case of echolocation traits. Several data sources include echolocation va
 
 - Wilkinson, G. S., & South, J. M. (2002). Life history, ecology and longevity in bats. *Aging Cell*, *1*(2), 124–131. https://doi.org/10.1046/j.1474-9728.2002.00020.x
 
+- Wilson, D. E., & Mittermeier, R. A. (2019). *Handbook of the mammals of the world*. Lynx edicions.
+
 - Zakharova, L., Meyer, K. M., & Seifan, M. (2019). Trait-based modelling in ecology: A review of two decades of research. *Ecological Modelling*, *407*, 108703. https://doi.org/10.1016/j.ecolmodel.2019.05.008
 
 - Zamora-Gutierrez, V., Lopez-Gonzalez, C., MacSwiney Gonzalez, M. C., Fenton, B., Jones, G., Kalko, E. K. V., Puechmaille, S. J., Stathopoulos, V., & Jones, K. E. (2016). Acoustic identification of Mexican bats based on taxonomic and ecological constraints on call design. *Methods in Ecology and Evolution*, *7*(9), 1082–1091. https://doi.org/10.1111/2041-210X.12556
@@ -300,21 +286,15 @@ Each folder contains two sections: "*Literature review*" and "*Trait categories*
 
 Files in data/raw/literature_review folder:
 
-- Entries obtained using Harzig's Publish or Perish software:
-  - *scholar.csv*: Entries obtained from Google Scholar (n = 493).
-  - *scopus.csv*: Entries obtained from Scopus (n = 31).
-  - *wos.csv*: Entries obtained from Web of Science (n = 14).
-- Entries obtained by searching Clarivate's Web of Science manually. Format is ZoteroCollection_ZoteroSubcollection:
-  - *Bats_Databases.csv*: n = 14
-  - *Bats_Reviews.csv*: n = 168
-  - *Bats_Traits.csv*: n = 26
-  - *Databases_Traits*: n = 51
+- Entries obtained during the literature search:
+  - *Scholar_search_YYYY-MM-DD.csv*: Entries obtained from Google Scholar (n = 268).
+  - *Wos_search_YYYY-MM-DD.csv*: Entries obtained from Web of Science (n = 300).
+  - *manual_search_YYYY-MM-DD.csv*: Entries obtained from manual citation searching relevant publications (n = 51).
 
 Files included in data/processed/literature_review folder:
 
-- *export_clean_citations.csv*: Citation data obtained from both literature searches. This file does not include entries removed using automated tools, nor it contains duplicated entries
+- *export_clean_citations.csv*: Citation data obtained from the literature search. This file does not include entries removed using automated tools, nor it contains duplicated entries
 - *export_clean_citations_v1.csv:* Citation data screened manually to exclude entries which:
-  - Are not databases, review articles, or articles containing trait data from biological collections or long term studies.
   - Do not include trait data.
   - Are included in a study already included.
   - For a detailed glossary of terms used view metadata/literature_search/literature_search_glossary.csv.

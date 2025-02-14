@@ -48,6 +48,8 @@
 
 -   Wilkinson, G. S., & South, J. M. (2002). Life history, ecology and longevity in bats. *Aging Cell*, *1*(2), 124–131. <https://doi.org/10.1046/j.1474-9728.2002.00020.x>
 
+-   Wilson, D. E., & Mittermeier, R. A. (2019). *Handbook of the mammals of the world*. Lynx edicions.
+
 -   Zakharova, L., Meyer, K. M., & Seifan, M. (2019). Trait-based modelling in ecology: A review of two decades of research. *Ecological Modelling*, *407*, 108703. <https://doi.org/10.1016/j.ecolmodel.2019.05.008>
 
 -   Zamora-Gutierrez, V., Lopez-Gonzalez, C., MacSwiney Gonzalez, M. C., Fenton, B., Jones, G., Kalko, E. K. V., Puechmaille, S. J., Stathopoulos, V., & Jones, K. E. (2016). Acoustic identification of Mexican bats based on taxonomic and ecological constraints on call design. *Methods in Ecology and Evolution*, *7*(9), 1082–1091. <https://doi.org/10.1111/2041-210X.12556>

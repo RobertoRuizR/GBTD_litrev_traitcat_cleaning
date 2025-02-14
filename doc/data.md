@@ -1,20 +1,14 @@
 Files in data/raw/literature_review folder:
 
--   Entries obtained using Harzig's Publish or Perish software:
-    -   *scholar.csv*: Entries obtained from Google Scholar (n = 493).
-    -   *scopus.csv*: Entries obtained from Scopus (n = 31).
-    -   *wos.csv*: Entries obtained from Web of Science (n = 14).
--   Entries obtained by searching Clarivate's Web of Science manually. Format is ZoteroCollection_ZoteroSubcollection:
-    -   *Bats_Databases.csv*: n = 14
-    -   *Bats_Reviews.csv*: n = 168
-    -   *Bats_Traits.csv*: n = 26
-    -   *Databases_Traits*: n = 51
+-   Entries obtained during the literature search:
+    -   *Scholar_search_YYYY-MM-DD.csv*: Entries obtained from Google Scholar (n = 268).
+    -   *Wos_search_YYYY-MM-DD.csv*: Entries obtained from Web of Science (n = 300).
+    -   *manual_search_YYYY-MM-DD.csv*: Entries obtained from manual citation searching relevant publications (n = 51).
 
 Files included in data/processed/literature_review folder:
 
--   *export_clean_citations.csv*: Citation data obtained from both literature searches. This file does not include entries removed using automated tools, nor it contains duplicated entries
+-   *export_clean_citations.csv*: Citation data obtained from the literature search. This file does not include entries removed using automated tools, nor it contains duplicated entries
 -   *export_clean_citations_v1.csv:* Citation data screened manually to exclude entries which:
-    -   Are not databases, review articles, or articles containing trait data from biological collections or long term studies.
     -   Do not include trait data.
     -   Are included in a study already included.
     -   For a detailed glossary of terms used view metadata/literature_search/literature_search_glossary.csv.
