@@ -5,7 +5,6 @@ keep_md: true
 absorb: true
 ---
 
-
 - [Configuration](#configuration)
 - [Introduction](#introduction)
 - [Methodology](#methodology)
@@ -22,6 +21,7 @@ absorb: true
   - [Output](#output)
   - [Scripts](#scripts)
   - [References](#references-1)
+- [License](#license)
 
 # Configuration
 
@@ -113,7 +113,7 @@ Once the trait descriptors from each study were obtained, the data sheets were c
 
 ```{r trait selection process, fig.align = 'center', out.width = "90%", fig.cap = "Figure 2. Workflow for the screening and selection of bat functional traits to be evaluated. The first two columns in b) and c) correspond to trait type and the trait complex or functional dimension following Castillo-Figueroa & Pérez-Torres (2021).", echo=FALSE, message=FALSE}
 
-knitr::include_graphics(here::here("doc/images", "FirstChapter_TraitSelection.png"))
+knitr::include_graphics(here::here("_doc/images", "FirstChapter_TraitSelection.png"))
 
 ```
 
@@ -382,3 +382,7 @@ Files in bib/literature_review folder:
 Files in bib/trait_categories folder:
 
 - *trait_categories_references:* References used for the selections of bat functional traits to be evaluated. Reported as . bib, .csv, and .docx files.
+
+# License
+
+The contents of this repository are made available under the Open Data Commons Attribution License (ODC-By): http://opendatacommons.org/licenses/by/1.0/

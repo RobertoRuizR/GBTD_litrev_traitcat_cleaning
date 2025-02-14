@@ -15,3 +15,4 @@
     -   [Output](_doc/output.md)
     -   [Scripts](_doc/scripts.md)
     -   [References](_doc/bib.md)
+-   [License](_doc/license.md)

@@ -1,5 +1,6 @@
 # Global Bat Trait Database: Literature review and trait selection process
 
+
 - [Introduction](#introduction)
 - [Methodology](#methodology)
   - [Literature review](#literature-review)
@@ -17,8 +18,9 @@
   - [Output](#output)
   - [Scripts](#scripts)
   - [References](#references-1)
+- [License](#license)
 
-
+# Configuration
 
 # Introduction
 
@@ -341,7 +343,7 @@ which it was identified (Figure 2c).
 
 <div class="figure" style="text-align: center">
 
-<img src="doc/images/FirstChapter_TraitSelection.png" alt="Figure 2. Workflow for the screening and selection of bat functional traits to be evaluated. The first two columns in b) and c) correspond to trait type and the trait complex or functional dimension following Castillo-Figueroa &amp; Pérez-Torres (2021)." width="90%" />
+<img src="_doc/images/FirstChapter_TraitSelection.png" alt="Figure 2. Workflow for the screening and selection of bat functional traits to be evaluated. The first two columns in b) and c) correspond to trait type and the trait complex or functional dimension following Castillo-Figueroa &amp; Pérez-Torres (2021)." width="90%" />
 <p class="caption">
 Figure 2. Workflow for the screening and selection of bat functional
 traits to be evaluated. The first two columns in b) and c) correspond to
@@ -10279,3 +10281,9 @@ Files in bib/trait_categories folder:
 - *trait_categories_references:* References used for the selections of
   bat functional traits to be evaluated. Reported as . bib, .csv, and
   .docx files.
+
+# License
+
+The contents of this repository are made available under the Open Data
+Commons Attribution License (ODC-By):
+<http://opendatacommons.org/licenses/by/1.0/>
