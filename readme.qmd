@@ -20,7 +20,6 @@ title: "Global Bat Trait Database: Literature review and trait selection process
   - [References](#references-1)
 - [License](#license)
 
-# Configuration
 
 # Introduction
 
@@ -178,6 +177,17 @@ trait_summary[c(1:4,7,12,5)] |>
 The trait types better represented are the Morphological (n traits = 70) and Life history (n traits = 259) types. Each of which has 6 and 8 complexes or functional dimensions, respectively (Figure 3).
 
 ```{r histogram, echo=FALSE, message=FALSE, warning = FALSE, fig.cap= "Figure 3. Total number of times a functional trait is represented in the studies consulted"}
+
+library(tidyverse)
+library(ggh4x)
+library(kableExtra)
+
+# Import clean trait overlap summary csv
+trait_summary <- read_csv("data/processed/trait_categories/trait_overlap_summary.csv")
+
+# Order types and dimensions
+trait_summary$trait_type <- fct_relevel(trait_summary$trait_type, c("Morphological", "Life history",  "Genetic",       "Interactions"))
+trait_summary$complex_or_functional_dimension <- fct_relevel(trait_summary$complex_or_functional_dimension, c("Size", "Wings", "Pollex", "Hindlimbs", "Head", "Tail", "Reproductive", "Physiological", "Behavioral", "Trophic niche", "Spatial niche", "Echolocation", "Genetic composition", "Ecological interactions", "Conservation", "Threats", "Pathogens"))
 
 # Represented full
 trait_summary |>
@@ -341,7 +351,7 @@ Files included in the metadata/trait_categories folder:
 
 Files in output/literature_review folder:
 
-- *table_literature_search.html*: Final list of entries obtained during the literature search of entries which contain bat functional trait data.
+- *table_literature_search.html*: List of entries obtained during the literature search of entries which contain bat functional trait data.
 - *PRISMA_2020_flow_diagram*: PRISMA 2020 flow diagram for the literature search of entries which contain bat functional trait data. Reported as .docx, .pdf, and .png files.
 
 Files in output/trait_categories folder:
@@ -374,7 +384,7 @@ Files in scripts/literature_review folder:
 
 Files in bib/literature_review folder:
 
-- *literature_review_references_v1*: Final list of references obtained from the literature review carried out for the obtention of bat functional trait data. Reported as . bib and .docx files.
+- *literature_review_references_v1*: List of references obtained from the literature review carried out for the obtention of bat functional trait data. Reported as . bib and .docx files.
 
 Files in bib/trait_categories folder:
 

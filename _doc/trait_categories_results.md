@@ -30,6 +30,17 @@ The trait types better represented are the Morphological (n traits = 70) and Lif
 
 ```{r histogram, echo=FALSE, message=FALSE, warning = FALSE, fig.cap= "Figure 3. Total number of times a functional trait is represented in the studies consulted"}
 
+library(tidyverse)
+library(ggh4x)
+library(kableExtra)
+
+# Import clean trait overlap summary csv
+trait_summary <- read_csv("data/processed/trait_categories/trait_overlap_summary.csv")
+
+# Order types and dimensions
+trait_summary$trait_type <- fct_relevel(trait_summary$trait_type, c("Morphological", "Life history",  "Genetic",       "Interactions"))
+trait_summary$complex_or_functional_dimension <- fct_relevel(trait_summary$complex_or_functional_dimension, c("Size", "Wings", "Pollex", "Hindlimbs", "Head", "Tail", "Reproductive", "Physiological", "Behavioral", "Trophic niche", "Spatial niche", "Echolocation", "Genetic composition", "Ecological interactions", "Conservation", "Threats", "Pathogens"))
+
 # Represented full
 trait_summary |>
   ggplot(aes(interaction(complex_or_functional_dimension, trait_type), times_represented)) +

@@ -1,5 +1,3 @@
-# Global Bat Trait Database: Literature review and trait selection process
-
 
 - [Introduction](#introduction)
 - [Methodology](#methodology)
@@ -19,8 +17,6 @@
   - [Scripts](#scripts)
   - [References](#references-1)
 - [License](#license)
-
-# Configuration
 
 # Introduction
 
@@ -10216,9 +10212,8 @@ Files included in the metadata/trait_categories folder:
 
 Files in output/literature_review folder:
 
-- *table_literature_search.html*: Final list of entries obtained during
-  the literature search of entries which contain bat functional trait
-  data.
+- *table_literature_search.html*: List of entries obtained during the
+  literature search of entries which contain bat functional trait data.
 - *PRISMA_2020_flow_diagram*: PRISMA 2020 flow diagram for the
   literature search of entries which contain bat functional trait data.
   Reported as .docx, .pdf, and .png files.
@@ -10272,9 +10267,9 @@ Files in scripts/literature_review folder:
 
 Files in bib/literature_review folder:
 
-- *literature_review_references_v1*: Final list of references obtained
-  from the literature review carried out for the obtention of bat
-  functional trait data. Reported as . bib and .docx files.
+- *literature_review_references_v1*: List of references obtained from
+  the literature review carried out for the obtention of bat functional
+  trait data. Reported as . bib and .docx files.
 
 Files in bib/trait_categories folder:
 

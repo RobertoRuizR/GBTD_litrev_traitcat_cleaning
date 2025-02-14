@@ -1,6 +1,6 @@
 Files in bib/literature_review folder:
 
--   *literature_review_references_v1*: Final list of references obtained from the literature review carried out for the obtention of bat functional trait data. Reported as . bib and .docx files.
+-   *literature_review_references_v1*: List of references obtained from the literature review carried out for the obtention of bat functional trait data. Reported as . bib and .docx files.
 
 Files in bib/trait_categories folder:
 

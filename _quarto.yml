@@ -8,6 +8,10 @@ website:
     background: primary
     pinned: true
     align: center
+    tools:
+      - icon: github
+        href: https://github.com/RobertoRuizR/GBTD_litrev_traitcat_cleaning
+        text: Site Source Code
     style: docked
     contents: 
       - href: index.qmd
