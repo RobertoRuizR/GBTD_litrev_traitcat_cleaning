@@ -15,6 +15,8 @@ This document compiles the code and data used for the literature review and func
 
 This repository is a work in progress maintained by Roberto A. Ruiz-Ramírez. If you have any questions or inquiries regarding the use of this document, please write to: [roberto.ruiz\@posgrado.ecologia.edu.mx](mailto:roberto.ruiz@posgrado.ecologia.edu.mx)
 
+A detailed report of the data, methodology, and references used can be found in the following [Quarto document](https://robertoruizr.github.io/GBTD_litrev_traitcat_cleaning/).
+
 ## File organization
 
 In order to document the data manipulation pipeline, the files obtained and produced were organized in several folders:
