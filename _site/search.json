@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Global Bat Trait Database: Literature review and trait selection process",
     "section": "",
-    "text": "This document compiles the code and data used for the literature review and functional trait selection process for the creation of a Global Bat Trait Database. This database is part of the first chapter of the PhD thesis “Assessment of knowledge gaps in bats: A macroecological perspective” which is being carried out by Roberto Antonio Ruiz-Ramírez at the Evolutionary Macroecology Lab. This chapter focuses on the assessment of knowledge gaps and biases in the available information on bat functional traits at a global level.\nThis repository is a work in progress maintained by Roberto A. Ruiz-Ramírez. Any questions or inquiries regarding the use of this repository please write to: roberto.ruiz@posgrado.ecologia.edu.mx",
+    "text": "This document compiles the code and data used for the literature review and functional trait selection process for the creation of a Global Bat Trait Database. This database is part of the first chapter of the PhD thesis “Assessment of knowledge gaps in bats: A macroecological perspective” which is being carried out by Roberto Antonio Ruiz-Ramírez at the Evolutionary Macroecology Lab. This chapter focuses on the assessment of knowledge gaps and biases in the available information on bat functional traits at a global level.\nThis repository is a work in progress maintained by Roberto A. Ruiz-Ramírez. If you have any questions or inquiries regarding the use of this document please write to: roberto.ruiz@posgrado.ecologia.edu.mx",
     "crumbs": [
       "Home"
     ]
@@ -198,5 +198,12 @@
     "crumbs": [
       "Methodology"
     ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "GBTD",
+    "section": "",
+    "text": "Configuration\nIntroduction\nMethodology\n\nLiterature review\nFunctional trait selection process\n\nPreliminary results\n\nLiterature review\nFunctional trait selection process\n\nPoints to discuss\nReferences\nFile organization\n\nData\nMetadata\nOutput\nScripts\nReferences"
   }
 ]
