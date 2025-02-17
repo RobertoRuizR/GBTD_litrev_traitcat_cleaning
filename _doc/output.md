@@ -1,6 +1,6 @@
 Files in output/literature_review folder:
 
--   *table_literature_search.html*: List of entries obtained during the literature search of entries which contain bat functional trait data.
+-   *table_literature_search.html*: (*In progress. Currently, this list only reports entries with bat functional trait data which are not fully included in another entry already considered*) List of entries obtained during the literature search of entries which contain bat functional trait data.
 -   *PRISMA_2020_flow_diagram*: PRISMA 2020 flow diagram for the literature search of entries which contain bat functional trait data. Reported as .docx, .pdf, and .png files.
 
 Files in output/trait_categories folder:

@@ -6,3 +6,4 @@ Files in scripts/trait_categories folder:
 Files in scripts/literature_review folder:
 
 -   *clean_citations.R*: R code used for first phase of data cleaning, and .bib file exporting.
+-   *citation_summary.R*: R code used for table creation.

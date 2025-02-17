@@ -8,7 +8,7 @@ Files in data/raw/literature_review folder:
 Files included in data/processed/literature_review folder:
 
 -   *export_clean_citations.csv*: Citation data obtained from the literature search. This file does not include entries removed using automated tools, nor it contains duplicated entries
--   *export_clean_citations_v1.csv:* Citation data screened manually to exclude entries which:
+-   *export_clean_citations_v1.csv:* (*In progress*) Citation data screened manually to exclude entries which:
     -   Do not include trait data.
     -   Are included in a study already included.
     -   For a detailed glossary of terms used view metadata/literature_search/literature_search_glossary.csv.
