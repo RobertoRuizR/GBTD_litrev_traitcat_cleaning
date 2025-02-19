@@ -4,7 +4,7 @@ title: "Global Bat Trait Database: Literature review and trait selection process
 
 
 - [Introduction](#introduction)
-- [Methodology](#methodology)
+- [Methods](#methods)
   - [Literature review](#literature-review)
   - [Functional trait selection process](#functional-trait-selection-process)
 - [Preliminary results](#preliminary-results)
@@ -33,7 +33,7 @@ The specific objectives of this chapter are: 1) to identify the gaps and biases 
 
 <br> <br>
 
-# Methodology
+# Methods
 
 ## Literature review
 

@@ -17,7 +17,7 @@ website:
       - href: index.qmd
         text: Home
       - href: readme.qmd
-        text: Methodology
+        text: Progress report
 
 format:
   html:
